@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link href="main.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+</head>
+
+
+
+<body ng-app="myApp" ng-controller="myCtrl">
+
+    <div class="flex-container">
+
+        <div ng-repeat="x in rotation">
+
+            <div>{{x}}</div>
+            <div class="dropdown">
+                <a href=#!{{x}}Conditions> Core Conditions</a>
+                <a href=#!{{x}}OSCEs> OSCE Summaries</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div ng-view></div>
+
+    <script src='app.js'></script>
+
+</body> 
+
+
+
+</html>

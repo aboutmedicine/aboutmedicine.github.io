@@ -1,0 +1,16 @@
+<div class="topics">
+    <ul>
+        <li ng-repeat="x in gposce" ng-click="showGpOsces($index)">{{x.name}}</li>
+    </ul>
+</div>
+
+
+<div class="article">
+    <ul>
+        <h1><span class="white">.</span>{{osceinfo}}</h1>
+        <p><strong>Structure - </strong>{{structure}}</p>
+        <p><strong>Mnemonic - </strong>{{mnemonic}}</p>
+        <p><strong>Questions - </strong>{{questions}}</p>
+    </ul>
+
+</div>
