@@ -1595,11 +1595,11 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Continence',
-            description: '',
+            description: 'Urinary incontinence persists in ~15% of 5yo children, most of which is isolated nocturnal enuresis.',
             hx: '',
             ex: '',
             ix: '',
-            mx: ''
+            mx: 'Discuss toilet training at every opportunity >12mo (readiness based on milestones r/t age, however)'
     },
         {
             name: 'Newborn check',
@@ -1611,11 +1611,11 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Developmental dysplasia of the hip',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'A spectrum of conditions resulting from hip joint malformation.',
+            hx: 'RFs: breech at ≥34wks, FHx of same',
+            ex: 'Hip exam at every visit: abduction + elevation for reducibility, gentle adduction for dislocatability',
+            ix: 'US during first 4m',
+            mx: 'r/f to orthopedic surgeon'
     },
         {
             name: 'Sleep',
@@ -1674,11 +1674,11 @@ app.controller("myCtrl", function ($scope) {
             mx: ''
     },
         {
-            name: 'Apparent life threatening event (ALTE)',
+            name: 'Brief Resolved Unexplained Event (formerly ALTE)',
             description: '',
             hx: '',
             ex: '',
-            ix: '',
+            ix: 'Low-risk: none',
             mx: ''
     },
         {
@@ -1690,12 +1690,12 @@ app.controller("myCtrl", function ($scope) {
             mx: ''
     },
         {
-            name: 'Febrile convulsion',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            name: 'Febrile seizure',
+            description: 'Usually iso systemic viral or bacterial infxn, occurs in ~3% of children esp. 12-18mo',
+            hx: 'Generally tonic-clonic. Simple if <15min w/ no neuro signs',
+            ex: '>38ºC',
+            ix: 'LP only I. if meningitis or intracranial pathology suspected',
+            mx: 'Expectant; IV benzos if >5min'
     },
         {
             name: 'Epilepsy',
@@ -1723,19 +1723,19 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Raised ICP',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Most often a complication of TBI',
+            hx: 'Severe headache, vomiting',
+            ex: 'HTN, papilloedema, ↓GCS',
+            ix: 'Imaging',
+            mx: 'ABCD'
     },
         {
             name: 'Bacteraemia',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Bacteria in the blood.',
+            hx: 'Sepsis screen',
+            ex: 'BP, JVP',
+            ix: 'BCs every 24hrs',
+            mx: 'Antipyretics, fluid resusc, vasopressors, resp support; Abx cefazolin /  vanc if MRSA'
     },
         {
             name: 'Meningitis /encephalitis',
@@ -1747,7 +1747,7 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Pneumonia',
-            description: '',
+            description: 'Aim for minimal handling in children with respiratory distress.',
             hx: '',
             ex: '',
             ix: '',
@@ -1763,11 +1763,11 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Urinary tract infection',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'The majority are uncomplicated w/o long-term sequelae.',
+            hx: 'Infant: irritability, poor feeding; Child: abdo pain, back pain, dysuria, new incontinence',
+            ex: 'Fever, unwell appearance, costovertebral angle tenderness',
+            ix: 'C. RBUS in <2yo',
+            mx: 'Usually OP, C.I. for hospital admx (<2mo, vomiting, urosepsis); Ceph +/- amoxi, if no improvement w/in 48hrs, extend coverage'
     },
         {
             name: 'Septic arthritis/osteomyelitis',
@@ -1778,12 +1778,12 @@ app.controller("myCtrl", function ($scope) {
             mx: ''
     },
         {
-            name: 'Otitis media',
+            name: 'Otitis media (acute)',
             description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            hx: 'Acute onset pain',
+            ex: 'Middle ear inflmxn + effusion',
+            ix: 'None',
+            mx: 'Avoid Abx, simple analgesia +/- topical lignocaine'
     },
         {
             name: 'Bronchiolitis',
@@ -1791,23 +1791,23 @@ app.controller("myCtrl", function ($scope) {
             hx: '',
             ex: '',
             ix: '',
-            mx: ''
+            mx: 'Comfort feeds to settle'
     },
         {
             name: 'Croup',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Aka viral laryngotracheitis, most commonly caused by parainfluenza.',
+            hx: 'Barking cough, hoarseness',
+            ex: 'Inspiratory stridor',
+            ix: 'None',
+            mx: 'Mild: self-limited 3-5 day course, steam inhalation, analgesia; Severe: single dose oral dexa + norad nebs, IV fluids, monitoring'
     },
         {
             name: 'Pertussis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Aka whooping cough. Highly contagious.',
+            hx: 'Chronic cough',
+            ex: 'Inspiratory whoop',
+            ix: 'Nasopharyngeal culture / PCR if ≤4wks duration; Serology if >4wks duration',
+            mx: 'Abx øreduce Sx course but ✓limit spread; stay at home.'
     },
         {
             name: 'Foreign body',
@@ -1819,15 +1819,15 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Cystic fibrosis',
-            description: 'Defective transporters cause ↑intracellular Cl, resulting in thick dry mucus formation and poor protection against infection',
+            description: 'Defective transporters cause ↑intracellular Cl, resulting in thick dry airway mucus and ↑susceptibility to infection.',
             hx: '',
             ex: '',
             ix: '',
             mx: ''
     },
         {
-            name: 'Viral exanthems',
-            description: '',
+            name: 'Viral rashes (aka exanthems)',
+            description: 'VZV / measles / rubella / roseola (herpes) / parvo',
             hx: '',
             ex: '',
             ix: '',
@@ -1898,19 +1898,19 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Slipped upper femoral epiphysis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Slips near the time of peak linear growth (F:12, M:13.5), especially in the obese child.',
+            hx: 'Pain w/o identifiable cause, worse on WB',
+            ex: 'Altered gait',
+            ix: 'Xray',
+            mx: 'Avoid WB until surgery. Educate re: 45% Ro same in contralateral hip'
     },
         {
             name: 'Juvenile arthritis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'An extensive and poorly elucidated range of causes make this a diagnosis of confusion.',
+            hx: 'Intermittent fever, joint pain',
+            ex: 'Evanescent rash',
+            ix: 'No definitive tests exist, thus clinical Dx',
+            mx: 'Varies'
     },
         {
             name: 'Autism',
@@ -2164,6 +2164,13 @@ app.controller("myCtrl", function ($scope) {
             description: '',
             structure: '',
             mnemonic: '',
+            questions: ''
+    },
+        {
+            name: 'The child with a limp',
+            description: '',
+            structure: 'Systems review, Xray, bloods if fever',
+            mnemonic: 'Neoplastic night, awareness of abuse,',
             questions: ''
     },
 ];
