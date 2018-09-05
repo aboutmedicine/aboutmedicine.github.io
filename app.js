@@ -135,7 +135,7 @@ app.controller("myCtrl", function ($scope) {
             hx: 'Determine presence of predisposing (sensory impairment + dehydration + old age + depression + dementia) and precipitating (Rx change / polyRx / change of environment e.g. hospital admx / constipation / ) factors.',
             ex: 'CAM - acute onset & fluctuating course, disorganised speech and/or behaviour, inattention, altered conscious state; other cognitive testing (SMMSE, RUDAS, MOCA)',
             ix: 'Urine MCS, FBE + UEC + CRP',
-            mx: 'Remove trigger'
+            mx: 'Remove trigger, halo'
     },
 ];
 
@@ -501,7 +501,7 @@ app.controller("myCtrl", function ($scope) {
             mx: ''
         }, {
             name: 'Fever in a Returned Traveller',
-            description: 'Malaria until proven otherwise',
+            description: 'Malaria until proven otherwise.',
             hx: '',
             ex: '',
             ix: '',
@@ -1284,47 +1284,47 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'PPH',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: '4% of new mums.',
+            hx: 'RFs: macrosomia / prolonged 1SL / obesity / PET / chorio / anaemia / coagulopathy',
+            ex: 'Vitals',
+            ix: 'FBE + G&H + coags',
+            mx: '10IU synt IM, +ergot / carboprost'
     },
         {
             name: 'Heavy menstrual bleeding',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'More than 7d or ≥80mL bleed per cycle',
+            hx: 'PALM COEIN, characterise severity -anaemia Sx',
+            ex: 'Abdo, spec',
+            ix: 'FBE + coags + US',
+            mx: 'Non-hormonal: tranexamic acid / mefenamic acid; hormonal: OCP / IUD / implanon'
     },
         {
             name: 'PCOS',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Excess immature follicle development results in disordered hormone levels; 15% of women of reproductive age (!).',
+            hx: 'Hirsutism, acne, weight gain, ↓libido, oligomenorrhoea, acanthosis nigricans',
+            ex: 'BMI',
+            ix: 'TVUS + FSH&LH + TFTs + prolactin (extended Ax of oligomenorrhoea causes)',
+            mx: 'Lifestyle, metformin, hormonal contraception (esp. OCP)'
     },
         {
             name: 'Menopause',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'The last menstrual period is \'the\' menopause.',
+            hx: 'Mood + sleep + vaginal + vasomotor',
+            ex: 'Vaginal exam',
+            ix: 'Anti-mullerian hormone',
+            mx: 'Topical oestrogen for AV, venlafaxine / CBT for vasomotor, HRT (oestrogen-only for women w/o uterus)'
     },
         {
             name: 'Fibroids',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Like a mole on the uterus, and just as common - 30% of women have fibroids.',
+            hx: 'HMB, dull deep abdo pain, ?hoping for pregnancy',
+            ex: 'Abdo + bimanual',
+            ix: 'TVUS',
+            mx: 'Only if Sxatic, unless attempting conception: hysteroscopic resection (submucosal), lap myomectomy (other), hysterectomy, IUD if øeager or øcandidate for surgery'
     },
         {
             name: 'PID',
-            description: '',
+            description: 'Long-term inflammation of the pelvic organs, usually 2º STI.',
             hx: '',
             ex: '',
             ix: '',
@@ -1332,19 +1332,19 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Endometriosis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Extra-uterine endometrial tissue follows course of menstrual cycle and provokes inflammation',
+            hx: 'Pain, deep dyspareunia, dysmenorrhoea, infertility',
+            ex: 'Abdo, bimanual',
+            ix: 'GS diagnostic lap',
+            mx: 'Simple analgesia, hormonal contraception (pill / IUD), lap excision'
     },
         {
             name: 'Infertility',
-            description: '',
-            hx: '',
+            description: '12m of unprotected sex w/o conception.',
+            hx: 'Menstrual Hx, gynae Hx, weight loss / exercise, C. psychosocial',
             ex: '',
-            ix: '',
-            mx: ''
+            ix: 'Sperm sampling (40%MF), hormonal testing',
+            mx: 'IVF, ICSI'
     },
         {
             name: 'STI',
@@ -1356,11 +1356,11 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Stress incontinence',
-            description: '',
-            hx: '',
+            description: 'Weak urethral sphincter leads to little dribbles',
+            hx: 'Cough sneeze laugh',
             ex: '',
-            ix: '',
-            mx: ''
+            ix: 'PVR',
+            mx: 'Surgical options are shit'
     },
         {
             name: 'Contraception',
@@ -1380,8 +1380,16 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'SGA',
-            description: 'Foetus at≤ 10 th growth centile',
+            description: 'Foetus at ≤10th growth centile; may be normal and in this case, be wary of iatrogenic prematurity',
             hx: '',
+            ex: '',
+            ix: '',
+            mx: ''
+    },
+        {
+            name: 'LGA',
+            description: 'Foetus at ≥90th growth centile',
+            hx: 'DM, obesity',
             ex: '',
             ix: '',
             mx: ''
@@ -1399,7 +1407,7 @@ app.controller("myCtrl", function ($scope) {
             description: 'The urge to urinate presents without sufficient volume to warrant it.',
             hx: 'Pelvic fullness',
             ex: '',
-            ix: 'MSU',
+            ix: 'MSU, ?Flow studies',
             mx: 'Oxybutynin'
     },
         {
@@ -1412,19 +1420,19 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Endometrial hyperplasia',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'A ≥5mm thickened endometrium we see every cycle, but is worrisome in postmenopausal women.',
+            hx: 'PMB',
+            ex: 'Spec, bedside pipelle',
+            ix: 'US, HD&C',
+            mx: 'Tranexamic acid / HRT / endometrial ablation / hysterectomy'
     },
         {
             name: 'Prolapse',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Prevalence rates only exist for reported Sxatic POP - still high, at ~8% of women.',
+            hx: 'Feeling a bulge, something falling out of the vagina, urinary +/- faecal incontinence',
+            ex: 'Speculum exam + bimanual',
+            ix: 'None',
+            mx: 'Pelvic floor PT, pessary, urogynae r/f'
     },
 
 ];
@@ -1596,7 +1604,7 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Continence',
             description: 'Urinary incontinence persists in ~15% of 5yo children, most of which is isolated nocturnal enuresis.',
-            hx: '',
+            hx: 'Characterise severity, fluid intake',
             ex: '',
             ix: '',
             mx: 'Discuss toilet training at every opportunity >12mo (readiness based on milestones r/t age, however)'
@@ -1699,11 +1707,11 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Epilepsy',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: '5% of children have a seizure; 1% of these are epileptic.',
+            hx: 'Characterise seizure -when, where, why; Hx of other odd behavioural events; FHx + DHx',
+            ex: 'Neuro + CN',
+            ix: 'EEG',
+            mx: 'Acute: IV benzos; Long-term: anticonvulsants'
     },
         {
             name: 'Migraine',
@@ -1922,7 +1930,7 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'ADD / ADHD',
-            description: '',
+            description: 'Do not include as a DDx in children ≤2',
             hx: '',
             ex: '',
             ix: '',
@@ -2084,10 +2092,10 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Breath holding spells',
-            description: '',
-            structure: '',
+            description: '~25% of children who breath hold do so multiple times per day.',
+            structure: 'Characterise spells; ?post-ictal confusion; reassure & encourage parent to treat as normal',
             mnemonic: '',
-            questions: ''
+            questions: 'What is the likelihood of this child holding its breath in order to have its way?'
     },
         {
             name: 'Abdo & inguinoscrotal examination',
@@ -2111,13 +2119,6 @@ app.controller("myCtrl", function ($scope) {
             questions: ''
     },
         {
-            name: 'Epilepsy',
-            description: '',
-            structure: '',
-            mnemonic: '',
-            questions: ''
-    },
-        {
             name: 'GI examination',
             description: '',
             structure: '',
@@ -2133,10 +2134,10 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'ENT examination',
-            description: '',
-            structure: '',
+            description: '3yo Khalid has had a fever for the last two days. Perform a thorough ENT examination & recommend appropriate management.',
+            structure: 'Introduce, ++inspection, order ENT (then neck for cervical lymphadenopathy)',
             mnemonic: '',
-            questions: ''
+            questions: 'Describe the treatment & complications of ASOM in children.'
     },
         {
             name: 'Neonatal jaundice',
@@ -2147,10 +2148,10 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Cardiac examination',
-            description: '',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            description: 'Selamat is concerned that her 2yo boy Kamil is not growing normally. Take a short Hx and perform a cardiac examination.',
+            structure: 'Major differences from adult CVE: ++inspection, growth, femoral +/- brachial pulse; Adapt according to comfort / anxiety of child',
+            mnemonic: 'Look, palpate, auscultate',
+            questions: 'What in this examination would make you concerned about failure to thrive?'
     },
         {
             name: 'Wrist fracture',
