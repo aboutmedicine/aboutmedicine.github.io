@@ -599,39 +599,39 @@ app.controller("myCtrl", function ($scope) {
             mx: ''
         }, {
             name: 'Sebaceous Cyst',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Sebaceous gland grows way out of proportion.',
+            hx: 'Painless lump',
+            ex: 'Fluctuant',
+            ix: 'None',
+            mx: 'Elective excision'
         }, {
             name: 'Diverticular Disease',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Imagine squeezing a small balloon with your fingers slightly apart. The bulges that come through are like diverticulae.',
+            hx: 'LLQ pain, ∆bowel habits, N/V',
+            ex: 'GI exam, abdo palp, DRE',
+            ix: 'CT abdomen',
+            mx: 'If uncomplicated presentation: free fluids, analgesia + Abx, education re: fibre + fluid intake; If burst diverticulae: immediate Hartmann\'s.'
         }, {
             name: 'Ureteric Colic',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'The majority of stones pass naturally.',
+            hx: 'Fucking Hurts esp sites of transition (\'loin to groin\'), haematuria',
+            ex: 'Urinalysis',
+            ix: 'FBE if febrile, non-contrast CTAP +/- KUBUS',
+            mx: 'Analgesia, Abx, alpha blockers, IV fluids, surgery (stent / nephrostomy / shockwave lithotripsy),'
         }, {
             name: 'Lipoma',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Benign adipose tissue tumour.',
+            hx: 'Development over time',
+            ex: 'Palpate, full skin check',
+            ix: 'US',
+            mx: 'Elective excision if bothersome'
         }, {
             name: 'Insomnia',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Can't sleep.',
+            hx: 'Ax severity (QOL), sleep timing + hygiene, other Sx e.g. restlessness, PMHx esp. psych',
+            ex: 'Neuro for RLS, Epworth Sleepiness Scale',
+            ix: 'Clinical Dx',
+            mx: 'CBT, Sxatic relief w/ benzos, Z-drugs, exercise'
         }, {
             name: 'PUD',
             description: 'Ulcers are usually in the first part of the duodenum.',
@@ -648,33 +648,26 @@ app.controller("myCtrl", function ($scope) {
             mx: '↑fluid & fibre, banding'
         }, {
             name: 'Gallbladder Disease',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Bile backup is bad as stasis is the basis.',
+            hx: 'Pain Pee Poo Pruritus, N/V',
+            ex: 'Jaundice, RUQ pain, fever',
+            ix: 'LFTs + FBE + UEC + lipase + US +/- ERCP',
+            mx: 'Abx + analgesia + lap chole'
         }, {
             name: 'Chicken Pox',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'VZV infection contracted by inhalation of droplets.',
+            hx: 'Exposure to infection, ++itch, duration of Sx (usu 5-10d)',
+            ex: 'Complete skin check for characteristic rash',
+            ix: 'Culture from vesicle but simple clinical Dx',
+            mx: 'School absence - infectious 4-5 days after clearing rash, calamine gel for itch, acyclovir'
         }, {
             name: 'Balanitis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
-        }, {
-            name: '',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
-        },
+            description: 'Inflammation of foreskin and glans.',
+            hx: 'STI Sx: pain, itch, redness, discharge;',
+            ex: 'Genital examination, vitals',
+            ix: 'None',
+            mx: 'Effective cleaning principles +/- clotrimazole cream'
+        }, 
 
         ];
 
@@ -708,7 +701,7 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Starting warfarin',
-            description: '',
+            description: 'Rarer these days, but still could be assessed.',
             structure: '',
             mnemonic: '',
             questions: ''
@@ -716,7 +709,7 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Can\'t get it up ',
             description: '',
-            structure: '',
+            structure: 'Assess for cause',
             mnemonic: '',
             questions: ''
     },
@@ -737,7 +730,7 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Quitting smoking',
             description: '',
-            structure: '',
+            structure: 'Non-pharm: MI, hypnotherapy, CBT; Pharm: varenicline',
             mnemonic: '',
             questions: ''
     },
@@ -900,7 +893,7 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Bipolar disorder',
-            description: '',
+            description: 'Mania usually lasts 2-6 weeks.',
             hx: '',
             ex: '',
             ix: '',
@@ -908,7 +901,7 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Panic disorder',
-            description: '',
+            description: 'The presence of panic attacks plus deleterious effects of avoidance / anxiety because of these attacks.',
             hx: '',
             ex: '',
             ix: '',
@@ -916,7 +909,7 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Bulimia nervosa',
-            description: '',
+            description: 'Disordered eating with an out-of-control feeling component.',
             hx: '',
             ex: '',
             ix: '',
@@ -1101,7 +1094,7 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Ectopic pregnancy',
             description: '',
-            hx: '',
+            hx: 'RIF pain, Sx of shock',
             ex: '',
             ix: '',
             mx: ''
@@ -1132,7 +1125,7 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Breast cancer screening',
-            description: '',
+            description: 'Mammogram from 50-74 every 2 years.',
             hx: '',
             ex: '',
             ix: '',
@@ -1140,7 +1133,7 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'GDM',
-            description: '',
+            description: 'Placental steroids increase resistance to insulin throughout pregnancy.',
             hx: '',
             ex: '',
             ix: '',
@@ -1304,7 +1297,7 @@ app.controller("myCtrl", function ($scope) {
             hx: 'Hirsutism, acne, weight gain, ↓libido, oligomenorrhoea, acanthosis nigricans',
             ex: 'BMI',
             ix: 'TVUS + FSH&LH + TFTs + prolactin (extended Ax of oligomenorrhoea causes)',
-            mx: 'Lifestyle, metformin, hormonal contraception (esp. OCP)'
+            mx: 'Lifestyle, metformin, hormonal contraception (esp. OCP), clomiphene citrate'
     },
         {
             name: 'Menopause',
@@ -1341,10 +1334,10 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Infertility',
             description: '12m of unprotected sex w/o conception.',
-            hx: 'Menstrual Hx, gynae Hx, weight loss / exercise, C. psychosocial',
-            ex: '',
+            hx: 'Menstrual Hx, gynae Hx, weight loss / exercise, C. psychosocial, age, tubal / uterine / cervical abnormalities, smoking',
+            ex: 'TVUS',
             ix: 'Sperm sampling (40%MF), hormonal testing',
-            mx: 'IVF, ICSI'
+            mx: 'IVF, ICSI, clomiphene'
     },
         {
             name: 'STI',
