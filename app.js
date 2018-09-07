@@ -571,11 +571,11 @@ app.controller("myCtrl", function ($scope) {
             mx: ''
         }, {
             name: 'Pancreatitis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Stasis is, as always, the basis. And alcohol. IGETSMASHED',
+            hx: 'Epigastric pain, N/V',
+            ex: 'GI exam',
+            ix: 'Lipase, LFTs, FBE + UEC + CTAbdo',
+            mx: 'NBM, IV fluids + Abx'
         }, {
             name: 'IBD',
             description: 'Ulcerative colitis and Crohn\'s disease. The latter is full thickness and from mouth to anus.',
