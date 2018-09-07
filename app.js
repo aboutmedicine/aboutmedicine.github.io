@@ -627,7 +627,7 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Elective excision if bothersome'
         }, {
             name: 'Insomnia',
-            description: 'Can't sleep.',
+            description: 'Can\'t sleep.',
             hx: 'Ax severity (QOL), sleep timing + hygiene, other Sx e.g. restlessness, PMHx esp. psych',
             ex: 'Neuro for RLS, Epworth Sleepiness Scale',
             ix: 'Clinical Dx',
@@ -667,7 +667,7 @@ app.controller("myCtrl", function ($scope) {
             ex: 'Genital examination, vitals',
             ix: 'None',
             mx: 'Effective cleaning principles +/- clotrimazole cream'
-        }, 
+        },
 
         ];
 
