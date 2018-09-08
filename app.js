@@ -1081,7 +1081,7 @@ app.controller("myCtrl", function ($scope) {
             hx: '',
             ex: '',
             ix: 'APSL',
-            mx: 'As much reassurance as possible - it's a hard road.'
+            mx: 'As much reassurance as possible - it\'s a hard road.'
     },
         {
             name: 'Normal physiological changes in pregnancy',
