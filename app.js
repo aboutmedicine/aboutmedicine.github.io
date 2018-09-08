@@ -107,27 +107,27 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Polypharmacy',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Various definitions exist, but at the end of the day what constitutes polypharmacy depends on the pt.',
+            hx: 'Check medication chart',
+            ex: 'Vitals + gait + neuro',
+            ix: 'N/A',
+            mx: 'Rationalise based on symptomatology.'
     },
         {
             name: 'Frailty',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Degenerated homeostatic mechanisms renders vulnerability to minor insults.',
+            hx: 'Ax severity - wound healing / pain Sx / fatigue',
+            ex: 'As I.',
+            ix: 'N/A',
+            mx: 'Optimise function, limit decline'
     },
         {
             name: 'Vascular dementia',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Considerable overlap with AD',
+            hx: 'Executive fxn often precedes memory loss; presence of vascular RFs esp. stroke Hx leads Dx',
+            ex: 'Cognitive testing',
+            ix: 'MRI',
+            mx: 'Neuropsych r/f'
     },
         {
             name: 'Delirium',
@@ -218,7 +218,7 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Differentiating delirium from BPSD',
             description: 'Jenny is a nurse on your ward. She is concerned about the behaviour of one of her patients. Counsel her.',
-            structure: '',
+            structure: 'Onset',
             mnemonic: '',
             questions: ''
     },
@@ -291,18 +291,18 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Mainstay is Abx (if viral ruled out)',
         }, {
             name: 'Hypertension',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'A myriad of factors cause BP to be higher than normal, which has a myriad of deleterious effects.',
+            hx: 'aSxatic; enquire about causative factors e.g. SNAP',
+            ex: 'BP 5 mins apart x3',
+            ix: 'Gold standard ABMP',
+            mx: 'Aim 140/90 or 130/85 if DM: Lifestyle +/- ACEi +/- ARB +/- β-blocker'
         }, {
             name: 'Skin Cancer',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Many different kinds, most benign.',
+            hx: 'Ax severity w/ Δ over time, bleeding',
+            ex: 'Full skin check',
+            ix: 'Excisional Bx for melanoma, shave or punch for other',
+            mx: 'Usu wide local excision; topical e.g. imiquimod for superficial SCC'
         }, {
             name: 'Atrial Fibrillation',
             description: 'Cooked circuitry leads to rapid atrial contraction and subsequent ventricular arrhythmia',
@@ -312,25 +312,25 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Rate control for older pts w/ persistent, rhythm control for younger w/ sporadic. Thrombi forms in poorly clearing atria so NOAC if ≥2pts on CHADSVASc'
         }, {
             name: 'Eczema',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'aka atopic dermatitis.',
+            hx: '+++itch, PMHx or FHx of atopy, triggered by exposure, ?Sx onset',
+            ex: 'Flexor rash w/ excoriation / lichenification',
+            ix: 'Clinical Dx',
+            mx: 'Topical CS + emollients +/- tacrolimus, avoid irritants'
         }, {
             name: 'Dyslipidaemia',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Too many fats in the blood.',
+            hx: 'SNAP',
+            ex: 'BMI',
+            ix: 'Lipid profile, HbA1c',
+            mx: 'Statins +/- ezetimibe +/- cholestyramine'
         }, {
             name: 'Rheumatoid Arthritis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'The immune system attacks the joints, relentlessly and progressively.',
+            hx: 'Joint pain + stiffness worst in the morning',
+            ex: 'Z-deformity, swan-neck, lateral deviation of wrist',
+            ix: 'Serum ANCA, ANA, anti-dsDNA + ESR + CRP + FBE',
+            mx: 'Simple analgesia, pred, mabs'
         }, {
             name: 'Valvular Heart Disease',
             description: '',
@@ -403,11 +403,11 @@ app.controller("myCtrl", function ($scope) {
             mx: ''
         }, {
             name: 'Hypothyroidism',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: '95% primary.',
+            hx: 'Cold, dry, overweight, fluid-filled, constipated, thick hair; menstrual Hx',
+            ex: 'Vitals',
+            ix: 'FBE + TFTs',
+            mx: 'Levothyroxine, aim TSH & T4 in reference range'
         }, {
             name: 'IBS',
             description: '',
@@ -445,7 +445,7 @@ app.controller("myCtrl", function ($scope) {
             mx: ''
         }, {
             name: 'Migraine',
-            description: 'These days, migraine is thought to be primarily a neurogenic process with 2º changes in cerebral blood flow.',
+            description: 'These days, migraine is thought to be a neurogenic process, w/ 2º changes in cerebral blood flow.',
             hx: 'Sx + aura + triggers ',
             ex: 'Neuro + CVS',
             ix: 'Clinical Dx, however: -if considering GCA, ESR + CRP',
@@ -1061,35 +1061,35 @@ app.controller("myCtrl", function ($scope) {
     $scope.ogconditions = [
         {
             name: 'Normal labour',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: '~10 hours of cervical dilation from the beginning of labour.',
+            hx: 'Latent phase: 3-4cms; Active 4-10cms; 2SL 10cms-birth of baby; 3SL birth of baby-delivery of placenta.',
+            ex: 'Vaginal exam every 4hrs',
+            ix: 'CTG often stays on iso ?definitive I.',
+            mx: 'Physiological / augmented w/ cervical ripeners + uterotonics'
     },
         {
             name: 'Cervical cancer screening',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Now known as CST.',
+            hx: 'Dyspareunia / non-cyclic PV bleed',
+            ex: 'Spec',
+            ix: 'HSV DNA test; if Sxatic at any time, otherwise every 5 years from 25',
+            mx: 'HPV vaccine; ablation or excision via colposcope if HSIL'
     },
         {
             name: 'Recurrent miscarriage',
-            description: '',
+            description: 'No cause identified in ~50%.',
             hx: '',
             ex: '',
-            ix: '',
-            mx: ''
+            ix: 'APSL',
+            mx: 'As much reassurance as possible - it's a hard road.'
     },
         {
             name: 'Normal physiological changes in pregnancy',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Big changes.',
+            hx: 'CO ↑55%, tidal volume ↑50%, ↓FRC towards end of pregnancy',
+            ex: 'Vitals',
+            ix: 'N/A',
+            mx: 'Reassurance'
     },
         {
             name: 'Ectopic pregnancy',
