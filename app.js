@@ -466,25 +466,25 @@ app.controller("myCtrl", function ($scope) {
             mx: ''
         }, {
             name: 'Tension Headache',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Like a band around the head.',
+            hx: 'Ax severity; RFs: stress, mood, caffeine, smoking; Rule out other causes: aura, vision, stiff neck, fever, N/V',
+            ex: 'CN exam',
+            ix: 'Only if focal neurological signs present',
+            mx: 'Simple analgesia, lifestyle'
         }, {
             name: 'Polymyalgia Rheumatica',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Associated w/ GCA and almost exclusively a disease of ≥50yo.',
+            hx: 'Proximal muscle pain (shoulder + hip + neck + torso), morning stiffness',
+            ex: 'Relevant joint exams -classical finding is restricted ROM esp abduction of shoulder',
+            ix: 'ESR + CRP + RA screen',
+            mx: 'Rx low-dose CS (15mg/d), advise that PMR worsens w/ inactivity'
         }, {
             name: 'Osteoporosis',
-            description: '',
-            hx: '',
+            description: 'Weak bones fracture easy.',
+            hx: 'RFs FHx + SHATTERED: Steroids, hyperpara/thyroidism, alcohol + smoking, thin, testosterone↓, early menopause, renal disease / liver failure, erosive / inflmtry disease such as RA, dietary Ca↓ / T1DM',
             ex: '',
-            ix: '',
-            mx: ''
+            ix: 'DEXA, biannual in ↑risk pop.n',
+            mx: '↑dietary Ca + Vit D, bisphosphonates (alendronate → fosamax), RANK-Lis (denosumab), SERMs (tamoxifen)'
         }, {
             name: 'Red Eye',
             description: 'Conjunctivitis / dry eyes / foreign body... the list is long, and is usually limited to PC treatment.',
@@ -502,31 +502,31 @@ app.controller("myCtrl", function ($scope) {
         }, {
             name: 'Fever in a Returned Traveller',
             description: 'Malaria until proven otherwise.',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            hx: 'Other Sx - N/V, diarrhoea, fatigue, change in skin colour',
+            ex: 'Vitals and CV',
+            ix: 'FBE + malaria ICT + thick&thin films +/- LFTs if jaundiced +/- stool sample if diarrhoea',
+            mx: 'OP Mx suitable for some uncomplicated cases; mainstay of Rx is chloroquine'
         }, {
             name: 'Benign Prostatic Hyperplasia',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: '80% of men >80.',
+            hx: 'Storage and voiding Sx, haematuria, C. International Prostate Symptom Score Ax',
+            ex: 'DRE',
+            ix: 'Urine MCS if acute; microscopic haematuria is common',
+            mx: 'Rx monotherapy tamsulosin / duodart (dutasteride + tamsulosin) +/- oxybutynin, urology r/f for severe Sx, advice re: controlling Sx -avoid fluid intake before bed / outing -↓caffeine / alcohol -double voiding'
         }, {
             name: 'Limb Injury, ?Fracture',
             description: '',
             hx: '',
             ex: '',
             ix: '',
-            mx: ''
+            mx: 'Analgesia, stabilise #'
         }, {
             name: 'Chalazion',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Blocked meibomian gland makes a little uninflamed lump.',
+            hx: 'Begins w/ redness & swelling, progresses to firm, non-tender ~pea-size mass',
+            ex: 'Inspect',
+            ix: 'N/A',
+            mx: 'øsqueeze or popping; warm compresses + reassurance'
         }, {
             name: 'Psoriasis',
             description: 'An autoimmune disease of skin and, in 30%, joints.',
@@ -536,28 +536,28 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Topical emollients & CS +/- MTX, cyclosporine, adalimumab, phototherapy'
         }, {
             name: 'Erectile Dysfunction',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Increases in prevalence with age.',
+            hx: 'C. 3 main forms: erectile dysfunction, ↓libido, premature ejaculation; Ax w/ questions of -rapidity of onset, erectile reserve, and RFs: obesity, smoking, alcohol, CVD',
+            ex: 'Ax secondary sexual characteristics, femoral + peripheral pulses',
+            ix: 'HbA1c + FBE + TFTs + serum total testosterone',
+            mx: 'Rationalise Rx, lifestyle, sexual therapy counselling, PDE-5i (sildenafil → viagra)'
         }, {
             name: 'Anaphylaxis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Massive histamine release from IgE-triggered mast cells.',
+            hx: 'Medical emergency based OEx',
+            ex: 'Recognise early. Angiooedema, bronchoconstriction, diffuse erythema +/- urticaria, hypotension, N/V',
+            ix: 'For further Ix by allergist',
+            mx: 'IM adrenaline in Epipen (*there are no absolute contraindications to adrenaline admx), IV fluid resusc'
         }, {
             name: 'Eye Foreign Body',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Something\'s in me eye!',
+            hx: 'Severe eye pain, photophobia, foreign body sensation',
+            ex: 'Visual acuity (if normal, penetrating eye injury unlikely), eye exam',
+            ix: 'Fluorescein staining to rule out penetrative injury',
+            mx: 'Immediate removal, simple oral analgesia if small +/- topical NSAIDs on eye, reassure that most abrasions heal w/in 24-48hrs'
         }, {
             name: 'Fatigue',
-            description: '',
+            description: 'A myriad causes, which will it be?',
             hx: '',
             ex: '',
             ix: '',
@@ -709,9 +709,9 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Can\'t get it up ',
             description: '',
-            structure: 'Assess for cause',
+            structure: 'Assess for cause; rapid-onset → performance anxiety; øspontaneous erections → vascular cause',
             mnemonic: '',
-            questions: ''
+            questions: 'What labroratory tests would you order for this man?'
     },
         {
             name: 'Fever in a returned traveller',
