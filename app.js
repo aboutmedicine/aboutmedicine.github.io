@@ -941,23 +941,23 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Body dysmorphic disorder',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Includes muscle dysmorphia.',
+            hx: '-Preoccupation w/ perceived phsyical flaws that others consider slight -Repetitive behaviours a/w perceived flaws -Clinically sig. distress -Not better explained by ED',
+            ex: 'MSE',
+            ix: 'N/A',
+            mx: 'Educate re illness + psychiatric treatments, futility of cosmetic interventions. Focus on pt\'s suffering and impaired functioning r/t their appearance. CBT +/- SSRI'
     },
         {
             name: 'Narcissistic personality disorder',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Common and commonly self-diagnosed',
+            hx: '9 features -entitlement -elevated self-esteem -exploits people -empathy-less',
+            ex: 'MSE',
+            ix: 'N/A',
+            mx: 'Try for CBT'
     },
         {
             name: 'Agoraphobia',
-            description: '',
+            description: 'Fear of situations from which it is perceived there might be no way to escape.',
             hx: '',
             ex: '',
             ix: '',
