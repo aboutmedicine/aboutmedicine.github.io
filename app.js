@@ -1093,11 +1093,11 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Ectopic pregnancy',
-            description: '',
-            hx: 'RIF pain, Sx of shock',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Conceptus develops outside of the uterus.',
+            hx: 'Depends on where it is; classically RIF pain, Sx of shock',
+            ex: 'Abdo, bimanual for cervical excitation',
+            ix: 'βhCG + FBE + CRP + UEC + ',
+            mx: 'Medical: MTX; surgical: e.g. lap salpingectomy'
     },
         {
             name: 'Stillbirth',
@@ -1109,55 +1109,55 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Multiple pregnancy',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: '3% of all pregnancies.',
+            hx: '1. How are you feeling about this news? Standard Obs Hx -PObHx -Menstrual Hx -PGHx -First antenatal visit questions (Sx of pregnancy + arrange scans + ?FTCS)',
+            ex: 'Palp',
+            ix: 'FBE + G&H + folate B12 + Ab titres (HBV / HCV / HSV / MMR) + OGTT + US',
+            mx: 'Monitor for complications: ↑Ro PET, PPH, APH, anaemia, CS'
     },
         {
             name: 'Teratogenic infection',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'TORCH',
+            hx: 'T: myalgia + fever + headache; R: rash + mild fever; C: fatigue; H: sores on mouth, eyes or genitals',
+            ex: 'Fever, skin check',
+            ix: 'Stool sampling, Ab titres',
+            mx: 'Mainly supportive depending on Sx; Rx for C-ganciclovir & H-acyclovir'
     },
         {
-            name: 'Breast cancer screening',
-            description: 'Mammogram from 50-74 every 2 years.',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            name: 'Breast Ca',
+            description: 'Screening mammogram from 50-74 every 2 years.',
+            hx: 'Lump',
+            ex: 'Breast exam',
+            ix: 'Mammogram, FNA, core needle Bx',
+            mx: 'CTx / RTx'
     },
         {
             name: 'GDM',
             description: 'Placental steroids increase resistance to insulin throughout pregnancy.',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            hx: 'aSxatic; FHx + PMHx',
+            ex: 'CV exam',
+            ix: 'OGTT at 16-18 and 26 weeks, ~6 weeks postpartum +/- SMBG',
+            mx: 'Diet / lifestyle, if targets not met: insulin (safe during pregnancy); offer IOL @ 39wks to ↓rate of macrosomia, shoulder dystocia and CS; encourage breastfeeding'
     },
         {
             name: 'Anaemia',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Confers ↑Ro PPH, SGA, IUGR, FDIU, PTL',
+            hx: 'Sx of anaemia',
+            ex: 'Pallor, tachycardia, ↓CRT',
+            ix: 'FBE + Iron studies + thal testing',
+            mx: 'Oral iron w/ vitC / iron infusion; pregnancy multivitamin for F/B12; Prevention w/ prenatal vitamins'
     },
         {
             name: 'Preeclampsia',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Pregnancy-induced hypertension plus signs of end-organ damage.',
+            hx: 'RUQ pain, visual changes, N/V, headache',
+            ex: 'Vitals',
+            ix: 'FBE + coags + uric acid + PCR',
+            mx: 'Labetalol'
     },
         {
             name: 'Placenta praevia',
-            description: '',
+            description: 'Placenta that is growing over the internal os.',
             hx: '',
             ex: '',
             ix: '',
@@ -1165,7 +1165,7 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Hyperemesis',
-            description: '',
+            description: 'Excess vomiting in pregnancy.',
             hx: '',
             ex: '',
             ix: '',
@@ -1173,7 +1173,7 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Placental adhesive disorders',
-            description: '',
+            description: 'Accreta / increta / percreta.',
             hx: '',
             ex: '',
             ix: '',
