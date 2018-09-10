@@ -1572,17 +1572,17 @@ app.controller("myCtrl", function ($scope) {
     $scope.cahconditions = [
         {
             name: 'Normal growth and feeding',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Normal growth is pulsatile and seasonal.',
+            hx: 'Breastfeeding (gain weight rapidly during first 4m, slower thereafter); rate of growth (30g/d until 3m, 20g/d until 6m; one-half of adult height by 24-30m)',
+            ex: 'Correlation btw length & adult height 0.25 at birth, 0.8 at 2yo; proportionality useful in Dx of obesity',
+            ix: 'WHO growth chart',
+            mx: 'Avoid unnecessary intervention with accurate growth charting.'
     },
         {
             name: 'Normal development including puberty',
-            description: '',
-            hx: '',
-            ex: '',
+            description: 'Between 2 years and puberty, normal is +2kg per year.',
+            hx: 'Birth measurements, obstetric Hx, dietary Hx, PMHx',
+            ex: 'Height + weight + head circumference, yearly BP',
             ix: '',
             mx: ''
     },
@@ -1597,18 +1597,18 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Continence',
             description: 'Urinary incontinence persists in ~15% of 5yo children, most of which is isolated nocturnal enuresis.',
-            hx: 'Characterise severity, fluid intake',
-            ex: '',
-            ix: '',
+            hx: 'Characterise severity, fluid intake, daytime or nocturnal',
+            ex: 'Inspect genitalia, Vincent\'s curtsy',
+            ix: 'MSU',
             mx: 'Discuss toilet training at every opportunity >12mo (readiness based on milestones r/t age, however)'
     },
         {
             name: 'Newborn check',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'APGAR → growth status → top to toe examination incl. fontanelles, brachial pulses, auscultation of chest, scrotal palp if applicable → check back → primitive reflexes → document',
+            hx: 'Review ObHx',
+            ex: 'Average length at birth for term infant: 50cm; head circumference: 35cm; chest ~2cm less than this; remember leg click checks',
+            ix: 'If abnormalities are present',
+            mx: 'As above'
     },
         {
             name: 'Developmental dysplasia of the hip',
@@ -1620,11 +1620,11 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Sleep',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'One example of it is different in kids: rhythmic movement of the head, neck or trunk during sleep is common and physiological.',
+            hx: 'Effective sleep Hx includes -cycle elucidation - difficulty initiating or maintaining -daytime problems -snoring -abnormal movements during sleep',
+            ex: 'Epworth Sleepiness Scale',
+            ix: 'Polysomnography to confirm OSA / narcolepsy, not for general Ix',
+            mx: 'Often behavioural ∴'
     },
         {
             name: 'Sepsis',
