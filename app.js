@@ -332,19 +332,12 @@ app.controller("myCtrl", function ($scope) {
             ix: 'Serum ANCA, ANA, anti-dsDNA + ESR + CRP + FBE',
             mx: 'Simple analgesia, pred, mabs'
         }, {
-            name: 'Valvular Heart Disease',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
-        }, {
             name: 'Osteoarthritis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Subchondral cysts + sclerosis, osteophytes, loss of joint space, microfractures → joint pain!',
+            hx: 'Pain worse in evenings + stiffness, PHx ↓exercise, smoking, alcohol, manual labour',
+            ex: 'Joints examination',
+            ix: 'Xray',
+            mx: 'Supportive w/ encouragement of gentle exercise, until surgery (joint replacement), with careful deliberation.'
         }, {
             name: 'Asthma',
             description: 'Reversible airway obstruction with long-term remodelling',
@@ -368,39 +361,39 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Mild -BPO / salicylic acid; Moderate -Topical retinoids +/- topical/oral Abx +/- hormonal Rx in females; Severe -Isotretinoin'
         }, {
             name: 'Chest Pain',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Is it a heart attack?',
+            hx: 'Characterise pain, AFs: N/V, diaphoresis, pallor, SOB, fever; Hx of GORD, CVRFs',
+            ex: 'Vitals, palpate abdo, check for pulsatile mass',
+            ix: 'ECG, FBE + CRP + lipase',
+            mx: 'Depends on cause'
         }, {
             name: 'Back Pain',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Imagine the pain across the spectrum of age. How would your thoughts change?',
+            hx: 'Characterise pain, precipitant, presence of red flags: fever, LL weakness / ↓sensation / tingling, B&B, underlying medical condition, Rx',
+            ex: 'Palpate site of pain',
+            ix: 'Imaging only I. if red flags present, or if pain has persisted for >6wks w/o response to conservative treatment.',
+            mx: 'Simple analgesia (paracetamol, ibuprofen, topical NSAIDs), C. brief opioid therapy, physio, exercise as tolerated - hurt is not harm.'
         }, {
             name: 'Stroke',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'What is the ongoing impact? How can QOL be maximally achieved?',
+            hx: 'CVRFs, Sx of depression, seizures',
+            ex: 'Vitals, neuro exam, CV',
+            ix: 'CT brain, lipids, HbA1c',
+            mx: 'A/c ongoing (usu NOAC)'
         }, {
             name: 'T1DM',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Autoimmune destruction of pancreatic β-cells.',
+            hx: 'Hypos, hospital admx',
+            ex: 'Ongoing CV',
+            ix: 'HbA1c',
+            mx: 'Individualise insulin regime'
         }, {
             name: 'Non-specific Headache',
             description: 'What are the red flags?',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            hx: 'Attempt to identify cause: ↑stress / dehydration; red flags: fever, neck stiffness, visual distrubance, facial weakness, gait disturbance',
+            ex: 'Neuro, CN',
+            ix: 'Depends on severity',
+            mx: 'Simple analgesia'
         }, {
             name: 'Hypothyroidism',
             description: '95% primary.',
@@ -410,39 +403,32 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Levothyroxine, aim TSH & T4 in reference range'
         }, {
             name: 'IBS',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Said to effect around 10% of people. Only 30% present, with similar Sx to the 70% but +anxiety & ↓QOL.',
+            hx: 'Cramping pain often r/t defecation, diarrhoea / constipation / mixed, weight loss, fever, night sweats, PR bleed',
+            ex: 'GIT exam',
+            ix: 'FBE + CRP + coeliac screen +/- stool sampling',
+            mx: 'Fucking hard. Pt r/ship is critical. Try FODMAPs +/- psyllium to begin with, then C. antispasmodics, antidarrhoeals / polyethylene glycol.'
         }, {
             name: 'Meningitis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Inflammation across the meninges. If bacterial, usu strep pneumonia or neisseria meningitidis; if viral, enterovirus',
+            hx: 'Classical triad: ∆in conscious state, fever + neck stiffness',
+            ex: 'CN',
+            ix: 'FBE + CRP + BCs x 2 + LP',
+            mx: 'Empiric Abx therapy while awaiting cultures'
         }, {
             name: 'Coeliac',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
-        }, {
-            name: 'Weight Loss',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'T-cell mediated gluten intolerance in small bowel.',
+            hx: 'Triggers, N/V/D/C, PV bleed',
+            ex: 'GI exam',
+            ix: 'Anti-TTG, anti-gliadin',
+            mx: 'Avoid gluten.'
         }, {
             name: 'GORD',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Failure of the LOS → gastric acid in area of oesophagus w/ somatic sensation',
+            hx: 'Burning epigastric pain worse after meals, on lying down + burping; Ax for other Sx e.g. haemetemesis, EtOH abuse',
+            ex: 'GI exam',
+            ix: 'Clinical Dx',
+            mx: 'Avoid fatty foods,'
         }, {
             name: 'Migraine',
             description: 'These days, migraine is thought to be a neurogenic process, w/ 2º changes in cerebral blood flow.',
@@ -452,11 +438,11 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Acute: NSAIDs, paracetamol, sumatriptan; Preventive: β-blockers, anticonvulsants TCAs'
         }, {
             name: 'Fatty Liver',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'NAFLD & NASH; in the latter there is inflammation.',
+            hx: 'Fatigue, malaise, RUQ discomfort; EtOH',
+            ex: 'GI exam',
+            ix: 'FBE + LFTs + lipase + US + Hep serology + lipids + HbA1c',
+            mx: 'If ↑lipids Rx statin, weight loss, EtOH cessation'
         }, {
             name: 'Hyperthyroidism',
             description: '',
@@ -495,7 +481,7 @@ app.controller("myCtrl", function ($scope) {
         }, {
             name: 'Prostate Cancer',
             description: 'Include a thorough understanding of screening recommendations',
-            hx: '',
+            hx: 'Storage & voiding Sx, haematuria, fatigue, weight loss, night sweats',
             ex: '',
             ix: '',
             mx: ''
@@ -515,7 +501,7 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Rx monotherapy tamsulosin / duodart (dutasteride + tamsulosin) +/- oxybutynin, urology r/f for severe Sx, advice re: controlling Sx -avoid fluid intake before bed / outing -↓caffeine / alcohol -double voiding'
         }, {
             name: 'Limb Injury, ?Fracture',
-            description: '',
+            description: 'Common emergency ',
             hx: '',
             ex: '',
             ix: '',
