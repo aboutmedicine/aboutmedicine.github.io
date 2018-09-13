@@ -1857,7 +1857,7 @@ app.controller("myCtrl", function ($scope) {
             description: 'Norovirus has now overtaken rotavirus as the #1 cause.',
             hx: 'any ∆stool pattern worrisome, esp w/ ill appearance / blood or mucus in stool / dehydration; urine output, last weight',
             ex: 'Weight, CRT, vitals, GI exam ?palpable mass ?tender to palp.n, mucus membranes',
-            ix: 'None unless known exposure to causative bacteria,
+            ix: 'None unless known exposure to causative bacteria'
             mx: 'Volume resusc'
     },
         {
@@ -1981,7 +1981,7 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Henloch-Schonlein Purpura',
-            description: 'The most common systemic vasculitis of childhood; we don't know what causes it.',
+            description: 'The most common systemic vasculitis of childhood; we don\'t know what causes it.',
             hx: 'Arthralgia +/- arthritis, abdo pain',
             ex: 'Palpable purpura',
             ix: 'FBE + coags',
