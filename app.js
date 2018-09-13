@@ -1811,12 +1811,12 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Abx øreduce Sx course but ✓limit spread; stay at home.'
     },
         {
-            name: 'Foreign body',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            name: 'GI foreign body',
+            description: '>6m and <3yo is the danger zone.',
+            hx: 'Object, Sx',
+            ex: 'Inspect neck: swelling / erythema / crepitus I. immediate surg r/f (perf oesophagus); resp exam',
+            ix: 'Neck, chest & abdo AP & L Xray',
+            mx: 'Depends on object: blunt objects will often pass e.g. $2 coin, G-scope for all else'
     },
         {
             name: 'Cystic fibrosis',
@@ -1836,11 +1836,11 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Urticaria',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'aka hives: skin response to histamine. Prevalence at 20%',
+            hx: 'Ax severity, triggers; if a/w systemic disorder will be recurrent + persistent + difficult to treat',
+            ex: 'Full skin check, vitals',
+            ix: 'Allergic testing and other labs only if Sx persist',
+            mx: 'R/f allergist, oral H1a (cetirizine - zyrtec / loratidine - claritin) + H2a if severe (ranitidine - zantac) +/- oral CS'
     },
         {
             name: 'Intussusception',
@@ -1852,27 +1852,27 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Functional abdominal pain',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'The most common cause of chronic abdo pain in children and adolescents.',
+            hx: '≥2m abdo pain, øred flags (weight loss / dysphagia / severe diarrhoea), HEADSS',
+            ex: 'Ax growth chart for interruption',
+            ix: 'FOBT',
+            mx: 'Rehab approach r/t elimination of pain'
     },
         {
             name: 'Constipation',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: '95% is functional.',
+            hx: 'Characterise stool, for Dx of FC 2 of: -↓stool freq -hard stool -encopresis -deliberate stool retention; Enquire re avoidance',
+            ex: 'Inspection: abdo for distension + palp, anus, check tone',
+            ix: 'Depends on DDx',
+            mx: '↑fibre +/- osmotic laxative (lactulose) / stool softener (coloxyl drops) in children, infrequent glycerin supp. in infants'
     },
         {
-            name: 'Gastroenteritis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            name: 'Diarrhoea',
+            description: 'Norovirus has now overtaken rotavirus as the #1 cause.',
+            hx: 'any ∆stool pattern worrisome, esp w/ ill appearance / blood or mucus in stool / dehydration; urine output, last weight',
+            ex: 'Weight, CRT, vitals, GI exam ?palpable mass ?tender to palp.n, mucus membranes',
+            ix: 'None unless known exposure to causative bacteria,
+            mx: 'Volume resusc'
     },
         {
             name: 'Cows milk protein intolerance',
@@ -1891,11 +1891,11 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Admx for weight gain'
     }, {
             name: 'Leukaemia',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'ALL ~85%, AML ~15%.',
+            hx: 'Fever, malaise, MSK pain, bleeding, ↑infections',
+            ex: 'Lymphadenopathy, hepatosplenomegaly',
+            ix: 'FBE + blood film + special WC tests',
+            mx: 'R/f paediatric Ca centre'
     },
         {
             name: 'Slipped upper femoral epiphysis',
@@ -1915,27 +1915,27 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Autism',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Four times more common in males.',
+            hx: 'Main difficulties are in two main areas: 1. social interaction, 2. restricted or repetitive behaviours / interests / activities',
+            ex: 'Observe stereotypical behaviours',
+            ix: 'Can recommend genetic testing + counselling',
+            mx: 'R/f paed / psych / speech input; Amaze.org.au website; address psych comorbidities'
     },
         {
             name: 'ADD / ADHD',
-            description: 'Do not include as a DDx in children ≤2',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Remember that all kids have these qualities - do not include in DDx if child is <2yo.',
+            hx: '3 main Sx: inattention, impulsivity & overactivity. These can manifest in many different ways',
+            ex: 'A good chance to Ax level of attention & activity',
+            ix: 'N/A',
+            mx: 'Educate re +ve parenting strategies'
     },
         {
             name: 'Oppositional Defiant Disorder',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Critical to intervene and treat early. Antecedent to CD.',
+            hx: 'Constant disobedience, hostility, ↓self-esteem, ↓frustration threshold',
+            ex: 'Unnecessary, and the child may refuse',
+            ix: 'N/A',
+            mx: 'R/f child psychologist / paed specialising in BD; parental training, family therapy'
     },
         {
             name: 'Sudden Infant Death Syndrome',
@@ -1955,11 +1955,11 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Epididymoorchitis',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Most common cause is gonorrhoea in adults, can be mumps',
+            hx: 'Usu unilateral swellin induration + pain in epididymis, dysuria',
+            ex: 'Palpate scrotum, transilluminate, valsalva maneuvre',
+            ix: 'Urinalysis, urine MCS, US w/ doppler, scrotal exploration if Dx of testicular torsion cannot be ruled out',
+            mx: 'Supportive care + Abx'
     },
         {
             name: 'Undescended testis',
@@ -1971,19 +1971,19 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Hypospadias',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'Abnormal position of the urethral opening a/w abnormal foreskin & penile curve.',
+            hx: 'OEx',
+            ex: 'Scrotal exam',
+            ix: 'N/A',
+            mx: 'Observation or surgical correction'
     },
         {
             name: 'Phimosis',
             description: 'Where the foreskin is too tight to retract over the glans.',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            hx: 'Pain',
+            ex: 'Glans erythema + swelling',
+            ix: 'N/A',
+            mx: 'Topical CS, if no improvement circumcision'
     },
         {
             name: 'Hydrocele / Varicocele',
@@ -1995,29 +1995,20 @@ app.controller("myCtrl", function ($scope) {
     },
         {
             name: 'Henloch-Schonlein Purpura',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'The most common systemic vasculitis of childhood; we don't know what causes it.',
+            hx: 'Arthralgia +/- arthritis, abdo pain',
+            ex: 'Palpable purpura',
+            ix: 'FBE + coags',
+            mx: 'Abdo US'
     },
         {
             name: 'Infant colic',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
+            description: 'A Dx of exclusion',
+            hx: 'Normal crying: 1-2hrs/d',
+            ex: 'Complete',
+            ix: 'N/A',
+            mx: 'Spont. resolution in 90% by 8wks; parental support; rubbing abdomen, white noise'
     },
-        {
-            name: 'Maternal post-natal depression',
-            description: '',
-            hx: '',
-            ex: '',
-            ix: '',
-            mx: ''
-    },
-
 ];
 
 
