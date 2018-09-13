@@ -1,129 +1,125 @@
 body {
-    font-family: 'Avenir Next';
+  font-family: 'Avenir Next';
 }
 
 .flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
-.flex-container > div {
-    background-color: #fdfdfd;
-    color: #444;
-    width: 300px;
-    margin: 3% 30px;;
-    padding: 10px 0px;
-    text-align: center;
-    font-size: 30px;
-    line-height: 60px;
-    border-radius: 100px;
-
+.flex-container>div {
+  background-color: #fdfdfd;
+  color: #444;
+  width: 300px;
+  margin: 3% 30px;
+  ;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  border-radius: 100px;
 }
 
 .dropdown {
-    display: none;
-    background: white;
-    opacity: 0.9;
-    position: absolute;
-    z-index: 1;
-    top: 118px;
-    padding: 10px;
-    text-align: left;
-    border-radius: 30px;
-    transition: opacity .2s;
+  display: none;
+  background: white;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 1;
+  top: 125px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 30px;
+  transition: opacity .2s;
 }
 
-.flex-container > div:hover .dropdown {
-    opacity: 1;
-    display: block;
+.flex-container>div:hover .dropdown {
+  opacity: 1;
+  display: block;
 }
 
 .dropdown:active {
-    color: #eee;
+  color: #eee;
 }
-
 
 a:hover {
-    text-shadow: 3px 0px 6px #eee;
+  text-shadow: 3px 0px 6px #eee;
 }
-
 
 a {
-    display: block;
-    text-decoration: none;
-    color: #333;
-    font-size: .7em;
-    margin-left: 5px;
-    transition: text-shadow .1s;
-
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-size: .7em;
+  margin-left: 5px;
+  transition: text-shadow .1s;
 }
 
-
 .topics {
-    color: #333;
-    margin: 0% 20px 0px 4%;
-    display: block;
-    position: absolute;
-    padding: 10px;
-    font-size: 1.1em;
-    max-height: 60%;
-    width: 33%;
-    overflow: scroll;
+  color: #333;
+  margin: 0% 20px 0px 4%;
+  display: block;
+  position: absolute;
+  padding: 10px;
+  font-size: 1.1em;
+  max-height: 60%;
+  width: 33%;
+  overflow: scroll;
 }
 
 .article {
-    color: #444;
-    margin: 0% 20px 0px 20px;
-    padding: 10px;
-    display: block;
-    max-width: 55%;
-    position: absolute;
-    margin-left: 40%;
+  color: #444;
+  margin: 0% 20px 0px 20px;
+  padding: 10px;
+  display: block;
+  max-width: 55%;
+  position: absolute;
+  margin-left: 40%;
 }
 
 li {
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 2px 0px 2px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 2px 0px 2px 5px;
 }
 
 li:hover {
-    background-color: #fdfdfd;
-    color: #844279;
+  background-color: #fdfdfd;
+  color: #844279;
 }
 
 li:active {
-    background-color: #fdfdfd;
-    color: #844279;
+  background-color: #fdfdfd;
+  color: #844279;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    line-height: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
 }
 
 .white {
-    color: white;
-    font-size: .01em;
+  color: white;
+  font-size: .01em;
 }
 
 strong {
-    color: #333;
-    font-weight: 300;
-    font-size: 1.35em;
+  color: #333;
+  font-weight: 300;
+  font-size: 1.35em;
 }
 
 h1 {
-    color: #666;
-    font-size: 1.3em;
-    font-weight: 500;
-    line-height: 28px;
-    padding-bottom: 3px;
+  color: #666;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 28px;
+  padding-bottom: 3px;
 }
 
 p {
-    margin-left: 25px;
+  margin-left: 25px;
 }
