@@ -1716,14 +1716,6 @@ app.controller("myCtrl", function($scope) {
 			mx: 'Antipyretics, fluid resusc, vasopressors, resp support; Abx cefazolin /  vanc if MRSA'
 		},
 		{
-			name: 'Meningitis /encephalitis',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
-		},
-		{
 			name: 'Pneumonia',
 			description: 'Aim for minimal handling in children with respiratory distress.',
 			hx: '',
@@ -2011,7 +2003,7 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'The seriously unwell child',
 			description: '',
-			structure: '',
+			structure: 'Feeding, colour, CRT',
 			mnemonic: '',
 			questions: ''
 		},
@@ -2087,6 +2079,13 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Anxiety',
+			description: '',
+			structure: '',
+			mnemonic: '',
+			questions: ''
+		},
+		{
+			name: 'The child with fever',
 			description: '',
 			structure: '',
 			mnemonic: '',
