@@ -2002,7 +2002,7 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'The seriously unwell child',
-			description: '',
+			description: 'What do we need to rule out?',
 			structure: 'Feeding, colour, CRT',
 			mnemonic: '',
 			questions: ''
