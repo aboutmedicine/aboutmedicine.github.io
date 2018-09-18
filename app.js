@@ -1296,7 +1296,7 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'PID',
-			description: 'Long-term inflammation of the pelvic organs, usually 2º STI.',
+			description: 'Long-term inflammation of the pelvic organs, usually 2˚ to STI.',
 			hx: '',
 			ex: '',
 			ix: '',
@@ -1330,7 +1330,7 @@ app.controller("myCtrl", function($scope) {
 			name: 'Stress incontinence',
 			description: 'Weak urethral sphincter leads to little dribbles',
 			hx: 'Cough sneeze laugh',
-			ex: '',
+			ex: 'Abdo palp, vaginal inspection + bimanual for prolapse',
 			ix: 'PVR',
 			mx: 'Surgical options are shit'
 		},
@@ -1378,7 +1378,7 @@ app.controller("myCtrl", function($scope) {
 			name: 'Urge incontinence',
 			description: 'The urge to urinate presents without sufficient volume to warrant it.',
 			hx: 'Pelvic fullness',
-			ex: '',
+			ex: 'Palp abdomen',
 			ix: 'MSU, ?Flow studies',
 			mx: 'Oxybutynin'
 		},
@@ -1560,8 +1560,8 @@ app.controller("myCtrl", function($scope) {
 			description: 'Between 2 years and puberty, normal is +2kg per year.',
 			hx: 'Birth measurements, obstetric Hx, dietary Hx, PMHx',
 			ex: 'Height + weight + head circumference, yearly BP',
-			ix: '',
-			mx: ''
+			ix: 'BRIGANZ testing',
+			mx: 'MCHN, r/f as required: ST, SW, PT'
 		},
 		{
 			name: 'Immunisation',
@@ -1676,20 +1676,12 @@ app.controller("myCtrl", function($scope) {
 			mx: 'Acute: IV benzos; Long-term: anticonvulsants'
 		},
 		{
-			name: 'Migraine',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
-		},
-		{
 			name: 'Non-specific headache',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Most common causes are febrile illness, tension and migraine.',
+			hx: 'Characterise pain; presence / absence of AFs: N/V, photo/phonophobia, concomitant infective illness; always enquire about recent injury',
+			ex: 'CN, HEADSS',
+			ix: 'LP / MRI onli if I.',
+			mx: 'Paracetamol 15mg/kg PO, add ibuprofen + prochlorperazine if migraine <12yo, GP f/u'
 		},
 		{
 			name: 'Raised ICP',
@@ -1710,18 +1702,18 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Pneumonia',
 			description: 'Aim for minimal handling in children with respiratory distress.',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			hx: 'Cough, distress, conscious state',
+			ex: 'Appearance, fever, ↓O2, WOB, Sx of resp distress (subcostal / substernal / intercostal retraction, head bobbing, nasal flaring, grunting, tachypnoea)',
+			ix: 'Only if severe and requiring admx: BCs + CXR + FBE + CRP',
+			mx: 'Early Abx (oral in majority of cases, IV only if not tolerating), careful fluid resusc. D/c when tolerating oral intake + O2 adequate'
 		},
 		{
 			name: 'Cellulitis',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'The most common causes are GAS (pyogenes) and staph aureus. However, skin infection is a broad church.',
+			hx: 'C. predisposing factors: abrasion, laceration, eczema etc.; øitch ',
+			ex: '?impetigo / SSSS / contact dermatitis / erysipelas / necfasc',
+			ix: 'Swab if discharge present, FBE + BCs if systemic, US if fluctuant',
+			mx: 'Fluclox'
 		},
 		{
 			name: 'Urinary tract infection',
@@ -1733,15 +1725,15 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Septic arthritis/osteomyelitis',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Jordan, seen in ED, surely didn\'t have osteomyelitis, right?',
+			hx: 'Considerable overlap between the two. ?onset of limp, localised pain',
+			ex: 'Tenderness to palp.n, fever',
+			ix: 'FBE + ESR + BCs + Xray affected area + bone scan',
+			mx: 'R/f orthopaedics for aspiration +/- arthrotomy + washout'
 		},
 		{
 			name: 'Otitis media (acute)',
-			description: '',
+			description: '~75% of children will get it by age 5.',
 			hx: 'Acute onset pain',
 			ex: 'Middle ear inflmxn + effusion',
 			ix: 'None',
@@ -1750,10 +1742,10 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Bronchiolitis',
 			description: 'Most common cause of wheeze in infants.',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: 'Comfort feeds to settle'
+			hx: 'Generally affects <12mo. Smoking in house',
+			ex: 'Sx of URTI + resp distress + fever',
+			ix: 'Clinical Dx',
+			mx: 'Comfort feeds to settle, supportive O2, reassurance, natural Hx 7-10d'
 		},
 		{
 			name: 'Croup',
@@ -1781,19 +1773,19 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Cystic fibrosis',
-			description: 'Defective transporters cause ↑intracellular Cl, resulting in thick dry airway mucus and ↑susceptibility to infection.',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Defective transporters cause ↑intracellular Cl, resulting in thick dry airway mucus and ↑susceptibility to infection. The most common life-threatening genetic disorder in Caucasians.',
+			hx: 'FHx',
+			ex: 'C. meconium ileus',
+			ix: 'Newborn screening test (heel prick immediately after birth), sweat test',
+			mx: 'Chest physio, regular Abx, high-kJ foods (↓pancreas fxn → ↑requirement), exercise, CF clinic'
 		},
 		{
 			name: 'Viral rashes (aka exanthems)',
-			description: 'VZV / measles / rubella / roseola (herpes) / parvo',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'VZV / measles / rubella / roseola (herpes) / parvo; meningococcaemia must be ruled out.',
+			hx: '?non-blanching, petechiae',
+			ex: 'Thorough skin check',
+			ix: 'None except swab if vesicles present',
+			mx: 'Topical antihistamine, reassurance'
 		},
 		{
 			name: 'Urticaria',
@@ -1837,9 +1829,9 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Cows milk protein intolerance',
-			description: '',
-			hx: '',
-			ex: '',
+			description: 'More common than peanuts but less likely to be anaphylactic.',
+			hx: 'Sx of intolerance, Ca intake',
+			ex: 'Abdo exam',
 			ix: 'FBE + UEC + LFTs + urine MCS + stool sampling + ESR',
 			mx: 'Admx, stop formula, give AA formula, close f/u'
 		},
@@ -1872,7 +1864,7 @@ app.controller("myCtrl", function($scope) {
 			hx: 'Intermittent fever, joint pain',
 			ex: 'Evanescent rash',
 			ix: 'No definitive tests exist, thus clinical Dx',
-			mx: 'Varies'
+			mx: 'Varies; physio'
 		},
 		{
 			name: 'Autism',
