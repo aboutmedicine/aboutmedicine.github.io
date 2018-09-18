@@ -1605,35 +1605,27 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Sepsis',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Just Ask: \'Could It Be Sepsis\'?',
+			hx: 'Infective Sx',
+			ex: 'Vitals (C. prone to confounding), BP (hypotension in late stage), CRT, skin check',
+			ix: 'BCs + VBG + BGL + FBE + CRP; Clinician judgment the best tool for Dx',
+			mx: 'O2, early Abx, careful fluid resusc +/- interval vasopressors / inotropes'
 		},
 		{
 			name: 'Anaphylaxis',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Can occur in absence of skin Sx',
+			hx: 'Allergies, atopy, recent Hx bites or stings',
+			ex: 'Vitals, CRT',
+			ix: 'R/f allergist',
+			mx: 'Adrenaline / Epipen; do not allow pt to stand or walk; ABCs; attempt to identify RFs for fatal anaphylaxis'
 		},
 		{
 			name: 'Diabetic ketoacidosis',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
-		},
-		{
-			name: 'Hypoglycaemia',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Hypoglycaemia, ketonaemia and metabolic acidosis.',
+			hx: 'Ax degree of dehydration, conscious state',
+			ex: 'CRT',
+			ix: 'FBE + UEC + VBG + BGL + urinalysis + ketones',
+			mx: 'Admx insulin + glucose + potassium'
 		},
 		{
 			name: 'Meningitis',
@@ -1653,11 +1645,11 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Brief Resolved Unexplained Event (formerly ALTE)',
-			description: '',
-			hx: '',
-			ex: '',
+			description: 'A marked change in breathing, tone, colour or conscious state, followed by complete return to a baseline state, only in <12mo.',
+			hx: 'Characterise event, usu 20-30s, enquire about broad range of causes; the older the child the lower the risk',
+			ex: 'Complete',
 			ix: 'Low-risk: none',
-			mx: ''
+			mx: 'If pt requires ongoing acute treatment → øBRUE'
 		},
 		{
 			name: 'Resuscitation and emergency transport services',
