@@ -1,13 +1,13 @@
 <html>
 
 <head>
-    <title>MDNotes</title>
-    <link href="main.css" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
+  <title>MDNotes</title>
+  <link href="main.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js">
 
 
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 
 </head>
 
@@ -15,22 +15,22 @@
 
 <body ng-app="myApp" ng-controller="myCtrl">
 
-    <div class="flex-container">
+  <div class="flex-container">
 
-        <div ng-repeat="x in rotation">
+    <div ng-repeat="x in rotation">
 
-            <div>{{x}}</div>
-            <div class="dropdown">
-                <a href=#!{{x}}Conditions> Core Conditions</a>
-                <a href=#!{{x}}OSCEs> OSCE Summaries</a>
-            </div>
-        </div>
-
+      <div>{{x}}</div>
+      <div class="dropdown">
+        <a href=#!{{x}}Conditions> Core Conditions</a>
+        <a href=#!{{x}}OSCEs> OSCE Summaries</a>
+      </div>
     </div>
 
-    <div ng-view></div>
+  </div>
 
-    <script src='app.js'></script>
+  <div ng-view></div>
+
+  <script src='app.js'></script>
 
 </body>
 

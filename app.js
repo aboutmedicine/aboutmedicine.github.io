@@ -2028,13 +2028,6 @@ app.controller("myCtrl", function($scope) {
 			questions: ''
 		},
 		{
-			name: 'Male genitalia examination',
-			description: '',
-			structure: '',
-			mnemonic: '',
-			questions: ''
-		},
-		{
 			name: 'Breath holding spells',
 			description: '~25% of children who breath hold do so multiple times per day.',
 			structure: 'Characterise spells; ?post-ictal confusion; reassure & encourage parent to treat as normal',
@@ -2043,10 +2036,10 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Abdo & inguinoscrotal examination',
-			description: '',
-			structure: '',
-			mnemonic: '',
-			questions: ''
+			description: 'The mother of Jiminy Crick, age 2, presents concerned about his development. Take a developmental history.',
+			structure: 'Distraction while palp.ing helps to differentiate vol. from invol. guarding; Percussion useful in detecting peritonism.',
+			mnemonic: 'Pinpoint, Palp, Percuss, Shine a light',
+			questions: 'What would you expect to find in a child with septic appendicitis?'
 		},
 		{
 			name: 'Asthma',
@@ -2057,10 +2050,10 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Developmental assessment',
-			description: '',
-			structure: 'Feeding (intake, solids); Birth (weight, gestation, complications);',
-			mnemonic: '',
-			questions: ''
+			description: 'Do you have any concerns about your child\'s development?',
+			structure: 'Feeding (intake, solids); Birth (weight, gestation, complications); Measure length, weight, head circumference;',
+			mnemonic: 'Language, motor, social, smarts.',
+			questions: 'How would you expect your findings to differ in a 5-year old child?'
 		},
 		{
 			name: 'GI examination',
@@ -2114,14 +2107,14 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Respiratory examination',
 			description: '',
-			structure: '',
+			structure: '+Abdo palp.n, ENT',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'The child with a limp',
 			description: '',
-			structure: 'Systems review, Xray, bloods if fever',
+			structure: 'Systems review, ?recent illness, Xray, bloods if fever',
 			mnemonic: 'Neoplastic night, awareness of abuse,',
 			questions: ''
 		},
