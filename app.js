@@ -931,7 +931,7 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Narcissistic personality disorder',
 			description: 'Common and commonly self-diagnosed',
-			hx: '9 features -entitlement -elevated self-esteem -exploits people -empathy-less',
+			hx: '9 features -entitlement -elevated self-esteem -exploits people -empathy-less -obsessed w/ dreams of power, success or ideal love',
 			ex: 'MSE',
 			ix: 'N/A',
 			mx: 'Try for CBT'
@@ -1565,11 +1565,11 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Immunisation',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Birth: Hep B; 6wk, 4m + 6m: Hep B, dTPa, Hib, IPV, rota, 13vPCV; 12mo: MMR, Hib, Men-C; ~13yo: HPV, dTP; Hep A for indigenous kids.',
+			hx: 'Are IUTD?',
+			ex: 'N/A',
+			ix: 'Serology',
+			mx: 'Recommend UTD'
 		},
 		{
 			name: 'Continence',
@@ -1629,19 +1629,19 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Meningitis',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'What we worry about most in paediatric infection. Beware the SBI.',
+			hx: 'Non-specific Sx: irritability, lethargy, N/V, seizures',
+			ex: 'Fever, purpura, weight & head circumference, fontanelle must be full for Dx to be made',
+			ix: 'LP + FBE + BGL + UEC + BCs',
+			mx: 'Cefotaxime +/- Benpen, acyclovir if susp. encephalitis, treat seizures immediately w/ benzos.'
 		},
 		{
 			name: 'Congenital heart disease',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'There are so many, and their presentations are so varied, that a true appreciation of this topic requires at the very least paediatric training.',
+			hx: 'FHx',
+			ex: 'Vitals esp. O2 sat',
+			ix: 'Most identified on antenatal US',
+			mx: 'Supportive care for perfusion & oxygenation'
 		},
 		{
 			name: 'Brief Resolved Unexplained Event (formerly ALTE)',
@@ -1650,14 +1650,6 @@ app.controller("myCtrl", function($scope) {
 			ex: 'Complete',
 			ix: 'Low-risk: none',
 			mx: 'If pt requires ongoing acute treatment → øBRUE'
-		},
-		{
-			name: 'Resuscitation and emergency transport services',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
 		},
 		{
 			name: 'Febrile seizure',
@@ -1742,14 +1734,14 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Bronchiolitis',
 			description: 'Most common cause of wheeze in infants.',
-			hx: 'Generally affects <12mo. Smoking in house',
+			hx: 'Generally C.d to affect <12mo, in older children Dx is pneumonitis. RFs: smoking in house',
 			ex: 'Sx of URTI + resp distress + fever',
 			ix: 'Clinical Dx',
 			mx: 'Comfort feeds to settle, supportive O2, reassurance, natural Hx 7-10d'
 		},
 		{
 			name: 'Croup',
-			description: 'Aka viral laryngotracheitis, most commonly caused by parainfluenza.',
+			description: 'Aka viral laryngotracheitis, most commonly caused by parainfluenza. It only appears in kids b/c adults have wider airways.',
 			hx: 'Barking cough, hoarseness',
 			ex: 'Inspiratory stridor',
 			ix: 'None',
@@ -1799,7 +1791,7 @@ app.controller("myCtrl", function($scope) {
 			name: 'Intussusception',
 			description: 'Invagination of proximal into distal bowel.',
 			hx: 'Pain, vomiting, lethargy, red-currant jelly stool',
-			ex: 'Pallor. palpable mass',
+			ex: 'Pallor, palpable mass',
 			ix: 'US - target sign; AXR - absence of gas around cecum',
 			mx: 'Simple: air enema reduction; Complicated: laparotomy'
 		},
@@ -1892,11 +1884,11 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Sudden Infant Death Syndrome',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'The leading cause of infant mortality in the West, 90% <6mo. The mechanism is thought to involve failure of serotonin signaling.',
+			hx: 'RFs include maternal smoking, prematurity, prone sleeping position',
+			ex: 'N/A',
+			ix: 'N/A',
+			mx: 'Infant bedding should be w/o blanket, pillow, toy or excess clothing. Co-sleeping not recommended, and monitors have shown no benefit.'
 		},
 		{
 			name: 'Torsion of testis / Hydatid of Morgagni',
@@ -1939,6 +1931,14 @@ app.controller("myCtrl", function($scope) {
 			mx: 'Topical CS, if no improvement circumcision'
 		},
 		{
+			name: 'UTI',
+			description: 'E. coli is the most common cause in kids.',
+			hx: 'Duration of fever, ∆conscious state',
+			ex: 'Vague clinical signs; fever, vomiting w/o diarrhoea = UTI',
+			ix: 'Clean catch / suprapubic',
+			mx: 'Oral co-trimoxazole / IV genta+benpen (always look up guidelines to match to weight accurately)'
+		},
+		{
 			name: 'Hydrocele / Varicocele',
 			description: 'Swelling of testes due to -intraperitoneal fluid / -venous engorgement',
 			hx: 'øPain',
@@ -1953,6 +1953,14 @@ app.controller("myCtrl", function($scope) {
 			ex: 'Palpable purpura',
 			ix: 'FBE + coags',
 			mx: 'Abdo US'
+		},
+		{
+			name: 'Gastroenteritis',
+			description: 'Bugs in the gut cause chaos for kids.',
+			hx: 'Duration, output, most recent weight',
+			ex: 'Signs of dehydration / hypovolaemic shock',
+			ix: 'If you place a cannula, take bloods: UEC + BGL',
+			mx: 'Rehydration: trial of oral → NG RR according to RCH → IV NS+5%D; weigh, monitor input + output'
 		},
 		{
 			name: 'Infant colic',
@@ -2070,7 +2078,7 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'The child with fever',
-			description: '',
+			description: 'Any child w/ fever w/o focus should get urine MCS, BCs & LP',
 			structure: '',
 			mnemonic: '',
 			questions: ''
