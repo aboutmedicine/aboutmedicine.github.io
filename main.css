@@ -9,7 +9,7 @@ body {
 }
 
 .flex-container>div {
-  background-color: #fdfdfd;
+  background-color: #fcfcfc;
   color: #444;
   width: 300px;
   margin: 30px 30px;
@@ -26,7 +26,7 @@ body {
   opacity: 0.9;
   position: absolute;
   z-index: 1;
-  top: 120px;
+  top: 115px;
   padding: 10px;
   text-align: left;
   border-radius: 30px;
@@ -43,7 +43,7 @@ body {
 }
 
 a:hover {
-  text-shadow: 3px 0px 6px #eee;
+  text-shadow: 3px 0px 6px #ddd;
 }
 
 a {
@@ -84,12 +84,12 @@ li {
 }
 
 li:hover {
-  background-color: #fdfdfd;
+  background-color: #fcfcfc;
   color: #844279;
 }
 
 li:active {
-  background-color: #fdfdfd;
+  background-color: #fcfcfc;
   color: #844279;
 }
 
