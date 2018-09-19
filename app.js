@@ -1369,7 +1369,7 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'IUGR',
 			description: 'A foetus that can\'t meet its genetic growth potential.',
-			hx: '',
+			hx: 'Maternal, placental or fetal? RFs: smoking, DM, ',
 			ex: '',
 			ix: '',
 			mx: ''
@@ -1597,11 +1597,11 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Sleep',
-			description: 'One example of it is different in kids: rhythmic movement of the head, neck or trunk during sleep is common and physiological.',
-			hx: 'Effective sleep Hx includes -cycle elucidation - difficulty initiating or maintaining -daytime problems -snoring -abnormal movements during sleep',
+			description: 'One example of how it is different in kids: rhythmic movement of the head / neck / trunk during sleep is common and physiological.',
+			hx: 'Sleep Hx -cycle elucidation - difficulty initiating or maintaining -daytime problems -snoring -abnormal movements during sleep',
 			ex: 'Epworth Sleepiness Scale',
 			ix: 'Polysomnography to confirm OSA / narcolepsy, not for general Ix',
-			mx: 'Often behavioural ∴'
+			mx: 'Often behavioural ∴ psych r/f'
 		},
 		{
 			name: 'Sepsis',
