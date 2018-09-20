@@ -88,7 +88,7 @@ li:hover {
   color: #844279;
 }
 
-li:active {
+li.active {
   background-color: #fcfcfc;
   color: #844279;
 }

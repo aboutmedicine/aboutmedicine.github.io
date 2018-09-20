@@ -145,6 +145,7 @@ app.controller("myCtrl", function($scope) {
 		$scope.ex = $scope.acconditions[x].ex;
 		$scope.ix = $scope.acconditions[x].ix;
 		$scope.mx = $scope.acconditions[x].mx;
+		$scope.selectedAcConditions = x;
 	};
 
 
