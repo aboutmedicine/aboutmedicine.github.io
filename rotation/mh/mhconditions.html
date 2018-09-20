@@ -1,6 +1,6 @@
 <div class="topics">
     <ul>
-        <li ng-repeat="x in mhconditions" ng-click="showMhConditions($index)">{{x.name}}</li>
+        <li ng-repeat="x in mhconditions" ng-class="{active: $index == selectedMhConditions}" ng-click="showMhConditions($index)">{{x.name}}</li>
     </ul>
 </div>
 

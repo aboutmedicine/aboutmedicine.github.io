@@ -1,6 +1,6 @@
 <div class="topics">
     <ul>
-        <li ng-repeat="x in gposce" ng-click="showGpOsces($index)">{{x.name}}</li>
+        <li ng-repeat="x in gposce" ng-class="{active: $index == selectedGpOsces}" ng-click="showGpOsces($index)">{{x.name}}</li>
     </ul>
 </div>
 

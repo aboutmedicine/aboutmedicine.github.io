@@ -1,6 +1,6 @@
 <div class="topics">
     <ul>
-        <li ng-repeat="x in cahconditions" ng-click="showCahConditions($index)">{{x.name}}</li>
+        <li ng-repeat="x in cahconditions" ng-class="{active: $index == selectedCahConditions}" ng-click="showCahConditions($index)">{{x.name}}</li>
     </ul>
 </div>
 

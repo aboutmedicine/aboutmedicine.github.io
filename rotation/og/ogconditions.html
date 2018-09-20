@@ -1,6 +1,6 @@
 <div class="topics">
     <ul>
-        <li ng-repeat="x in ogconditions" ng-click="showOgConditions($index)">{{x.name}}</li>
+        <li ng-repeat="x in ogconditions" ng-class="{active: $index == selectedOgConditions}" ng-click="showOgConditions($index)">{{x.name}}</li>
     </ul>
 </div>
 

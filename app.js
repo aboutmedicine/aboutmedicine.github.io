@@ -251,6 +251,7 @@ app.controller("myCtrl", function($scope) {
 		$scope.structure = $scope.acosce[x].structure;
 		$scope.mnemonic = $scope.acosce[x].mnemonic;
 		$scope.questions = $scope.acosce[x].questions;
+		$scope.selectedAcOsces = x;
 	};
 
 
@@ -663,6 +664,7 @@ app.controller("myCtrl", function($scope) {
 		$scope.ex = $scope.gpconditions[x].ex;
 		$scope.ix = $scope.gpconditions[x].ix;
 		$scope.mx = $scope.gpconditions[x].mx;
+		$scope.selectedGpConditions = x;
 	}
 
 
@@ -739,6 +741,7 @@ app.controller("myCtrl", function($scope) {
 		$scope.structure = $scope.gposce[x].structure;
 		$scope.mnemonic = $scope.gposce[x].mnemonic;
 		$scope.questions = $scope.gposce[x].questions;
+		$scope.selectedGpOsces = x;
 	}
 
 	//     MH
@@ -962,6 +965,7 @@ app.controller("myCtrl", function($scope) {
 		$scope.ex = $scope.mhconditions[x].ex;
 		$scope.ix = $scope.mhconditions[x].ix;
 		$scope.mx = $scope.mhconditions[x].mx;
+		$scope.selectedMhConditions = x;
 	};
 
 
@@ -1032,6 +1036,7 @@ app.controller("myCtrl", function($scope) {
 		$scope.structure = $scope.mhosce[x].structure;
 		$scope.mnemonic = $scope.mhosce[x].mnemonic;
 		$scope.questions = $scope.mhosce[x].questions;
+		$scope.selectedMhOsces = x;
 	};
 
 
@@ -1417,6 +1422,7 @@ app.controller("myCtrl", function($scope) {
 		$scope.ex = $scope.ogconditions[x].ex;
 		$scope.ix = $scope.ogconditions[x].ix;
 		$scope.mx = $scope.ogconditions[x].mx;
+		$scope.selectedOgConditions = x;
 	};
 
 
@@ -1541,6 +1547,7 @@ app.controller("myCtrl", function($scope) {
 		$scope.structure = $scope.ogosce[x].structure;
 		$scope.mnemonic = $scope.ogosce[x].mnemonic;
 		$scope.questions = $scope.ogosce[x].questions;
+		$scope.selectedOgOsces = x;
 	};
 
 
@@ -1980,6 +1987,7 @@ app.controller("myCtrl", function($scope) {
 		$scope.ex = $scope.cahconditions[x].ex;
 		$scope.ix = $scope.cahconditions[x].ix;
 		$scope.mx = $scope.cahconditions[x].mx;
+		$scope.selectedCahConditions = x;
 	};
 
 
@@ -2134,6 +2142,7 @@ app.controller("myCtrl", function($scope) {
 		$scope.structure = $scope.cahosce[x].structure;
 		$scope.mnemonic = $scope.cahosce[x].mnemonic;
 		$scope.questions = $scope.cahosce[x].questions;
+		$scope.selectedCahOsces = x;
 	};
 
 

@@ -1,6 +1,6 @@
 <div class="topics">
     <ul>
-        <li ng-repeat="x in mhosce" ng-click="showMhOsces($index)">{{x.name}}</li>
+        <li ng-repeat="x in mhosce" ng-class="{active: $index == selectedMhOsces}" ng-click="showMhOsces($index)">{{x.name}}</li>
     </ul>
 </div>
 
