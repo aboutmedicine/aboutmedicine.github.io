@@ -1,6 +1,6 @@
 <div class="topics">
     <ul>
-        <li ng-repeat="x in acconditions" ng-click="showAcConditions($index)">{{x.name}}</li>
+        <li ng-repeat="x in acconditions" ng-class="{active: $index == selectedAcConditions}" ng-click="showAcConditions($index)">{{x.name}}</li>
     </ul>
 </div>
 
