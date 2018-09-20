@@ -2087,8 +2087,8 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'The child with fever',
-			description: 'Any child w/ fever w/o focus should get urine MCS, BCs & LP',
-			structure: '',
+			description: '2yo Sanne has had a fever for three days, and this day has displayed some alteration in her conscious state. Take a Hx from her father and develop a Mx plan.',
+			structure: 'Any child w/ fever w/o focus should get urine MCS, BCs & LP',
 			mnemonic: '',
 			questions: ''
 		},
@@ -2101,7 +2101,7 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Neonatal jaundice',
-			description: '',
+			description: 'Phuong, age 2 days, has severe jaundice. Explain to her mother the causes of neonatal jaundice, and the expected treatment course.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
@@ -2115,7 +2115,7 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Wrist fracture',
-			description: '',
+			description: 'Frank, age 5, presents to ED with a broken wrist from falling out of a tree. Perform an appropriate examination and describe your Mx plan to the examiner.',
 			structure: 'Take Hx, perform pre-op Ax',
 			mnemonic: '',
 			questions: ''
@@ -2129,10 +2129,10 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'The child with a limp',
-			description: '',
+			description: 'Terence, age 10, has developed a limp over the last 2 days. Take a Hx and explain your Mx plan.',
 			structure: 'Systems review, ?recent illness, Xray, bloods if fever',
-			mnemonic: 'Neoplastic night, awareness of abuse,',
-			questions: ''
+			mnemonic: 'Transient synovitis, neoplastic night, awareness of abuse,',
+			questions: 'What is the most common cause of limp in adolescents?'
 		},
 	];
 
