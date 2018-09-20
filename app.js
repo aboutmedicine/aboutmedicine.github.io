@@ -1057,9 +1057,9 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Recurrent miscarriage',
 			description: 'No cause identified in ~50%.',
-			hx: '',
-			ex: '',
-			ix: 'APSL',
+			hx: 'Chromosomal abnormalities, smoking',
+			ex: 'Spec',
+			ix: 'Anti-Mullerian hormone, APSL screen',
 			mx: 'As much reassurance as possible - it\'s a hard road.'
 		},
 		{
@@ -1080,11 +1080,11 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Stillbirth',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Often unexplained; most are a combination of fetal, maternal and placental factors.',
+			hx: 'RFs: obesity, smoking, FHx, multiple pregnancy, older maternal age, concurrent medical issues',
+			ex: 'Structural defects',
+			ix: 'Perinatal autopsy if I.',
+			mx: 'Optimise RFs; help the parents connect with and separate from their child'
 		},
 		{
 			name: 'Multiple pregnancy',
@@ -1105,7 +1105,7 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Breast Ca',
 			description: 'Screening mammogram from 50-74 every 2 years.',
-			hx: 'Lump',
+			hx: 'Lump: characterise duration, presence of Sx',
 			ex: 'Breast exam',
 			ix: 'Mammogram, FNA, core needle Bx',
 			mx: 'CTx / RTx'
@@ -1137,50 +1137,50 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Placenta praevia',
 			description: 'Placenta that is growing over the internal os.',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			hx: 'Bleeding, øpain; RFs: previous CS / PP, multiple pregnancy',
+			ex: 'øVE',
+			ix: 'Regular US',
+			mx: '90% of cases Dx <20wks resolve spontaneously; CS'
 		},
 		{
 			name: 'Hyperemesis',
 			description: 'Excess vomiting in pregnancy.',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			hx: 'Ax severity, triggers, diet',
+			ex: 'Weight, orthostatic BP',
+			ix: 'UEC + urinalysis for ketones',
+			mx: 'Titrate use of Rx to severity of N/V and response to trigger avoidance / diet mod.n; C. admx if severe for IV ondansetron + fluid replacement; pt preferences should guide therapy re: acupuncture & other CAMs.'
 		},
 		{
 			name: 'Placental adhesive disorders',
-			description: 'Accreta / increta / percreta.',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Accreta attaches / increta invades / percreta penetrates.',
+			hx: 'Asymptomatic unless bleeding; #1 RF: PP after previous CS; ',
+			ex: 'N/A',
+			ix: 'Regular US',
+			mx: 'CS w/ total hysterectomy'
 		},
 		{
 			name: 'APH',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Abruption / Previa / Haemorrhage from the GU tract.',
+			hx: 'Pain, total PV loss, fetal movements',
+			ex: 'Spec, øVE',
+			ix: 'Kleihauer, amnisure',
+			mx: 'If significant, delivery may be I.'
 		},
 		{
 			name: 'Alloimunisation',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Immune response to antigens from genetically foreign RBCs stimulates production of IgG.',
+			hx: 'Full PObHx',
+			ex: 'N/A',
+			ix: 'G&H mother and father',
+			mx: 'If Rh-ve, admx Anti-D at first AN visit, 36 wks and at delivery'
 		},
 		{
 			name: 'Chorioamnionitis',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Refers to infection of the fluid, membranes, placenta, cord, and / or decidua.',
+			hx: 'ROM',
+			ex: 'Fever, discoloured liquor, purulent discharge from os on spec',
+			ix: 'FBE + AF mcs',
+			mx: 'IV Abx - amp+gent, delivery'
 		},
 		{
 			name: 'Induction of labour',
