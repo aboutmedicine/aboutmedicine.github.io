@@ -26,11 +26,11 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Faecal incontinence',
-			description: 'Serious psychological sequelae.',
+			description: 'Serious psychological sequelae result.',
 			hx: 'Investigate cause',
 			ex: 'LL neurological exam',
 			ix: 'NCS + fecal MCS',
-			mx: '?'
+			mx: 'Treat cause'
 		},
 		{
 			name: 'Dementia',
@@ -38,15 +38,15 @@ app.controller("myCtrl", function($scope) {
 			hx: 'From pt: how has your memory been over the past year?',
 			ex: 'Gait + balance + CN',
 			ix: 'MSU',
-			mx: ''
+			mx: 'DBMAS, carer support, residential services, SW + OT'
 		},
 		{
 			name: 'Elder abuse',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Don\'t forget neglect.',
+			hx: 'RFs: female, >80yo, depressed; directly enquire re safety',
+			ex: 'Marks of abuse',
+			ix: 'N/A',
+			mx: 'In 90% of cases abuser is a family member - support via friends and other family members'
 		},
 		{
 			name: 'Constipation',
@@ -61,16 +61,16 @@ app.controller("myCtrl", function($scope) {
 			description: 'Consider how it presents differently in older people.',
 			hx: 'Somatic Sx - pain, fatigue + mood disturbance - irritability, anxiety',
 			ex: 'MSE, cognitive testing',
-			ix: '',
+			ix: 'FBE + Iron studies',
 			mx: 'SSRIs, psychotherapy'
 		},
 		{
 			name: 'Pneumonia',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Interestingly, the LRT was once thought to be sterile - in fact it plays host to colonies of Prevotella, Veilonella, Strep...',
+			hx: 'Cough, sputum, haemoptysis, fever / rigors, smoking Hx',
+			ex: 'Vitals, resp exam',
+			ix: 'FBE + CXR + BCs + sputum MCS',
+			mx: 'Cef + azithro, f/u CXR, pneumococcal vaccine for over 65s'
 		},
 		{
 			name: 'Bowel cancer',
@@ -98,11 +98,11 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Functional decline',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'aka failure to thrive. Which terminology do you prefer?',
+			hx: '3Ds of geriatrics',
+			ex: 'CGA',
+			ix: 'FBE + CMP + Iron studies + UEC + DEXA... the list could go on.',
+			mx: 'Neuropsych r/f'
 		},
 		{
 			name: 'Polypharmacy',
@@ -1184,19 +1184,19 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Induction of labour',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: '~25% of women who labour are induced. Recent research suggests that it confers no ↑Ro CS.',
+			hx: 'RFs: post-dates, ↓FM, fetal distress on CTG, abnormal US results, APH, PET, GDM, PPROM >34wks, w/in 24 hrs term PROM,',
+			ex: 'Observe colour of liquor',
+			ix: 'CEFM',
+			mx: 'Cervical ripening: balloon catheter / cervidil (prostaglandin)'
 		},
 		{
 			name: 'Termination of pregnancy',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'An estimated 25% of pregnancies worldwide result in termination.',
+			hx: 'Confirmation of pregnancy',
+			ex: 'Confirm uterine size & position',
+			ix: 'FBE + G&H',
+			mx: 'Mifepristone + misoprostol / D&E, link pt to emotional support services'
 		},
 		{
 			name: 'Malpresentation',
