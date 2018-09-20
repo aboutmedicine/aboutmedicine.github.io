@@ -604,13 +604,13 @@ app.controller("myCtrl", function($scope) {
 		}, {
 			name: 'Lipoma',
 			description: 'Benign adipose tissue tumour.',
-			hx: 'Development over time',
+			hx: 'Development over time, focal neurological Sx from nerve compression.',
 			ex: 'Palpate, full skin check',
 			ix: 'US',
 			mx: 'Elective excision if bothersome'
 		}, {
 			name: 'Insomnia',
-			description: 'Can\'t sleep.',
+			description: 'Sx of inadequate sleep in ~40% of Australian adults; significant insomnia in 20%.',
 			hx: 'Ax severity (QOL), sleep timing + hygiene, other Sx e.g. restlessness, PMHx esp. psych',
 			ex: 'Neuro for RLS, Epworth Sleepiness Scale',
 			ix: 'Clinical Dx',
@@ -1893,7 +1893,7 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Torsion of testis / Hydatid of Morgagni',
 			description: 'The former is much more serious.',
-			hx: 'Pain',
+			hx: 'Pain+++ for ToT',
 			ex: 'Palpate testes',
 			ix: 'ØUS',
 			mx: 'The latter is self-limited, so surgery is elective; former = emergent surgery'
@@ -2005,6 +2005,13 @@ app.controller("myCtrl", function($scope) {
 			structure: '',
 			mnemonic: '',
 			questions: ''
+		},
+		{
+			name: 'Newborn exam',
+			description: 'Grunting = inbuilt PEEP',
+			structure: 'Undress, inspection, vitals, measurements, then head to tail: fontanelles, murmur good to pick up early, chest, abdo, anus, GU',
+			mnemonic: 'The whole body',
+			questions: 'What might be a cause for low oxygen saturation in this child?'
 		},
 		{
 			name: 'The child with headache',
