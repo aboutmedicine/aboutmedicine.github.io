@@ -1194,7 +1194,7 @@ app.controller("myCtrl", function($scope) {
 			hx: 'RFs: post-dates, ↓FM, fetal distress on CTG, abnormal US results, APH, PET, GDM, PPROM >34wks, w/in 24 hrs term PROM,',
 			ex: 'Observe colour of liquor',
 			ix: 'CEFM',
-			mx: 'Cervical ripening: balloon catheter / cervidil (prostaglandin)'
+			mx: 'Cervical ripening: balloon catheter / cervidil (prostaglandin); S&S if post-term; IV synt to stimulate contractions (major risk is of uterine hyperstimulation)'
 		},
 		{
 			name: 'Termination of pregnancy',
@@ -1206,59 +1206,59 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Malpresentation',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Breech, transverse, brow, face',
+			hx: 'Fetal movements',
+			ex: 'Palp abdomen, determine station + lie',
+			ix: 'Regular US',
+			mx: 'ECV, CS'
 		},
 		{
 			name: 'Prolonged labour',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'From ACOG: \'recent data show that contemporary labour progresses at a rate substantially slower than what was historically taught\'. So how should we define \'prolonged\'?',
+			hx: 'RFs relate to four Ps: Passenger / Power / Passage / Proportion',
+			ex: 'Ax lie + station',
+			ix: 'Investigations have been shown to be inaccurate in determing presence of CPD, and are no longer performed',
+			mx: 'Ventouse / forceps / CS'
 		},
 		{
 			name: 'Fetal distress',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Abnormal fetal heart rate tracing is the 2nd most common cause of CS, as it is (somewhat controversially) a/w fetal distress.',
+			hx: 'Before Ax of CTG must define risk: maternal medical illness, obstetric complications',
+			ex: 'Foetal movements',
+			ix: 'Normal variability: 5-25bpm; accelerations (>15bpm for >15s) are a reassuring sign; early decels follow contractions and are physiological, variable decels are random and a bit worrying, late decels begin at the peak of contraction and are worrying, prolonged decels are >3mins and are super worrying: emCS; sinuisoidal = severe hypoxia: emCS, outcome usually poor.',
+			mx: 'C. IOL / emCS'
 		},
 		{
 			name: 'Shoulder dystocia',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'The bony shoulder impacted on the pubic symphysis.',
+			hx: 'ObHx, duration of labour, FHx',
+			ex: 'Ax level of descent',
+			ix: 'N/A',
+			mx: 'HELPERR -call for Help -Evaluate for epis -Legs elevated / McRoberts -Pressure suprapubically -Enter vagina and perform manoeuvres -Remove posterior arm -Roll onto all fours; PPH Mx, tear repair'
 		},
 		{
-			name: 'Instrumental delivery',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			name: 'Instrumental birth',
+			description: 'From experience in Birthing I\'d say rate of innovation in this area is snail\'s pace. The reason as in most cases is practitioner conservatism.',
+			hx: 'PObHx',
+			ex: 'VE to determine dilation',
+			ix: 'FBE + coags + G&H',
+			mx: 'Req.ts for instrumental delivery: -cephalic presentation -lithotomy position -adequate analgesia -IDC inserted -resusc prepped -full dilation; Ventouse: less maternal morbidity; Forceps: preferred by old hands, traction force safe limit 20kg in primips'
 		},
 		{
 			name: 'Caesarean section',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Remember to use the term \'birth\' rather than \'delivery\'.',
+			hx: 'Abstain from intercourse for at least 6wks.',
+			ex: 'Vitals, prev. abdo surgery scars',
+			ix: 'FBE + coags + G&H',
+			mx: 'Unless on maternal request, the decision for CS is based on a spectrum of safety.'
 		},
 		{
 			name: 'VBAC',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: '~70% will be successful, ~50% will try.',
+			hx: 'PObHx: what type of CS, and why? Ax for risk: BMI, age, I. for previous CS',
+			ex: 'Abdo for scars',
+			ix: 'FBE + coags + G&H',
+			mx: 'Counsel re: ↓Ro puerperal inxn, ↓blood loss, ↓hospital stay'
 		},
 		{
 			name: 'PPH',
@@ -1302,11 +1302,11 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'PID',
-			description: 'Long-term inflammation of the pelvic organs, usually 2˚ to STI.',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Long-term inflammation of the pelvic organs, usually 2˚ to STI though 70% of cases go w/o identified cause.',
+			hx: 'Presentation varies widely, in severity & Sx; typically bilateral pain, deep dyspareunia, PV loss',
+			ex: 'Spec for discharge',
+			ix: 'Clinical Dx; urine pregnancy test, CRP',
+			mx: 'Mainstay is Abx - cef+met+doxy'
 		},
 		{
 			name: 'Endometriosis',
@@ -1326,11 +1326,11 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'STI',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'You\'ll only need to know the important distinguishing features, such as they are.',
+			hx: 'Discharge: Ch, G, M, T (frothy); dysuria: C, G; itch: T, BV, C; bleeding: Ch, M',
+			ex: 'Genital exam, spec',
+			ix: 'Swab + culture / PCR',
+			mx: 'Abx therapy, contact tracing, notification'
 		},
 		{
 			name: 'Stress incontinence',
@@ -1358,27 +1358,27 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'SGA',
-			description: 'Foetus at ≤10th growth centile; may be normal and in this case, be wary of iatrogenic prematurity',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Foetus at ≤10th growth centile. Broadly, either normal and genetic, or due to IUGR.',
+			hx: 'Nutrition, smoking',
+			ex: 'US used for Dx, only accurate to w/in 20%',
+			ix: 'BGL',
+			mx: 'Endo / dietitian / GE / behaviourist r/f if growth does not catch up'
 		},
 		{
 			name: 'LGA',
-			description: 'Foetus at ≥90th growth centile',
-			hx: 'DM, obesity',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Foetus at ≥90th growth centile. Determining this is an imprecise and inaccurate science.',
+			hx: 'DM, obesity, gestation',
+			ex: 'N/A',
+			ix: 'US AC >35cm',
+			mx: '↑Ro fetal and maternal injury at birth, shoulder dystocia'
 		},
 		{
 			name: 'IUGR',
-			description: 'A foetus that can\'t meet its genetic growth potential.',
+			description: 'A foetus that can\'t meet its genetic growth potential. Also known as fetal growth restriction, which is probably better.',
 			hx: 'Maternal, placental or fetal? RFs: smoking, DM, ',
-			ex: '',
-			ix: '',
-			mx: ''
+			ex: 'N/A',
+			ix: 'US is very inaccurate, but is the best test we have; umbilical artery doppler',
+			mx: '↑monitoring, ↑likelihood of IOL esp. if approaching post-term'
 		},
 		{
 			name: 'Urge incontinence',
@@ -1458,10 +1458,10 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Postpartum fever',
-			description: '',
-			structure: '',
+			description: 'Latika is 24hrs post-CS and has developed a fever of 38˚C. Take a Hx and recommend appropriate Mx.',
+			structure: 'What type of CS, and why? (classical = highest Ro rupture)',
 			mnemonic: '',
-			questions: ''
+			questions: 'What is the most common cause of puerperal fever?'
 		},
 		{
 			name: 'Treatment of FTP',
@@ -1749,7 +1749,7 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Croup',
-			description: 'Aka viral laryngotracheitis, most commonly caused by parainfluenza. It only appears in kids b/c adults have wider airways.',
+			description: 'Aka viral laryngotracheobronchitis, most commonly caused by parainfluenza. It only appears in kids b/c adults have wider airways.',
 			hx: 'Barking cough, hoarseness',
 			ex: 'Inspiratory stridor',
 			ix: 'None',
@@ -1830,7 +1830,7 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Cows milk protein intolerance',
 			description: 'More common than peanuts but less likely to be anaphylactic.',
-			hx: 'Sx of intolerance, Ca intake',
+			hx: 'Sx of intolerance - blood in stool, weight loss; Ca intake',
 			ex: 'Abdo exam',
 			ix: 'FBE + UEC + LFTs + urine MCS + stool sampling + ESR',
 			mx: 'Admx, stop formula, give AA formula, close f/u'
@@ -1965,7 +1965,7 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Gastroenteritis',
 			description: 'Bugs in the gut cause chaos for kids.',
-			hx: 'Duration, output, most recent weight',
+			hx: 'Duration, output, most recent weight, vomiting, it isn\'t gastro if there\'s no diarrhoea',
 			ex: 'Signs of dehydration / hypovolaemic shock',
 			ix: 'If you place a cannula, take bloods: UEC + BGL',
 			mx: 'Rehydration: trial of oral → NG RR according to RCH → IV NS+5%D; weigh, monitor input + output'
