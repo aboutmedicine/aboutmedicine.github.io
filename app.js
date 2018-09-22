@@ -81,20 +81,20 @@ app.controller("myCtrl", function($scope) {
 			mx: 'CTx, RTx, surgery, palliative care'
 		},
 		{
-			name: 'Fractured NOH',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			name: 'Fractured NOF',
+			description: 'Some hospitals have ortho-geri units now, indicating the prevalence of such fractures.',
+			hx: 'Fall / trauma, pain+++, inability to weight-bear, Hx of osteoporosis',
+			ex: 'Acutely painful hip, shortened and externally rotated',
+			ix: 'Xray',
+			mx: 'Resuscitate and stabilise pt (ABCDE), analgesia; surgical Mx depends on classification: ?displaced, ?intracapsular, ?trochanteric'
 		},
 		{
 			name: 'Parkinsons',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'A complex disorder that encompasses motor, neuropsychiatric, autonomic, sensory, cognitive and psychotic Sx.',
+			hx: 'Carer Hx',
+			ex: 'Bradykinesia, tremor, rigidity, postural instability, masked facial expression, freezing',
+			ix: 'SMMSE, MRI to exclude structural lesions',
+			mx: 'Levodopa - absence of observable response rules out Dx'
 		},
 		{
 			name: 'Functional decline',
@@ -161,7 +161,7 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Carer distress',
 			description: 'Thi\'s father burnt his forearm on a frying pan last night, while wandering around the house. She is in significant distress following this incident.',
-			structure: 'Calm, educate, Mx - supports include dementia.org.au, Dementia Australia, which has a national dementia helpline, DBMAS, local carer support groups',
+			structure: 'Calm, educate, Mx - supports include dementia.org.au, Dementia Australia, which has a national dementia helpline - DBMAS, local carer support groups',
 			mnemonic: '',
 			questions: ''
 		},
@@ -174,6 +174,13 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Having trouble sleeping',
+			description: '',
+			structure: '',
+			mnemonic: '',
+			questions: ''
+		},
+		{
+			name: 'Palliative care',
 			description: '',
 			structure: '',
 			mnemonic: '',
@@ -217,12 +224,19 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Differentiating delirium from BPSD',
 			description: 'Jenny is a nurse on your ward. She is concerned about the behaviour of one of her patients. Counsel her.',
-			structure: 'Onset',
+			structure: 'Onset, style of behaviours, conscious state',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'Falls examination',
+			description: 'Grace, 83, has a few friends that have had bad falls recently. Counsel her on her falls risk.',
+			structure: 'TUG + funcional reach + sternal push + heel \'n\' toe',
+			mnemonic: 'Falls are from feet and fear',
+			questions: 'What factors lead to a decrease in lifestyle independence in older people?'
+		},
+		{
+			name: 'Rehab medicine',
 			description: '',
 			structure: '',
 			mnemonic: '',
@@ -444,11 +458,11 @@ app.controller("myCtrl", function($scope) {
 			mx: 'If ↑lipids Rx statin, weight loss, EtOH cessation'
 		}, {
 			name: 'Hyperthyroidism',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Most commonly Grave\'s disease.',
+			hx: 'Sweating, feeling hot / anxious, oligomenorrhoea, diarrhoea, palpitations, tremor, insomnia',
+			ex: 'Thyroid exam (heart, tremor, eyes, pretibial)',
+			ix: 'TFTs + FBE',
+			mx: 'Antithyroid agents (carbimazole / PTU), radioactive iodine, surgery (hemi- / total thyroidectomy), +/- endo referral'
 		}, {
 			name: 'Tension Headache',
 			description: 'Like a band around the head.',
@@ -467,7 +481,7 @@ app.controller("myCtrl", function($scope) {
 			name: 'Osteoporosis',
 			description: 'Weak bones fracture easy.',
 			hx: 'RFs FHx + SHATTERED: Steroids, hyperpara/thyroidism, alcohol + smoking, thin, testosterone↓, early menopause, renal disease / liver failure, erosive / inflmtry disease such as RA, dietary Ca↓ / T1DM',
-			ex: '',
+			ex: 'Gait & balance testing to Ax falls risk',
 			ix: 'DEXA, biannual in ↑risk pop.n',
 			mx: '↑dietary Ca + Vit D, bisphosphonates (alendronate → fosamax), RANK-Lis (denosumab), SERMs (tamoxifen)'
 		}, {
@@ -480,10 +494,10 @@ app.controller("myCtrl", function($scope) {
 		}, {
 			name: 'Prostate Cancer',
 			description: 'Include a thorough understanding of screening recommendations',
-			hx: 'Storage & voiding Sx, haematuria, fatigue, weight loss, night sweats',
-			ex: '',
-			ix: '',
-			mx: ''
+			hx: 'Storage & voiding Sx, haematuria, fatigue, weight loss, night sweats; RFs include age, FHx (of PCa or BCa), obesity',
+			ex: 'DRE (though inaccurate)',
+			ix: 'PSA + FBE + ferritin, +/- Bx',
+			mx: 'Watchful waiting / active surveillance / surgery / TURP / external or internal (aka brachy) RTx / hormone therapy (GnRH agonist - zoladex, antiandrogen / testosterone receptor blockers - bicalutamide)'
 		}, {
 			name: 'Fever in a Returned Traveller',
 			description: 'Malaria until proven otherwise.',
@@ -499,12 +513,12 @@ app.controller("myCtrl", function($scope) {
 			ix: 'Urine MCS if acute; microscopic haematuria is common',
 			mx: 'Rx monotherapy tamsulosin / duodart (dutasteride + tamsulosin) +/- oxybutynin, urology r/f for severe Sx, advice re: controlling Sx -avoid fluid intake before bed / outing -↓caffeine / alcohol -double voiding'
 		}, {
-			name: 'Limb Injury, ?Fracture',
-			description: 'Common emergency ',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: 'Analgesia, stabilise #'
+			name: 'Wrist Injury, ?Fracture',
+			description: 'Colles, Smith or Barton\'s? To which prick of an orthopod should this fracture be named after?',
+			hx: 'Mechanism of injury (most likely FOOSH)',
+			ex: 'Ax neurovascular compromise',
+			ix: 'Xray',
+			mx: 'Resuscitate + stabilise pt; analgesia + closed reduction + below-elbow backslab, or surgical intervention: ORIF / K-wire / external fixation; PT'
 		}, {
 			name: 'Chalazion',
 			description: 'Blocked meibomian gland makes a little uninflamed lump.',
@@ -542,18 +556,18 @@ app.controller("myCtrl", function($scope) {
 			mx: 'Immediate removal, simple oral analgesia if small +/- topical NSAIDs on eye, reassure that most abrasions heal w/in 24-48hrs'
 		}, {
 			name: 'Fatigue',
-			description: 'A myriad causes, which will it be?',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Stressful life events precipitate fatigue presentations in 65% of cases. Don\'t let yourself trivialise the fatigue as psychological on this account though - the experience of it is physical.',
+			hx: 'Red flags: recent onset in well older pt, weight loss, night sweats, bleeding, SOB, unexplained lymphadenopathy, fever; PROMPt (particularly M); When did you last spend time doing nothing but relaxing?'
+			ex: 'Systems review',
+			ix: 'Recommended initial battery: urine dipstick + fingerprick BSL + FBE + TSH + ferritin +/- ESR/CRP',
+			mx: 'Delaying Ix does not ↓pt satisfaction levels; Ix for Sx w/ low pre-test probability of serious illness does not reassure or ↓pt anxiety'
 		}, {
 			name: 'Epistaxis',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: '90% are anterior, 10% posterior - it is these which confer ↑Ro airway compromise / aspiration',
+			hx: 'Ax cause (85% are idiopathic and spontaneous), severity (duration, pain, light-headedness, LOC)',
+			ex: 'Ax site of bleed',
+			ix: 'FBE + G&H if bleeding severe',
+			mx: 'ABCs, topical anaesthetic spray, cauterise w/ silver nitrate, nasal packing'
 		}, {
 			name: 'Pancreatitis',
 			description: 'Stasis is, as always, the basis. And alcohol. IGETSMASHED',
@@ -570,18 +584,18 @@ app.controller("myCtrl", function($scope) {
 			mx: 'Severe refractory: Mabs'
 		}, {
 			name: 'Breast Ca',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'In stratifying risk, consider what raises oestrogen levels.',
+			hx: 'EtOH, smoking, obesity, age of menarche / menopause, FHx, lumps',
+			ex: 'RACGP: there is insufficient evidence to recommend clinical breast examination (!)',
+			ix: 'Mammogram 2-yearly from age 50-74',
+			mx: 'r/f for family Ca clinic / oncology if higher risk (≥1 1˚ relative), possible genetic testing, C. mastectomy / salpingo-oophorectomy if +++risk'
 		}, {
 			name: 'Acute Abdomen',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Peritonitis usu = perforation',
+			hx: 'Ax severity, duration, N/V, bowel movements, eating & drinking',
+			ex: 'Ax immediately (w/ observation and vitals): are they critically unwell? If so, ABC; GI exam',
+			ix: 'FBE + CRP + ABGs + UEC + LFTs + lipase + urine dip + erect CXR + CT',
+			mx: 'ABCs, IV access, NBM, Rx analgesia, VTE prophylaxis +/- antiemetics, give fluids & monitor fluid balance,'
 		}, {
 			name: 'Sebaceous Cyst',
 			description: 'Sebaceous gland grows way out of proportion.',
@@ -674,12 +688,12 @@ app.controller("myCtrl", function($scope) {
 			name: 'Iron Deficiency Anaemia',
 			description: 'The key is to ask: what is really going on here?',
 			structure: 'Assess severity + possible causes + treatment options',
-			mnemonic: 'TAMM - Thalassaemia <br> Anaemia of chronic disease <br> Malabsorption 2º to ED <br> Menstruation',
+			mnemonic: 'TAMM -Thalassaemia -Anaemia of chronic disease -Malabsorption 2º to ED -Menstruation',
 			questions: 'What are two causes of normocytic and macrocytic anaemia?'
 		},
 		{
 			name: 'Screening for STIs',
-			description: '',
+			description: 'Roshan, 21, has appeared to his local GP practise to discuss his urinary Sx. Take a Hx and recommend an appropriate Mx plan.',
 			structure: '',
 			mnemonic: 'Sexual Hx PPPPP - Partners Practises Protection from STIs Prevention of pregnancy PHx of STIs',
 			questions: ''
@@ -693,15 +707,15 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Can\'t get it up ',
-			description: '',
+			description: 'Jiddu, 42, has been having issues with his sexual function for some years now. Take a Hx and determine the cause of his Sx.',
 			structure: 'Assess for cause; rapid-onset → performance anxiety; øspontaneous erections → vascular cause',
 			mnemonic: '',
 			questions: 'What labroratory tests would you order for this man?'
 		},
 		{
 			name: 'Fever in a returned traveller',
-			description: '',
-			structure: '',
+			description: 'Andrew, 24, has recently returned from Indonesia, and has developed a fever of 39˚. Take a Hx and determine the likely cause.',
+			structure: 'Asssociated features: N/V, diarrhoea, pain, itch, jaundice, change in P&P; drug & EtOH, tattoos / transfusions',
 			mnemonic: '',
 			questions: ''
 		},
@@ -728,7 +742,7 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Feeling exhausted',
-			description: '',
+			description: 'Naomi, 39, has been feeling severely fatigued of late. Take a Hx and recommend appropriate Ix.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
