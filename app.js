@@ -557,7 +557,7 @@ app.controller("myCtrl", function($scope) {
 		}, {
 			name: 'Fatigue',
 			description: 'Stressful life events precipitate fatigue presentations in 65% of cases. Don\'t let yourself trivialise the fatigue as psychological on this account though - the experience of it is physical.',
-			hx: 'Red flags: recent onset in well older pt, weight loss, night sweats, bleeding, SOB, unexplained lymphadenopathy, fever; PROMPt (particularly M); When did you last spend time doing nothing but relaxing?'
+			hx: 'Red flags: recent onset in well older pt, weight loss, night sweats, bleeding, SOB, unexplained lymphadenopathy, fever; PROMPt (particularly M); When did you last spend time doing nothing but relaxing?',
 			ex: 'Systems review',
 			ix: 'Recommended initial battery: urine dipstick + fingerprick BSL + FBE + TSH + ferritin +/- ESR/CRP',
 			mx: 'Delaying Ix does not ↓pt satisfaction levels; Ix for Sx w/ low pre-test probability of serious illness does not reassure or ↓pt anxiety'
