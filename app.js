@@ -175,9 +175,9 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Having trouble sleeping',
 			description: 'Binh, 42, has appeared at your GP clinic to discuss issues with her sleep. Take a Hx and recommend appropriate Ix.',
-			structure: 'BPS Hx',
-			mnemonic: '',
-			questions: ''
+			structure: 'BPS Hx, sleep cycle Hx, Ax for cause, Sx of mood / anxiety disorder',
+			mnemonic: 'Zs for ZZZs - zolpidem & zopiclone',
+			questions: 'What are the indications for benzodiazepine treatment of insomnia?'
 		},
 		{
 			name: 'Palliative care',
@@ -669,7 +669,7 @@ app.controller("myCtrl", function($scope) {
 		}, {
 			name: 'Insomnia',
 			description: 'Sx of inadequate sleep in ~40% of Australian adults; significant insomnia in 20%.',
-			hx: 'Ax severity (QOL), sleep timing + hygiene, other Sx e.g. restlessness, PMHx esp. psych',
+			hx: 'Ax severity (QOL), sleep timing + hygiene, other Sx e.g. restlessness, PMHx esp. psych, hyperthyroid Sx',
 			ex: 'Neuro for RLS, Epworth Sleepiness Scale',
 			ix: 'Clinical Dx',
 			mx: 'CBT, Sxatic relief w/ benzos, Z-drugs, exercise'
@@ -763,10 +763,10 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Osteoarthritis examination',
-			description: '',
-			structure: '',
-			mnemonic: '',
-			questions: ''
+			description: 'Kendra, 45, has been experiencing consistent pain in her knees. Perform a full examination and recommend appropriate Mx.',
+			structure: 'Look feel move, expect ↓ROM and pain in joints +/- bony enlargement w/ malalignment; DIP & PIP',
+			mnemonic: 'Painkillers, PT / OT, weight loss / replacement',
+			questions: 'What are four signs of OA on Xray?'
 		},
 		{
 			name: 'Quitting smoking',
@@ -777,10 +777,10 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Getting tired during the day',
-			description: '',
-			structure: '',
-			mnemonic: '',
-			questions: ''
+			description: 'Josiah, 41, has presented to your GP clinic to discuss his fatigue.',
+			structure: 'Snoring / daytime sleepiness (ESS) / grogginess / awaken feeling unrestored / awaken in the night gasping for air',
+			mnemonic: 'OSA -obesity -smoking -age',
+			questions: 'What treatments are available for people with Josiah\'s condition?'
 		},
 		{
 			name: 'Feeling exhausted',
