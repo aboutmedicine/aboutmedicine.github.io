@@ -999,18 +999,18 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Agoraphobia',
 			description: 'Fear of situations from which it is perceived there might be no way to escape.',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			hx: 'FHx',
+			ex: 'MSE',
+			ix: 'N/A',
+			mx: 'CBT / SSRI for initial Mx depending on pt preference, combine as required; add on benzo or if Hx of SUD pregabalin / gabapentin'
 		},
 		{
 			name: 'Anorexia nervosa',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'An ED with control as it\'s focus.',
+			hx: 'Comorbid psych Hx, FHx, gently explore r/ship to food',
+			ex: 'Vitals, inspect for parotid thickening / lanugo, BMI',
+			ix: 'Fingerprick BGL + FBE + ferritin + ',
+			mx: 'Admx w/ parenteral nutrition + care for refeeding'
 		}
 	];
 
