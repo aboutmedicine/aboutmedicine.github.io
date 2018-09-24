@@ -832,40 +832,40 @@ app.controller("myCtrl", function($scope) {
 			name: 'Schizoid personality disorder',
 			description: 'Cluster A',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Delusional disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Factitious disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Generalised anxiety disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Brief psychotic disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
@@ -880,64 +880,64 @@ app.controller("myCtrl", function($scope) {
 			name: 'Conversion disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Schizoaffective disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Somatic symptom disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Wernicke-Korsakoff syndrome',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Major depression',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Antisocial personality disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Post-traumatic stress disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Bipolar disorder',
 			description: 'Mania usually lasts 2-6 weeks.',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
@@ -952,32 +952,32 @@ app.controller("myCtrl", function($scope) {
 			name: 'Bulimia nervosa',
 			description: 'Disordered eating with an out-of-control feeling component.',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Obsessive-compulsive disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Schizotypal personality disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Social anxiety disorder',
 			description: '',
 			hx: '',
-			ex: '',
-			ix: '',
+			ex: 'MSE',
+			ix: 'N/A',
 			mx: ''
 		},
 		{
@@ -1060,19 +1060,19 @@ app.controller("myCtrl", function($scope) {
 			description: '',
 			structure: '',
 			mnemonic: '',
-			questions: ''
+			questions: 'How might depression present differently in an older person?'
 		},
 		{
 			name: 'Episodes of terror',
-			description: '',
-			structure: '',
-			mnemonic: '',
-			questions: ''
+			description: 'Seo-yun, 23, has presented to your GP clinic in tears. Take a Hx and recommend appropriate initial Mx.',
+			structure: 'ABCs, Risk Ax, BPS',
+			mnemonic: 'Panic disorder when panics cause disorder',
+			questions: 'Is it possible that Seo-yun was experiencing the Sx of a PE? Why / why not?'
 		},
 		{
 			name: 'Suicidally depressed',
-			description: '',
-			structure: '',
+			description: 'Elma, 42, has presented to the ED stating that she wishes she was dead. Take a complete Hx and recommend appropriate Mx.',
+			structure: 'Risk Ax, CPR',
 			mnemonic: 'CPR - Current plan + Past Hx of attempts + Resources for support, both internal and external',
 			questions: 'What are three dynamic RFs for suicide?'
 		},
@@ -1398,11 +1398,11 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Contraception',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: '4 major kinds: condom, pill, IUD, implant',
+			hx: 'Sexual Hx 5Ps, C.I.s including migraine, Ca, VTE, HTN; menstrual Hx',
+			ex: 'N/A',
+			ix: 'N/A',
+			mx: 'Offer based on pt request.'
 		},
 		{
 			name: 'Ovarian cancer',
