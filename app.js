@@ -830,31 +830,31 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Schizoid personality disorder',
-			description: 'Cluster A',
-			hx: '',
+			description: 'Cluster A. Characterised by detachment from social relationships & ↓emotional expression',
+			hx: '≥4 of: -no enjoyment of close r/ships -favours solitude -no interest in sex -no pleasure in most activities -no close friends -indifferent to praise or criticism -emotionally cold / detached / flattened affect',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'Be wary of ↑Ro suicide / psych comorbidity. Treat Sx as they appear'
 		},
 		{
 			name: 'Delusional disorder',
-			description: '',
-			hx: '',
+			description: 'Delusions are the only Sx.',
+			hx: 'Age of onset ~≥35, FHx, rarely leads to schizophrenia and a/w far less impairment / deterioration',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'Rx atypicals; Care re: ↑Ro psych comorbidity, possibility of other causes e.g. delirium'
 		},
 		{
 			name: 'Factitious disorder',
-			description: '',
-			hx: '',
+			description: 'Projection of physical Sx for subconscious personal gain (as opposed to malingering, which is conscious)',
+			hx: 'Extremely hard to assess',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'Just as hard to treat.'
 		},
 		{
 			name: 'Generalised anxiety disorder',
-			description: '',
+			description: 'Baseline anxiety towards all facets of life.',
 			hx: '',
 			ex: 'MSE',
 			ix: 'N/A',
@@ -862,11 +862,11 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Brief psychotic disorder',
-			description: '',
-			hx: '',
+			description: 'Psychosis that lasts longer than one day, less than one month. Beyond one month, the Dx of schizophrenia looms.',
+			hx: 'FHx, Ax triggers, Risk Ax',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'Rx atypicals, ongoing psychotherapy'
 		},
 		{
 			name: 'Borderline personality disorder',
@@ -878,59 +878,59 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Conversion disorder',
-			description: '',
-			hx: '',
-			ex: 'MSE',
+			description: 'The presence of neurological symptoms which do not correlate to observable / appreciable pathology.',
+			hx: '≥1Sx of ∆ motor / sensory function, incompatible w/ recognised conditions, causing sig. distress / impairment',
+			ex: 'MSE, neuro exam w/ attention to dermatomes vs. e.g. sensory loss',
 			ix: 'N/A',
 			mx: ''
 		},
 		{
 			name: 'Schizoaffective disorder',
-			description: '',
-			hx: '',
+			description: 'Mood changes typical of bipolar plus psychotic episodes which occur only in the context of mood disturbance.',
+			hx: 'FHx, drug & EtOH',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'Rx atypicals'
 		},
 		{
 			name: 'Somatic symptom disorder',
-			description: '',
-			hx: '',
+			description: 'The individual\'s suffering is authentic, whether or not it is medically explained.',
+			hx: '≥1 somatic Sx that causes sig. distress / impairment, and is a/w excessive thoughts, feelings or behaviours related to the Sx, duration ≥6m',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'Acknowledge that the pt is not faking their Sx - they believe in earnest that there is something seriously wrong, & this causes them +++anxiety & impairment. The suffering they inflict on themselves and others thereby, is entirely unintentional.'
 		},
 		{
 			name: 'Wernicke-Korsakoff syndrome',
-			description: '',
-			hx: '',
+			description: '↓↓thiamine causes haemorrhagic necrosis in midline brain structures, primarily causing impairment of cognition, oculomotor function & gait.',
+			hx: 'EtOH, malabsorption, poor diet, dialysis',
 			ex: 'MSE',
-			ix: 'N/A',
-			mx: ''
+			ix: 'FBE + LFTs',
+			mx: 'IV thiamine in acute setting, supplementation ongoing'
 		},
 		{
 			name: 'Major depression',
-			description: '',
-			hx: '',
+			description: '1 in 8 Australians have it, but only a third of these have access to treatment.',
+			hx: 'Over 2wks, ≥5 of -∆sleep -↓interest -↑guilt&worthlessness -↓energy -↓concentration/indecision -∆appetite/weight -↑/↓psychomotor activity -suicidal thoughts (SIG E CAPS)',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'Rx CBT +/- SSRI'
 		},
 		{
 			name: 'Antisocial personality disorder',
-			description: '',
-			hx: '',
+			description: 'Characterised by wilful disregard for the rights of others. Previously known as psychopathy / sociopathy / dyssocial personality disorder.',
+			hx: 'Since age 15 ≥3 of -repeatedly doing things that warrant arrest -deceitfulness -impulsivity -irritability/aggression -disregard for safety of self&others -irresponsibility -no remorse; must have premorbid (<15yo) Dx of CD',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'CBT doesn\'t work. Does the prison system?'
 		},
 		{
 			name: 'Post-traumatic stress disorder',
-			description: '',
-			hx: '',
+			description: 'The intense emotional response through the duration of the trauma itself has ongoing negative effects.',
+			hx: '≥1m of -hyperarousal -avoidance -re-experiencing the traumatic event -mood∆ (HARM)',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'Risk Ax, CBT, group therapy, screen for psych comorbidity combak'
 		},
 		{
 			name: 'Bipolar disorder',
