@@ -168,30 +168,30 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Patient w/ lower limb neoplastic skin lesion',
 			description: 'Abdi, 71, has noticed a lump on his leg. Take a Hx and provide an appropriate list of Ix to the examiner.',
-			structure: '',
-			mnemonic: '',
-			questions: ''
+			structure: 'Examine lesion, ?duration, change, pain, itch, Hx of same, environmental factors, smoking, FHx of cancer',
+			mnemonic: 'ABCDE helps you Dx melanoma -Asymmetry -Border irregularity -Colour (varied) -Diameter (>6mm) -Evolution, i.e. ∆ over time',
+			questions: 'Which of ABCDE is the most important to you, in accurate Dx of melanoma?'
 		},
 		{
 			name: 'Having trouble sleeping',
-			description: '',
-			structure: '',
+			description: 'Binh, 42, has appeared at your GP clinic to discuss issues with her sleep. Take a Hx and recommend appropriate Ix.',
+			structure: 'BPS Hx',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'Palliative care',
-			description: '',
-			structure: '',
+			description: 'Devena, 94, is approaching the end of her life. Her daughter, Iris, has asked to speak with you, the resident on the palliative care ward.',
+			structure: 'Optimisation of pain / N+V / constipation / dyspnoea / delirium; evaluation of ACD; discuss w/ family Sx of dying that are to be expected',
 			mnemonic: 'GMCM -glycopyrrhylate -morphine -coloxyl & senna -metoclopramide',
-			questions: ''
+			questions: 'Describe aspects of a comprehensive palliative assessment.'
 		},
 		{
 			name: 'Rushing to the toilet',
-			description: '',
-			structure: '',
-			mnemonic: '',
-			questions: ''
+			description: 'Htin, 63, has presented to your GP clinic to discuss problems with his urination. Take a Hx and recommend appropriate Mx.',
+			structure: 'Characterise severity (frequency, nocturia, dysuria, haematuria), smoking, FHx of prostate Ca',
+			mnemonic: 'Causes of haematuria are BUMSHIT -BPH -Uropathy (obstructive) -Menses -Stone -Haematological -Infection -Trauma / Tumour / TB',
+			questions: 'Should prostate cancer be regularly screened for in the community?'
 		},
 		{
 			name: 'Patient nearing death',
