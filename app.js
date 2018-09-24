@@ -162,12 +162,12 @@ app.controller("myCtrl", function($scope) {
 			name: 'Carer distress',
 			description: 'Thi\'s father burnt his forearm on a frying pan last night, while wandering around the house. She is in significant distress following this incident.',
 			structure: 'Calm, educate, Mx - supports include dementia.org.au, Dementia Australia, which has a national dementia helpline - DBMAS, local carer support groups',
-			mnemonic: '',
-			questions: ''
+			mnemonic: 'What CAUSEd the behaviour? -Communication -Activity -Unwell/unmet needs -Story -Environment -dementia',
+			questions: 'What therapies could Thi\'s father benefit from?'
 		},
 		{
 			name: 'Patient w/ lower limb neoplastic skin lesion',
-			description: '',
+			description: 'Abdi, 71, has noticed a lump on his leg. Take a Hx and provide an appropriate list of Ix to the examiner.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
@@ -183,7 +183,7 @@ app.controller("myCtrl", function($scope) {
 			name: 'Palliative care',
 			description: '',
 			structure: '',
-			mnemonic: '',
+			mnemonic: 'GMCM -glycopyrrhylate -morphine -coloxyl & senna -metoclopramide',
 			questions: ''
 		},
 		{
@@ -205,7 +205,14 @@ app.controller("myCtrl", function($scope) {
 			description: 'Jerry, 83, has had a right MCA stroke last week. Take a short Hx and deliver an appropriate Mx plan',
 			structure: 'Neuro Ax, ADLs, mobility, candidate for ASAP rehab, then AH and Rx',
 			mnemonic: 'OPQRS - OT + PT, Psych + QOL + Return to ___ + ST, SW',
-			questions: ''
+			questions: 'What are three potential sequelae of cerebrovascular events such as Jerry\'s?'
+		},
+		{
+			name: 'Legal aspects of ageing',
+			description: 'Safia, 93, is concerned that her youngest son is trying to coerce her into changing her will. Counsel her on the legalities of this process going forward.',
+			structure: 'ePOA can be awarded when judged to have decision-making capacity. If you have not awarded ePOA while you have capacity, VCAT will decide on your behalf who to award this to, or whether to vest it in a third-party administrator + guardian.',
+			mnemonic: '',
+			questions: 'Under what circumstances could Safia\'s right to award ePOA be lost?'
 		},
 		{
 			name: 'Worried about falling',
@@ -231,30 +238,30 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Falls examination',
 			description: 'Grace, 83, has a few friends that have had bad falls recently. Counsel her on her falls risk.',
-			structure: 'TUG + funcional reach + sternal push + heel \'n\' toe',
+			structure: 'TUG + funcional reach + sternal push + heel \'n\' toe + stand on one leg',
 			mnemonic: 'Falls are from feet and fear',
-			questions: 'What factors lead to a decrease in lifestyle independence in older people?'
+			questions: 'What factors lead to a decrease in independence in older people?'
 		},
 		{
 			name: 'Rehab medicine',
-			description: '',
-			structure: '',
-			mnemonic: '',
+			description: 'Returning a person to optimal function, in every domain of life.',
+			structure: 'Ax for suitability: -cognition -motivation -capacity; assign appropriate AH + work as MDT; Mx Sx appropriately, avoid iatrogenic injury',
+			mnemonic: 'OPQRS - OT, PT / psych, QOL, Return to ___, SP / SW',
 			questions: ''
 		},
 		{
 			name: 'In tremendous pain',
-			description: '',
+			description: 'Saul, 62, has recently been diagnosed with osteoarthritis. Counsel him on his options for pain relief.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
-			name: 'Differentiating dementia from delirium',
-			description: '',
-			structure: '',
-			mnemonic: '',
-			questions: ''
+			name: '3D Differentiation',
+			description: 'I found this the most persistently challenging aspect of my aged care rotation.',
+			structure: 'Chronological - Sx (now), causes (preceding), RF (in the past)',
+			mnemonic: 'Of Course Many Alternate (meaning there is plenty of overlap!) -Onset -Course -Memory / Mood -Attention / Alertness',
+			questions: 'What could make you think the most appropriate diagnosis is dementia / depresion / delirium?'
 		},
 
 	];
@@ -317,6 +324,13 @@ app.controller("myCtrl", function($scope) {
 			ix: 'Excisional Bx for melanoma, shave or punch for other',
 			mx: 'Usu wide local excision; topical e.g. imiquimod for superficial SCC'
 		}, {
+			name: 'Trichomoniasis',
+			description: 'Trichomonas vaginalis is a protozoa, with a little flagella, and causes more infection than any other protozoa in developed countries.',
+			hx: 'Frothy, musty-smelling discharge, pain; Women are symptomatic, men are asymptomatic.',
+			ex: 'Genital examination',
+			ix: 'Women: NAAT HVS or FPU; Men: NAAT FPU',
+			mx: 'Met 2g + tinid 2g PO stat'
+		},  {
 			name: 'Atrial Fibrillation',
 			description: 'Cooked circuitry leads to rapid atrial contraction and subsequent ventricular arrhythmia',
 			hx: 'Palpitations + SOB + fatigue + angina + fainting + dizziness',
@@ -352,6 +366,13 @@ app.controller("myCtrl", function($scope) {
 			ix: 'Xray',
 			mx: 'Supportive w/ encouragement of gentle exercise, until surgery (joint replacement), with careful deliberation.'
 		}, {
+			name: 'Mycoplasma genitalium',
+			description: 'Mgen lives on ciliated epithelial cells in the urogenital tract. It was only discovered in 1981, and has the smallest genome of any self-replicating organism that we know of.',
+			hx: 'Resembles chlamydia; most often asymptomatic',
+			ex: 'Genital examination +/- spec',
+			ix: 'Women: NAAT endocervical / self-collected vaginal swab if more comfortable; Men: NAAT FPU',
+			mx: 'Most are macrolide-resistant these days, so doxy 100 BD 7d then moxi 400 OD 7d.'
+		}, {
 			name: 'Asthma',
 			description: 'Reversible airway obstruction with long-term remodelling',
 			hx: 'Assess severity (Rx, admx, QOL) + triggers + current Mx',
@@ -380,6 +401,13 @@ app.controller("myCtrl", function($scope) {
 			ix: 'ECG, FBE + CRP + lipase',
 			mx: 'Depends on cause'
 		}, {
+			name: 'Gonorrhoea',
+			description: 'Neisseria gonorrhoeae is a gram-negative diplococcus that lives mainly in neutrophils.',
+			hx: 'Discharge, pain with urination or intercourse; 80% of women but only 15% of men are asymptomatic',
+			ex: 'Genital examination, joints for reactive arthritis',
+			ix: 'Women: NAAT endocervical / self-collected vaginal swab if more comfortable; Men: NAAT FPU',
+			mx: 'Azithro 1g PO + Cef 500 IM stat'
+		}, {
 			name: 'Back Pain',
 			description: 'Imagine the pain across the spectrum of age. How would your thoughts change?',
 			hx: 'Characterise pain, precipitant, presence of red flags: fever, LL weakness / ↓sensation / tingling, B&B, underlying medical condition, Rx',
@@ -400,6 +428,13 @@ app.controller("myCtrl", function($scope) {
 			ex: 'Ongoing CV',
 			ix: 'HbA1c',
 			mx: 'Individualise insulin regime'
+		}, {
+			name: 'Chlamydia',
+			description: 'Chlamydia trachomatis is an obligate intracellular Gram-negative bacteria, which is also responsible for the disease known as trachoma.',
+			hx: 'Itch, discharge, pain; most often asymptomatic',
+			ex: 'Genital examination, joints for reactive arthritis',
+			ix: 'Women: NAAT endocervical / vaginal swab; Men: NAAT FPU',
+			mx: 'Azithro 1g stat -or- doxy 100 BD 7d'
 		}, {
 			name: 'Non-specific Headache',
 			description: 'What are the red flags?',
@@ -590,6 +625,13 @@ app.controller("myCtrl", function($scope) {
 			ix: 'Mammogram 2-yearly from age 50-74',
 			mx: 'r/f for family Ca clinic / oncology if higher risk (≥1 1˚ relative), possible genetic testing, C. mastectomy / salpingo-oophorectomy if +++risk'
 		}, {
+			name: 'Fever in a returned traveller',
+			description: 'Overdiagnosis is rampant, so be alert but øalarmed',
+			hx: 'Is it systemic systemic febrile illness (malaria, dengue, typhoid)? Is it acute diarrhoea? Or is it respiratory? Incl. vaccination status, crosscheck travel destinations with online exposure map, co-travellers affected',
+			ex: 'Liver, lymph nodes, spleen',
+			ix: 'FBE + LFTs + thick&thin malaria films +/- stool culture, serology',
+			mx: 'R/f to ED if no clear Dx made'
+		}, {
 			name: 'Acute Abdomen',
 			description: 'Peritonitis usu = perforation',
 			hx: 'Ax severity, duration, N/V, bowel movements, eating & drinking',
@@ -694,9 +736,9 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Screening for STIs',
 			description: 'Roshan, 21, has appeared to his local GP practise to discuss his urinary Sx. Take a Hx and recommend an appropriate Mx plan.',
-			structure: '',
+			structure: 'Assess Sx: discharge, itch, pain, blood in urine, pain on urination, painless sore (chancre); Differentiate from UTI: fever, frequency; Screening info: MSM -syph -chlamyd -gono -HIV -Hep ABC at least annually. Pregnant women -HIV -syph -chlamyd -Hep B is standard AN screen.',
 			mnemonic: 'Sexual Hx PPPPP - Partners Practises Protection from STIs Prevention of pregnancy PHx of STIs',
-			questions: ''
+			questions: 'What investigations would you like to order for this young man?'
 		},
 		{
 			name: 'Starting warfarin',
@@ -709,15 +751,15 @@ app.controller("myCtrl", function($scope) {
 			name: 'Can\'t get it up ',
 			description: 'Jiddu, 42, has been having issues with his sexual function for some years now. Take a Hx and determine the cause of his Sx.',
 			structure: 'Assess for cause; rapid-onset → performance anxiety; øspontaneous erections → vascular cause',
-			mnemonic: '',
-			questions: 'What labroratory tests would you order for this man?'
+			mnemonic: '3 causes of male sexual dysfunction: PEED ↓libid',
+			questions: 'What laboratory tests would you order for this man?'
 		},
 		{
 			name: 'Fever in a returned traveller',
 			description: 'Andrew, 24, has recently returned from Indonesia, and has developed a fever of 39˚. Take a Hx and determine the likely cause.',
 			structure: 'Asssociated features: N/V, diarrhoea, pain, itch, jaundice, change in P&P; drug & EtOH, tattoos / transfusions',
-			mnemonic: '',
-			questions: ''
+			mnemonic: 'The big ones: MDT Hep ABC',
+			questions: 'What is the most likely diagnosis?'
 		},
 		{
 			name: 'Osteoarthritis examination',
@@ -728,10 +770,10 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Quitting smoking',
-			description: '',
+			description: 'Oscar, 53, is a long-term smoker who has decided at last to quit. Counsel him on his options.',
 			structure: 'Non-pharm: MI, hypnotherapy, CBT; Pharm: varenicline',
-			mnemonic: '',
-			questions: ''
+			mnemonic: 'EDRS: employ empathy, deploy discrepancy, roll with resistance, support self-efficacy',
+			questions: 'What are the common ADEs of varenicline?'
 		},
 		{
 			name: 'Getting tired during the day',
@@ -743,7 +785,7 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Feeling exhausted',
 			description: 'Naomi, 39, has been feeling severely fatigued of late. Take a Hx and recommend appropriate Ix.',
-			structure: '',
+			structure: 'Recent stressors',
 			mnemonic: '',
 			questions: ''
 		},
@@ -764,27 +806,27 @@ app.controller("myCtrl", function($scope) {
 
 	$scope.mhconditions = [{
 			name: 'Schizophrenia',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Affects 0.86% of the population, considered one of the most devastating diagnoses to receive.',
+			hx: '2 of these for 1 month: -hallucinations -delusions -negative Sx -disordered speech -catatonia / other markedly abnormal behaviour. One of the 1st 3 must be present; continuous signs of disturbance must persist or have persisted for 6m. Often Dxd w/ \'premorbid schizotypal PD\'',
+			ex: 'MSE',
+			ix: 'Gene testing someday',
+			mx: 'Maintentance atypicals, for at least 12m from Dx. ↓insight is common and the most powerful indicator of adherence to treatment.'
 		},
 		{
 			name: 'Dependent personality disorder',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'Cluster C. Characterised by inability to take responsibility for life due to fear. Described in DSM as a pattern of \'submissive and clinging behaviour\'.',
+			hx: '≥5 of -difficulty making everyday decisions / -expressing disagreement / -initiating projects -requires others to assume responsibility for life -desperate for nurturance -uncomfortable or helpless when alone -urgently seeks close r/ship as source of care when another ends -unrealistically preoccupied w/ fears of being alone w/ responsibility',
+			ex: 'MSE',
+			ix: 'N/A',
+			mx: 'CBT +/- Rx for comorbidity'
 		},
 		{
 			name: 'Substance dependence',
-			description: '',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			description: 'If a person takes enough of a substance to cause clinically significant distress or impaired functioning, they qualify for this Dx.',
+			hx: 'There are many quantifiers of severity in the DSM. In summary, addiction is \'compulsive, continued and w/ consequences\'. Always consider as a comorbidity to other psych conditions.',
+			ex: 'MSE, urine screening (w/ C.n of time span between ingestion and detection)',
+			ix: 'Drug tox screen + EtOH levels',
+			mx: 'MI, group therapy, disulfiram, thiamine'
 		},
 		{
 			name: 'Schizoid personality disorder',
@@ -1079,7 +1121,7 @@ app.controller("myCtrl", function($scope) {
 			description: 'No cause identified in ~50%.',
 			hx: 'Chromosomal abnormalities, smoking',
 			ex: 'Spec',
-			ix: 'Anti-Mullerian hormone, APSL screen',
+			ix: 'Anti-Mullerian hormone, APSL screen, mycoplasma NAAT endocervical / vaginal swab',
 			mx: 'As much reassurance as possible - it\'s a hard road.'
 		},
 		{
