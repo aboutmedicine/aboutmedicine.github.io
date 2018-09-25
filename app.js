@@ -2051,11 +2051,25 @@ app.controller("myCtrl", function($scope) {
 
 
 	$scope.cahosce = [{
+			name: 'General principles',
+			description: '1. Are they well or unwell? 2. Is their growth appropriate for their age? 3. Is their behaviour / development appropriate for their age?',
+			structure: 'HoPC - PHx - growth, diet - development - behaviour - FHx / SHx - Rx - allergies',
+			mnemonic: '',
+			questions: ''
+		},
+		{
 			name: 'The well child visit',
 			description: '',
 			structure: '',
 			mnemonic: '',
 			questions: ''
+		},
+		{
+			name: 'Neurodevelopment examination',
+			description: '',
+			structure: '',
+			mnemonic: '',
+			questions: 'What are two causes of transient developmental regression?'
 		},
 		{
 			name: 'The seriously unwell child',
@@ -2129,9 +2143,9 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'GI examination',
-			description: '',
-			structure: '',
-			mnemonic: '',
+			description: 'Lily has been diagnosed with a urinary tract infection. Please perform a full gastrointestinal examination, and present your findings to the examiner.',
+			structure: 'Rapport; Inspection; GDB; Vitals; Fluid charts; Hydration status; Palpate tummy carefully; ?percuss, ?liver&spleen (these are not mentioned in the official CAH guide)',
+			mnemonic: 'GI and hydration go hand in hand.',
 			questions: ''
 		},
 		{
