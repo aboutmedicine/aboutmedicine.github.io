@@ -743,9 +743,9 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Starting warfarin',
 			description: 'Rarer these days, but still could be assessed.',
-			structure: '',
-			mnemonic: '',
-			questions: ''
+			structure: 'Relevant C.I.: recent bleed, tendency to bleed, liver failure, øaccess to pathology for repeat INR',
+			mnemonic: 'BRAIN -Benefits -Risks -Alternatives -Incidental consequences -Nothing (what will happen if we don\'t)',
+			questions: 'What are the three most common indications for warfarin therapy?'
 		},
 		{
 			name: 'Can\'t get it up ',
@@ -785,9 +785,9 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Feeling exhausted',
 			description: 'Naomi, 39, has been feeling severely fatigued of late. Take a Hx and recommend appropriate Ix.',
-			structure: 'Recent stressors',
-			mnemonic: '',
-			questions: ''
+			structure: 'Recent stressors, Ca screen',
+			mnemonic: 'If the Hx is vague, use PROMPt',
+			questions: 'What screening tests are most likely to yield useful clinical information in evaluation of fatigue?'
 		},
 	];
 
@@ -830,7 +830,7 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Schizoid personality disorder',
-			description: 'Cluster A. Characterised by detachment from social relationships & ↓emotional expression',
+			description: 'Cluster A. Characterised by detachment from social relationships & ↓emotional expression. Think cold, aloof, distrustful and solitary.',
 			hx: '≥4 of: -no enjoyment of close r/ships -favours solitude -no interest in sex -no pleasure in most activities -no close friends -indifferent to praise or criticism -emotionally cold / detached / flattened affect',
 			ex: 'MSE',
 			ix: 'N/A',
@@ -855,10 +855,10 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Generalised anxiety disorder',
 			description: 'Baseline anxiety towards all facets of life.',
-			hx: '',
+			hx: 'Excessive anxiety & worry, about a variety of things, on majority of days for ≥6m + ≥3 of -restlessness -easily fatigued -difficulty concentrating / \'mind going blank\' -irritability -muscle tension -sleep disturbance',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'CBT +/- SSRI'
 		},
 		{
 			name: 'Brief psychotic disorder',
@@ -935,50 +935,50 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Bipolar disorder',
 			description: 'Mania usually lasts 2-6 weeks.',
-			hx: '',
+			hx: 'Episodes of major depression + episodes of mania (elevated / expansive / euphoric mood + ↑goal-directed activity +/- pressured speech). Can be Dx solely on mania ≥1wk or requiring hospitalisation',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'Sodium valproate / lithium plus atypical for acute mania, group therapy + lithium / valproate for maintenance'
 		},
 		{
 			name: 'Panic disorder',
 			description: 'The presence of panic attacks plus deleterious effects of avoidance / anxiety because of these attacks.',
-			hx: '',
-			ex: '',
-			ix: '',
-			mx: ''
+			hx: 'Sense of foreboding',
+			ex: 'MSE; tachycardia, diaphoresis, SOB, chest pain',
+			ix: 'N/A',
+			mx: 'CBT +/- SSRI +/- benzo PRN'
 		},
 		{
 			name: 'Bulimia nervosa',
 			description: 'Disordered eating with an out-of-control feeling component.',
-			hx: '',
+			hx: '≥3m: -recurrent episodes of binge eating -sense of lack of control during episodes -compensatory behaviour -self-evaluation ++influenced by body weight and shape',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'CBT +/- SSRI, care for relapse'
 		},
 		{
 			name: 'Obsessive-compulsive disorder',
-			description: '',
-			hx: '',
+			description: 'There\'s a stereotype going around that this is the \'typical med student\'. Make of that what you will!',
+			hx: 'Presence of obsessions (repetitive, stereotyped, egodystonic thoughts) and/or compulsions (repetitive, stereotyped behaviours or mental acts that if not carried out inevitably cause anxiety; the actions are logical in that they are enacted to prevent some future occurrence, however likely it may be)',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'CBT +/- SSRI'
 		},
 		{
 			name: 'Schizotypal personality disorder',
-			description: '',
-			hx: '',
+			description: 'Cluster A. The main difference between this and schizoid is the presence of eccentric thinking.',
+			hx: '≥5 of -IoR -magical thinking -unusual perceptual experiences -odd thinking & speech -↓affect -↓close relationships -chronic social anxiety related to paranoid fears r/t negative self-judgment',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'Psychotherapy + Rx which targets specific Sx (atypicals)'
 		},
 		{
 			name: 'Social anxiety disorder',
-			description: '',
-			hx: '',
+			description: 'What it says on the package.',
+			hx: '≥6m of marked fear or anxiety about social situations + fear of being negatively evaluated e.g. rejection + social situations in general almost always provoke fear or anxiety',
 			ex: 'MSE',
 			ix: 'N/A',
-			mx: ''
+			mx: 'CBT +/- SSRI'
 		},
 		{
 			name: 'Body dysmorphic disorder',
@@ -999,7 +999,7 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Agoraphobia',
 			description: 'Fear of situations from which it is perceived there might be no way to escape.',
-			hx: 'FHx',
+			hx: 'Concomitant presence of panic attacks, FHx',
 			ex: 'MSE',
 			ix: 'N/A',
 			mx: 'CBT / SSRI for initial Mx depending on pt preference, combine as required; add on benzo or if Hx of SUD pregabalin / gabapentin'
@@ -1009,7 +1009,7 @@ app.controller("myCtrl", function($scope) {
 			description: 'An ED with control as it\'s focus.',
 			hx: 'Comorbid psych Hx, FHx, gently explore r/ship to food',
 			ex: 'Vitals, inspect for parotid thickening / lanugo, BMI',
-			ix: 'Fingerprick BGL + FBE + ferritin + ',
+			ix: 'Fingerprick BGL + FBE + ferritin + TFTs',
 			mx: 'Admx w/ parenteral nutrition + care for refeeding'
 		}
 	];
@@ -1029,35 +1029,35 @@ app.controller("myCtrl", function($scope) {
 
 	$scope.mhosce = [{
 			name: 'Social withdrawal',
-			description: '',
+			description: 'Haley, 27, has been asked to see you by his mother, who is concerned that he is becoming increasingly isolated.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'Disordered eating',
-			description: '',
+			description: 'You are seeing Samadhi, 23, on day three of her admission for severe malnutrition and underweight. Take a Hx, perform a risk Ax and recommend an appropriate Mx plan.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'Alcoholism',
-			description: '',
+			description: 'You are seeing Nour, 42, referred from her GP for alcohol addiction. Take a Hx and recommend an appropriate Mx plan.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'First manic episode',
-			description: '',
+			description: 'You are seeing Marley, 42, an inpatient in the adult psychatric ward. Take a Hx and develop a Mx plan.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'Depression in an elderly man',
-			description: '',
+			description: 'Manuel, 83, has presented to your GP clinic to discuss worsening stomach pain. Take a full psychosocial Hx and discuss appropriate Ix with the examiner.',
 			structure: '',
 			mnemonic: '',
 			questions: 'How might depression present differently in an older person?'
@@ -1500,14 +1500,14 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Hormonal contraception',
-			description: '',
+			description: 'Nadege, 23, has presented to your GP clinic for discussion regarding contraception. Counsel her on her options.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'Pregnant woman with headache',
-			description: '',
+			description: 'You have been called to see Nabila, a 38yo 36wk primipara who has developed a severe headache. Take a Hx and recommend an appropriate set of Ix.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
@@ -1521,34 +1521,35 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Treatment of FTP',
-			description: '',
+			description: 'Sienna, 23, is a primip in her 10th hour of labour. Her cervix has dilated to 3cm. Take a Hx and recommend appropriate Mx.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'The pill',
-			description: '',
+			description: 'Karli, 29, presents to your GP clinic requesting the pill. Take a Hx and describe your Mx plan to the examiner.',
 			structure: '',
 			mnemonic: '',
+			questions: ''
 		},
 		{
 			name: 'Fundus less than dates',
-			description: '',
+			description: 'You are seeing Bopha, a 30yo G3P1 who is 29 weeks pregnant. Take a short Hx and perform an obstetric abdominal examination.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'Emergency contraception',
-			description: '',
+			description: 'Fatima, 21, presents to your GP clinic asking for the morning after pill. Counsel her on her options.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'Pelvic pain that just never goes away',
-			description: '',
+			description: 'Akong, 29, wishes to discuss her long-standing pain issues. Take a Hx and recommend appropriate Ix.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
@@ -1569,7 +1570,7 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'PPH',
-			description: '',
+			description: 'You have been called by a midwife to see Oksana, 23, who has just given birth to twins. Mx the situation appropriately.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
@@ -1583,21 +1584,21 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Postnatal depression',
-			description: '',
+			description: 'Ilona is a 31yo lady who two weeks prior gave birth to her second child. She presents now hoping to discuss her sleep patterns. Take a Hx and recommend an appropriate Mx plan.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'Blood sugar',
-			description: '',
+			description: 'You are seeing Diana, 31, in Maternal Fetal Medicine clinic in order to discuss the medical complications to her pregnancy. Discuss her results and recommend appropriate Mx.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'Early bleeding in pregnancy',
-			description: '',
+			description: 'Mariana, 26, is 20 weeks pregnant with her first child. She presents to the ED having found blood in her underwear. Take a Hx and recommend appropriate Mx.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
@@ -2060,14 +2061,14 @@ app.controller("myCtrl", function($scope) {
 
 	$scope.cahosce = [{
 			name: 'General principles',
-			description: '1. Are they well or unwell? 2. Is their growth appropriate for their age? 3. Is their behaviour / development appropriate for their age?',
+			description: '',
 			structure: 'HoPC - PHx - growth, diet - development - behaviour - FHx / SHx - Rx - allergies',
-			mnemonic: '',
-			questions: ''
+			mnemonic: 'The three questions for every paed case: 1. Are they well or unwell? 2. Is their growth appropriate for their age? 3. Is their behaviour / development appropriate for their age?',
+			questions: 'What developmental milestones would you expect a 6mo child to have achieved?'
 		},
 		{
 			name: 'The well child visit',
-			description: '',
+			description: 'Kostya is a 2yo child presenting to your GP clinic with his parents for a general checkup. Take a Hx and discuss with the examiner your findings.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
@@ -2081,14 +2082,14 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'The seriously unwell child',
-			description: 'What do we need to rule out?',
+			description: 'You are seeing Nam, age 3 months, in ED. She is tachycardic, febrile and short of breath. Mx her condition and recommend appropriate Ix.',
 			structure: 'Feeding, colour, CRT',
 			mnemonic: '',
-			questions: ''
+			questions: 'Which conditions do you think were most important to rule out in this child?'
 		},
 		{
 			name: 'The child with seizures',
-			description: '',
+			description: 'Mai, age 10, has been admitted to the paediatric ward for observation following a seizure in ED. Take a Hx from Mai\'s father and recommend initial Ix.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
@@ -2102,21 +2103,21 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'The child with headache',
-			description: '',
+			description: 'Fai, age 5, stayed home from school today because of a severe headache. Take a Hx from Fai\'s mother and recommend appropriate Mx.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'The child with cough',
-			description: '~40% is PBB',
+			description: '~40% is PBB (protracted bacterial bronchitis)',
 			structure: 'Nature of cough crucial; ?Underlying cause: CF / PCD / immunodef. / foreign body / TB',
 			mnemonic: '',
 			questions: ''
 		},
 		{
 			name: 'The child with rash',
-			description: '',
+			description: 'Anna, age 1, has been brought in by her father who is concerned about a rash that has developed on her lower limbs. Inspect the rash, take a thorough Hx from Anna\'s father, and recommend appropriate initial Mx.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
@@ -2158,7 +2159,7 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Anxiety',
-			description: '',
+			description: 'Joanne is concerned that her daughter Sonia, age 10, is experiencing breathing difficulties at home. She has sent Sonia alone to your GP clinic. Take a thorough Hx and recommend appropriate Mx.',
 			structure: '',
 			mnemonic: '',
 			questions: ''
@@ -2200,7 +2201,7 @@ app.controller("myCtrl", function($scope) {
 		},
 		{
 			name: 'Respiratory examination',
-			description: '',
+			description: 'Jelena, age 2, has been brought in to ED by her mother, who is concerned that she is unwell. Take a short Hx and perform an appropriate examination.',
 			structure: '+Abdo palp.n, ENT',
 			mnemonic: '',
 			questions: ''
