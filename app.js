@@ -131,9 +131,9 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Delirium',
 			description: 'The pathophys is still poorly understood, and the Dx is still often missed.',
-			hx: 'Determine presence of predisposing (sensory impairment + dehydration + old age + depression + dementia) and precipitating (Rx change / polyRx / change of environment e.g. hospital admx / constipation / ) factors.',
-			ex: 'CAM - acute onset & fluctuating course, disorganised speech and/or behaviour, inattention, altered conscious state; other cognitive testing (SMMSE, RUDAS, MOCA)',
-			ix: 'Urine MCS, FBE + UEC + CRP',
+			hx: 'Determine presence of predisposing (sensory impairment + dehydration + old age + depression + dementia (collateral Hx of cognitive decline useful)) and precipitating (Rx change / polyRx / change of environment e.g. hospital admx / constipation) factors.',
+			ex: 'Vitals; CAM - acute onset & fluctuating course, disorganised speech and/or behaviour, inattention, altered conscious state; other cognitive testing (SMMSE, RUDAS, MOCA)',
+			ix: 'Urine MCS, FBE + UEC + CRP + BSL',
 			mx: 'Remove trigger, halo'
 		},
 	];
@@ -196,9 +196,9 @@ app.controller("myCtrl", function($scope) {
 		{
 			name: 'Patient nearing death',
 			description: 'Kelechi, 91, has terminal pancreatic cancer. He is hoping to discuss issues related to death.',
-			structure: 'EPOA - who can do it, what does it mean, who needs a copy, what decisions can be made',
-			mnemonic: '',
-			questions: ''
+			structure: 'ePOA - who can do it, what does it mean, who needs a copy, what decisions can be made',
+			mnemonic: '>18 and decision-making capacity = can make an ePOA; ePOA ømake medical decisions, that requires MTDM',
+			questions: 'What can a person award ePOA decision-making power over? Before whom must the ePOA be signed?'
 		},
 		{
 			name: 'Post stroke rehabilitation',
@@ -211,7 +211,7 @@ app.controller("myCtrl", function($scope) {
 			name: 'Legal aspects of ageing',
 			description: 'Safia, 93, is concerned that her youngest son is trying to coerce her into changing her will. Counsel her on the legalities of this process going forward.',
 			structure: 'ePOA can be awarded when judged to have decision-making capacity. If you have not awarded ePOA while you have capacity, VCAT will decide on your behalf who to award this to, or whether to vest it in a third-party administrator + guardian.',
-			mnemonic: '',
+			mnemonic: 'Emergency - Capacity - Directive - Decision-maker - Significance: If = no, move to next category, and if Significance = yes, contact Public Advocate (see OPA flowchart for more info)',
 			questions: 'Under what circumstances could Safia\'s right to award ePOA be lost?'
 		},
 		{
@@ -232,8 +232,8 @@ app.controller("myCtrl", function($scope) {
 			name: 'Differentiating delirium from BPSD',
 			description: 'Jenny is a nurse on your ward. She is concerned about the behaviour of one of her patients. Counsel her.',
 			structure: 'Onset, style of behaviours, conscious state',
-			mnemonic: '',
-			questions: ''
+			mnemonic: 'CAM: -Acute onset & fluctuating course -Inattention -Disorganised thought / behaviour -Altered level of consciousness',
+			questions: 'How many points are required on the CAM for a Dx of delirium? What are three Ix you would order to confirm this Dx?'
 		},
 		{
 			name: 'Falls examination',
@@ -247,14 +247,14 @@ app.controller("myCtrl", function($scope) {
 			description: 'Returning a person to optimal function, in every domain of life.',
 			structure: 'Ax for suitability: -cognition -motivation -capacity; assign appropriate AH + work as MDT; Mx Sx appropriately, avoid iatrogenic injury',
 			mnemonic: 'OPQRS - OT, PT / psych, QOL, Return to ___, SP / SW',
-			questions: ''
+			questions: 'What is one major C.I. for an older person to be involved in an exercise programme?'
 		},
 		{
 			name: 'In tremendous pain',
 			description: 'Saul, 62, has recently been diagnosed with osteoarthritis. Counsel him on his options for pain relief.',
-			structure: '',
-			mnemonic: '',
-			questions: ''
+			structure: 'Characterise pain, time course, MHx, FHx, Rx, allergies, SNAP, then run through Mx options - supportive therapy, simple analgesia, PT, joint replacement',
+			mnemonic: 'Opioids only in short course',
+			questions: 'What would you expect you expect to find in a synovial fluid aspirate from an osteoarthritic joint?'
 		},
 		{
 			name: '3D Differentiation',
@@ -1572,6 +1572,14 @@ app.controller("myCtrl", function($scope) {
 			description: '',
 			structure: '',
 			mnemonic: '',
+			questions: ''
+		},
+		{
+			name: 'So much bleeding',
+			description: 'Saanvi, 28, has noticed her periods are longer and produce more blood. Take a Hx and recommend appropriate Mx.',
+			structure: '',
+			mnemonic: 'PALM COEIN',
+			questions: ''
 		},
 		{
 			name: 'Postnatal depression',
