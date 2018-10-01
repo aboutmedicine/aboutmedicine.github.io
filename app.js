@@ -11,7 +11,7 @@ app.controller("myCtrl", function ($scope) {
     $scope.acconditions = [{
             name: 'Falls',
             description: '3% of all >65yo patient IP stays are due to falls; 30% of ≥65yo and 50% of ≥80yo have had a fall in the previous year.',
-            hx: 'Where / when / why, injury sustained, Hx of falls -frequency in past 12m, gait and balance disorders, sensory impairment, MSK issues, CVS, Rx',
+            hx: 'Where / when / why, injury sustained, Hx of falls -frequency in past 12m, ?gait and balance disorders, sensory impairment, MSK issues, CVS, Rx, incontinence',
             ex: 'Relevant neuro; falls testing: TUG + Romberg\'s + functional reach + sternal push, heel-to-toe; CV',
             ix: 'X-ray if ?#, urine MCS if confused, CTB / MRI if headstrike',
             mx: 'Rehabilitation programme w/ OT input, remediation of RFs'
@@ -183,7 +183,7 @@ app.controller("myCtrl", function ($scope) {
             name: 'Palliative care',
             description: 'Devena, 94, is approaching the end of her life. Her daughter, Iris, has asked to speak with you, the resident on the palliative care ward.',
             structure: 'Optimisation of pain / N+V / constipation / dyspnoea / delirium; evaluation of ACD; discuss w/ family Sx of dying that are to be expected',
-            mnemonic: 'GMCM -glycopyrrhylate -morphine -coloxyl & senna -metoclopramide',
+            mnemonic: 'TripleM G -morphine -midazolam -metoclopramide -glycopyrrhylate',
             questions: 'Describe aspects of a comprehensive palliative assessment.'
 		},
         {
@@ -911,7 +911,7 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Major depression',
             description: '1 in 8 Australians have it, but only a third of these have access to treatment.',
-            hx: 'Over 2wks, ≥5 of -∆sleep -↓interest -↑guilt&worthlessness -↓energy -↓concentration/indecision -∆appetite/weight -↑/↓psychomotor activity -suicidal thoughts (SIG E CAPS)',
+            hx: 'Over 2wks, ≥5 of -↓mood -∆sleep -↓interest -↑guilt&worthlessness -↓energy -↓concentration/indecision -∆appetite/weight -↑/↓psychomotor activity -suicidal thoughts (SIG E CAPS)',
             ex: 'MSE',
             ix: 'N/A',
             mx: 'Rx CBT +/- SSRI'
@@ -1345,7 +1345,7 @@ app.controller("myCtrl", function ($scope) {
             hx: 'Hirsutism, acne, weight gain, ↓libido, oligomenorrhoea, acanthosis nigricans',
             ex: 'BMI',
             ix: 'TVUS + FSH&LH + TFTs + prolactin (extended Ax of oligomenorrhoea causes)',
-            mx: 'Lifestyle, metformin, hormonal contraception (esp. OCP), clomiphene citrate'
+            mx: 'Lifestyle, then clomiphene citrate, then metformin, +/- hormonal contraception (esp. OCP)'
 		},
         {
             name: 'Menopause',
@@ -1433,7 +1433,7 @@ app.controller("myCtrl", function ($scope) {
             hx: 'DM, obesity, gestation',
             ex: 'N/A',
             ix: 'US AC >35cm',
-            mx: '↑Ro fetal and maternal injury at birth, shoulder dystocia'
+            mx: '↑Ro fetal and maternal injury at birth, shoulder dystocia, hypoglycaemia & NRDS'
 		},
         {
             name: 'IUGR',
@@ -1508,14 +1508,14 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Hormonal contraception',
             description: 'Nadege, 23, has presented to your GP clinic for discussion regarding contraception. Counsel her on her options.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'Sexual Hx, menstrual Hx, ask about preferences, discuss options - COCP, POP, implanon, mirena',
+            mnemonic: 'For each method, EAT -Explain how it works and how to take it -ADEs / side effects -Talk through pros & cons',
+            questions: 'What are three contraindications for progesterone implants?'
 		},
         {
             name: 'Pregnant woman with headache',
             description: 'You have been called to see Nabila, a 38yo 36wk primipara who has developed a severe headache. Take a Hx and recommend an appropriate set of Ix.',
-            structure: '',
+            structure: 'Vitals, Ax Sx (visual disturbance, swelling, pain elsewhere), RFs',
             mnemonic: '',
             questions: ''
 		},
@@ -1523,7 +1523,7 @@ app.controller("myCtrl", function ($scope) {
             name: 'Postpartum fever',
             description: 'Latika is 24hrs post-CS and has developed a fever of 38˚C. Take a Hx and recommend appropriate Mx.',
             structure: 'What type of CS, and why? (classical = highest Ro rupture)',
-            mnemonic: '',
+            mnemonic: 'Loci of infection: WWWWWW -Wind -Water -Wound -Womb -Walking -Weaning',
             questions: 'What is the most common cause of puerperal fever?'
 		},
         {
@@ -1578,9 +1578,9 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'PPH',
             description: 'You have been called by a midwife to see Oksana, 23, who has just given birth to twins. Mx the situation appropriately.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: '10IU synt IM +/- ergot / carboprost, ABC, vitals, fundal rub, IV access, FBE + G&H + coags, to theatre for B-Lynch suture / hysterectomy',
+            mnemonic: 'Standard ObsRFs plus ChAMPP: -chorio -anaemia -macrosomia -PET -prolonged 1SL',
+            questions: 'What are five major risk factors for PPH?'
 		},
         {
             name: 'So much bleeding',
@@ -1600,7 +1600,7 @@ app.controller("myCtrl", function ($scope) {
             name: 'Blood sugar',
             description: 'You are seeing Diana, 31, in Maternal Fetal Medicine clinic in order to discuss the medical complications to her pregnancy. Discuss her results and recommend appropriate Mx.',
             structure: '',
-            mnemonic: '',
+            mnemonic: 'Pre-pregnancy DM confers ↑Ro PET, polyhydramnios, infection (UTI / chorio)',
             questions: ''
 		},
         {
@@ -2068,7 +2068,7 @@ app.controller("myCtrl", function ($scope) {
 
     $scope.cahosce = [{
             name: 'General principles',
-            description: '',
+            description: 'Neonate <28d, Infant <1y, Toddler <3y, Pre-schooler <5y, School age <12y, Adolescent >12y',
             structure: 'HoPC - PHx - growth, diet - development - behaviour - FHx / SHx - Rx - allergies',
             mnemonic: 'The three questions for every paed case: 1. Are they well or unwell? 2. Is their growth appropriate for their age? 3. Is their behaviour / development appropriate for their age?',
             questions: 'What developmental milestones would you expect a 6mo child to have achieved?'
@@ -2076,35 +2076,35 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'The well child visit',
             description: 'Kostya is a 2yo child presenting to your GP clinic with his parents for a general checkup. Take a Hx and discuss with the examiner your findings.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'Parent perception',
+            mnemonic: 'BFGD -Birth -Feeding -Growth -Development',
+            questions: 'What are two developmental milestones you would expect this child to have achieved by 9 months of age?'
 		},
         {
             name: 'Neurodevelopment examination',
-            description: '',
-            structure: '',
-            mnemonic: '',
+            description: 'Yolanda, age 6, has been brought in to see you by her father, who is concerned about her speech. Take a Hx and recommend an appropriate Mx plan.',
+            structure: 'Neuro exam + development testing (Denver / ?BRIGANZ)',
+            mnemonic: 'On Hx: SSTFWT -Smiling 6wks -Sitting 9m -Turning to sound 6m -First words 18m -Walking 18m -Talking 3 word sentences by 3y',
             questions: 'What are two causes of transient developmental regression?'
 		},
         {
             name: 'The seriously unwell child',
             description: 'You are seeing Nam, age 3 months, in ED. She is tachycardic, febrile and short of breath. Mx her condition and recommend appropriate Ix.',
-            structure: 'Feeding, colour, CRT',
-            mnemonic: '',
+            structure: 'Feeding, colour, CRT; top-to-toe examination',
+            mnemonic: 'Serious causes we need to be careful of PUMA -Pneumonia -UTI -Meningitis -Acute abdomen',
             questions: 'Which conditions do you think were most important to rule out in this child?'
 		},
         {
             name: 'The child with seizures',
             description: 'Mai, age 10, has been admitted to the paediatric ward for observation following a seizure in ED. Take a Hx from Mai\'s father and recommend initial Ix.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'In most cases, supportive treatment is all that is necessary.',
+            mnemonic: 'ABCB >10mins AT -Airway -Breathing -Circulation -BSL -if seizure lasts >10min, Active Treatment',
+            questions: 'What are the three most common reasons for seizure in a young child?'
 		},
         {
             name: 'Newborn exam',
             description: 'Grunting = inbuilt PEEP',
-            structure: 'Undress, inspection, vitals, measurements, then head to tail: fontanelles, murmur good to pick up early, chest, abdo, anus, GU',
+            structure: 'Undress, inspection, vitals, measurements, then head to tail: fontanelles, ?murmur (good to pick up early), chest, abdo, anus, GU',
             mnemonic: 'The whole body',
             questions: 'What might be a cause for low oxygen saturation in this child?'
 		},
