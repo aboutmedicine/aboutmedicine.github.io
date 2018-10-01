@@ -930,7 +930,7 @@ app.controller("myCtrl", function ($scope) {
             hx: '≥1m of -hyperarousal -avoidance -re-experiencing the traumatic event -mood∆ (HARM)',
             ex: 'MSE',
             ix: 'N/A',
-            mx: 'Risk Ax, CBT, group therapy, screen for psych comorbidity combak'
+            mx: 'Risk Ax, CBT, group therapy, screen for psych comorbidity'
 		},
         {
             name: 'Bipolar disorder',
