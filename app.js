@@ -1536,9 +1536,9 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'The pill',
             description: 'Karli, 29, presents to your GP clinic requesting the pill. Take a Hx and describe your Mx plan to the examiner.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'Run through C.I. -35py smoking Hx -migraine w/ aura -HTN -VTE -breastfeeding -liver disease -current breast Ca; describe how it works; dosage regime; ADES incl. weight gain, acne, mood∆, headache; if you miss a pill, take ASAP even w/ next one, if you miss two take one and condom 7d',
+            mnemonic: 'Hormonal imbalance goes WHAM -Weight gain -Headache -Acne -Mood∆',
+            questions: 'Karli has missed two pills in the third week of her cycle. How would you recommend she manage this situation?'
 		},
         {
             name: 'Fundus less than dates',
@@ -1550,16 +1550,16 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Emergency contraception',
             description: 'Fatima, 21, presents to your GP clinic asking for the morning after pill. Counsel her on her options.',
-            structure: '',
+            structure: 'Options are \'morning after pill\' (containing ulipristal or levonorgestrel) and copper IUD',
             mnemonic: '',
             questions: ''
 		},
         {
-            name: 'Pelvic pain that just never goes away',
+            name: 'Pelvic pain that won\'t go away',
             description: 'Akong, 29, wishes to discuss her long-standing pain issues. Take a Hx and recommend appropriate Ix.',
-            structure: '',
+            structure: '1. Organ pain 2. Muscle response to pain 3. Central sensitisation 4. Psychosocial consequences',
             mnemonic: '',
-            questions: ''
+            questions: 'What are four possible contributing causes to chronic pelvic pain?'
 		},
         {
             name: 'Post-term pregnancy',
@@ -1571,9 +1571,9 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Twins',
             description: 'Jane, 32, has just discovered she is 8 weeks pregnant with twins. What advice would you like to give her?',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: '1. How are you feeling about this news? Standard AN visit, enquire about Ix of pregnancy so far (genetic testing, scans, blood tests)',
+            mnemonic: 'PPPP -PV bleeding / discharge -Pain -Pregnancy (MVC -Movements -Vaginal loss -Contractions) -Pre-eclampsia Sx',
+            questions: 'What is Jane at increased risk of, carrying twins?'
 		},
         {
             name: 'PPH',
