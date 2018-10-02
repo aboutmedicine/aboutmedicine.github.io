@@ -1038,35 +1038,35 @@ app.controller("myCtrl", function ($scope) {
             name: 'Disordered eating',
             description: 'You are seeing Samadhi, 23, on day three of her admission for severe malnutrition and underweight. Take a Hx and recommend an appropriate Mx plan.',
             structure: 'Risk Ax, attitudes regarding weight, current self-/body-image, techniques for weight loss (diuretics, laxatives), BPS (predisposing, precipitating, protective), other complications e.g. menstrual cycle',
-            mnemonic: '',
-            questions: ''
+            mnemonic: 'Screen with SCOOF: Have you ever -been so uncomfortably full that you made yourself Sick? -worried that you\'ve lost Control over your eating habits? -Lost more than One stone of weight in a 3month period? -Thought you were Overweight when others have said you are too thin? -thought that Food dominates your life?',
+            questions: 'What findings on examination would lead you to think Samadhi has severe anorexia?'
 		},
         {
             name: 'Alcoholism',
             description: 'You are seeing Nour, 42, referred from her GP for alcohol addiction. Take a Hx and recommend an appropriate Mx plan.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'EtOH use Hx, other drugs, smoking, SHx, FHx, psych Hx, CAGE',
+            mnemonic: 'CAGE Have you ever -been told you should Cut down? -felt Annoyed by people suggesting you should stop drinking? -felt Guilty about your drinking? -had a drink first thing in the morning, as an Eye-opener?',
+            questions: 'What are three medical conditions that Nour\'s drinking puts her at increased risk of?'
 		},
         {
             name: 'First manic episode',
             description: 'You are seeing Marley, 42, an inpatient in the adult psychatric ward. Take a Hx and develop a Mx plan.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'Risk Ax, standard psych Hx',
+            mnemonic: 'DIG FAST -Distractibility -Irritabiltiy & irresponsibility -Grandiosity -Flight of ideas -Activity↑ (goal-directed) -Sleep↓ -Talkativeness',
+            questions: 'What are two drugs that can trigger mania?'
 		},
         {
             name: 'A heightened spouse',
             description: 'Mark, 33, has presented to your GP clinic at his wife\'s request. Take a Hx and develop a list of DDx.',
             structure: 'Sx of hypomania -overspending -↑goal-directed activity -elated/euphoric/expansive mood -↓sleep; effect on life, premorbid fxn, substance use',
             mnemonic: 'Mania but w/ more control & less duration',
-            questions: ''
+            questions: 'What are three ADEs of sodium valproate?'
 		},
         {
             name: 'Depression in an elderly man',
             description: 'Manuel, 83, has presented to your GP clinic to discuss worsening stomach pain. Take a full psychosocial Hx and discuss appropriate Ix with the examiner.',
-            structure: '',
-            mnemonic: '',
+            structure: 'Run through SIG E CAPS',
+            mnemonic: 'SAD PERSON for ↑Ro suicide -Sex (male) -Age (bimodal) -Depression -Previous attempt+FHx -EtOH abuse -Rational thinking↓ -Social support issues -Organised plan -No spouse',
             questions: 'How might depression present differently in an older person?'
 		},
         {
@@ -1516,8 +1516,8 @@ app.controller("myCtrl", function ($scope) {
             name: 'Pregnant woman with headache',
             description: 'You have been called to see Nabila, a 38yo 36wk primipara who has developed a severe headache. Take a Hx and recommend an appropriate set of Ix.',
             structure: 'Vitals, Ax Sx (visual disturbance, swelling, pain elsewhere), RFs',
-            mnemonic: '',
-            questions: ''
+            mnemonic: 'PREeclampsia -Proteinuria -Rising BP -Edema',
+            questions: 'What is the BP cutoff for IV antihyperhensive treatment in this woman?'
 		},
         {
             name: 'Postpartum fever',
@@ -1529,9 +1529,9 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Treatment of FTP',
             description: 'Sienna, 23, is a primip in her 10th hour of labour. Her cervix has dilated to 3cm. Take a Hx and recommend appropriate Mx.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'Quick ObHx before moving into Mx',
+            mnemonic: 'ABCDEFGHIJ -Adequate analgesia -Bladder empty -Cervix 10cm -Determine cephalic presentation -Equipment ready -Fontanelles found for application of forceps / vacuum -Gentle steady traction -Halt between contraction -Incision / epis -Jaw seen: remove forceps / vacuum',
+            questions: 'What would incline you to forceps delivery over vacuum?'
 		},
         {
             name: 'The pill',
@@ -1543,30 +1543,30 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Fundus less than dates',
             description: 'You are seeing Bopha, a 30yo G3P1 who is 29 weeks pregnant. Take a short Hx and perform an obstetric abdominal examination.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'Standard ObHx, Hx of RFs, FHx',
+            mnemonic: 'A combination of maternal, fetal and placental factors',
+            questions: 'What are three placental factors that can lead to IUGR?'
 		},
         {
             name: 'Emergency contraception',
-            description: 'Fatima, 21, presents to your GP clinic asking for the morning after pill. Counsel her on her options.',
+            description: 'Fatima, 16, presents to your GP clinic asking for the morning after pill. Counsel her on her options.',
             structure: 'Options are \'morning after pill\' (containing ulipristal or levonorgestrel) and copper IUD',
-            mnemonic: '',
+            mnemonic: 'HEADSS',
             questions: ''
 		},
         {
             name: 'Pelvic pain that won\'t go away',
             description: 'Akong, 29, wishes to discuss her long-standing pain issues. Take a Hx and recommend appropriate Ix.',
             structure: '1. Organ pain 2. Muscle response to pain 3. Central sensitisation 4. Psychosocial consequences',
-            mnemonic: '',
+            mnemonic: 'Chronic pelvic pain is so awful, it is LEAPING the shark! -Leio -Endo -Adeno / Adhesions -PID -Infection -Neoplasia -GI',
             questions: 'What are four possible contributing causes to chronic pelvic pain?'
 		},
         {
             name: 'Post-term pregnancy',
             description: 'Take a Hx, provide Mx and counsel this pregnant woman at 42 weeks gestation.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'ObHx, educate re: ↑Ro...',
+            mnemonic: 'Standard Obs RFs apply: -Smoking -Low SES -Obesity -Previous Hx of the same -Seniors card (i.e. ↑maternal age)',
+            questions: 'What are three obstetric complications this woman is at increased risk of?'
 		},
         {
             name: 'Twins',
@@ -1585,30 +1585,37 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'So much bleeding',
             description: 'Saanvi, 28, has noticed her periods are longer and produce more blood. Take a Hx and recommend appropriate Mx.',
-            structure: '',
-            mnemonic: 'PALM COEIN',
-            questions: ''
+            structure: 'Menstrual Hx - avg. cycle length, how long do you bleed for, how often do you change pad / tampon, how bad is your period pain, what do you take for it, do you experience any premenstrual Sx',
+            mnemonic: 'PALM COEIN -Polyps -Adeno -Leio -Malignancy -Coagulopathy -Ovulatory dysfunction -Endometrial -Iatrogenic -No cause identified',
+            questions: 'Which contraception methods might you recommend to Saanvi?'
 		},
         {
             name: 'Postnatal depression',
             description: 'Ilona is a 31yo lady who two weeks prior gave birth to her second child. She presents now hoping to discuss her sleep patterns. Take a Hx and recommend an appropriate Mx plan.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'Psych Hx',
+            mnemonic: 'SIG E CAPS',
+            questions: 'Ilona is eager to keep breastfeeding. What could you prescribe her for her PND, with this in mind?'
 		},
         {
             name: 'Blood sugar',
             description: 'You are seeing Diana, 31, in Maternal Fetal Medicine clinic in order to discuss the medical complications to her pregnancy. Discuss her results and recommend appropriate Mx.',
-            structure: '',
+            structure: 'ObHx, PMHx, FHx',
             mnemonic: 'Pre-pregnancy DM confers ↑Ro PET, polyhydramnios, infection (UTI / chorio)',
-            questions: ''
+            questions: 'What are three drugs for blood glucose control that are safe in pregnancy?'
 		},
         {
             name: 'Early bleeding in pregnancy',
             description: 'Mariana, 26, is 20 weeks pregnant with her first child. She presents to the ED having found blood in her underwear. Take a Hx and recommend appropriate Mx.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'ObHx, PMHx, Gynae Hx, FHx',
+            mnemonic: 'APH -Abruption -Previa -Haemorrhage from GU tract (i.e. no real biggy)',
+            questions: 'How would your recommendations for the pregnancy change if the Dx were PP, as opposed to PA?'
+		},
+        {
+            name: 'Pre-term labour',
+            description: 'Beelzebub, 21, is 28 weeks pregnant with her first child. She believes she has gone into labour. Take a Hx and recommend appropriate Mx.',
+            structure: 'CTG + full ObHx',
+            mnemonic: 'Standard Obs RFs (SLOPS) + SMACCS -Short inter-preggaz interval -Multiple preggaz -APH -Certain infections -Cervical Shortening',
+            questions: 'What Ix would you order for this lady?'
 		},
 
 	];
@@ -1734,7 +1741,7 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Febrile seizure',
             description: 'Usually iso systemic viral or bacterial infxn, occurs in ~3% of children esp. 12-18mo',
-            hx: 'Generally tonic-clonic. Simple if <15min w/ no neuro signs',
+            hx: 'Generally tonic-clonic. Simple if <15min w/ no neuro signs. Divide Hx into pre-, during and post-seizure',
             ex: '>38ºC',
             ix: 'LP only I. if meningitis or intracranial pathology suspected',
             mx: 'Expectant; IV benzos if >5min'
@@ -2111,29 +2118,29 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'The child with headache',
             description: 'Fai, age 5, stayed home from school today because of a severe headache. Take a Hx from Fai\'s mother and recommend appropriate Mx.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'HoPC, BFGD, OEx: observe, check fingers, listen to chest, percuss, palpate LNs',
+            mnemonic: 'Dry babies don\'t CRY -CRT >2s -↑Resp rate -Yte nappies (urine absent or dark)',
+            questions: 'What are five signs of dehydration in children?'
 		},
         {
             name: 'The child with cough',
             description: '~40% is PBB (protracted bacterial bronchitis)',
-            structure: 'Nature of cough crucial; ?Underlying cause: CF / PCD / immunodef. / foreign body / TB',
-            mnemonic: '',
-            questions: ''
+            structure: 'Nature of cough crucial; ?Underlying cause: CF / PCD / immunodef. / TB',
+            mnemonic: 'Is the cough caused by FAPS? -Foreign body -Asthma -Pertussis -Sinusitis; if not then proceed to further Ix (CXR)',
+            questions: 'Say this child\'s cough was absent during the night. What Dx would then move up your differential list?'
 		},
         {
             name: 'The child with rash',
             description: 'Anna, age 1, has been brought in by her father who is concerned about a rash that has developed on her lower limbs. Inspect the rash, take a thorough Hx from Anna\'s father, and recommend appropriate initial Mx.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'Sick contacts, exposure to allergens, Hx of atopy',
+            mnemonic: 'Most kiddy rashes start with HRM -HSP -HFM -Roseola -Rubella -Meningitis -Measles -Mumps -Molluscum',
+            questions: 'Describe what you would expect to find in a child with chickenpox.'
 		},
         {
             name: 'Breath holding spells',
             description: '~25% of children who breath hold do so multiple times per day.',
             structure: 'Characterise spells; ?post-ictal confusion; reassure & encourage parent to treat as normal',
-            mnemonic: '',
+            mnemonic: 'Divide into pre-seizure, during seizure, and post-seizure.',
             questions: 'What is the likelihood of this child holding its breath in order to have its way?'
 		},
         {
@@ -2146,9 +2153,9 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Asthma',
             description: 'Billy, age 10, is struggling with his asthma. What Mx strategies could you offer to improve control of his condition?',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'Stages of Rx for asthma: 1. SABA 2. SABA + ICS 3. SABA + ICS/LABA 4. SABA + ICS/LABA + OCS',
+            mnemonic: 'HEADSS',
+            questions: 'What are five signs on examination that would increase the likelihood of Billy being admitted?'
 		},
         {
             name: 'Developmental assessment',
@@ -2160,37 +2167,37 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'GI examination',
             description: 'Lily has been diagnosed with a urinary tract infection. Please perform a full gastrointestinal examination, and present your findings to the examiner.',
-            structure: 'Rapport; Inspection; GDB; Vitals; Fluid charts; Hydration status; Palpate tummy carefully; ?percuss, ?liver&spleen (these are not mentioned in the official CAH guide)',
+            structure: 'Rapport; Inspection; BFGD; Vitals; Fluid charts; Hydration status; Palpate tummy carefully; ?percuss, ?liver&spleen (these are not mentioned in the official CAH guide)',
             mnemonic: 'GI and hydration go hand in hand.',
-            questions: ''
+            questions: 'What are three gastrointestinal red flags that would incline you to ask for review by a senior doctor?'
 		},
         {
             name: 'Anxiety',
             description: 'Joanne is concerned that her daughter Sonia, age 10, is experiencing breathing difficulties at home. She has sent Sonia alone to your GP clinic. Take a thorough Hx and recommend appropriate Mx.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'Ask to see Sonia alone, psych Hx',
+            mnemonic: 'HEADSS',
+            questions: 'How might the presentation of anxiety vary between a 10yo and a 17yo?'
 		},
         {
             name: 'The child with fever',
             description: '2yo Sanne has had a fever for three days, and this day has displayed some alteration in her conscious state. Take a Hx from her father and develop a Mx plan.',
             structure: 'Any child w/ fever w/o focus should get urine MCS, BCs & LP',
-            mnemonic: '',
-            questions: ''
+            mnemonic: 'Be careful of the PUMA -Pneumonia -UTI -Meningitis -Acute abdomen',
+            questions: 'What would we expect urine output to be for this child? How would you decide how much fluid to administer if they were hypovolaemic?'
 		},
         {
             name: 'ENT examination',
             description: '3yo Khalid has had a fever for the last two days. Perform a thorough ENT examination & recommend appropriate management.',
             structure: 'Introduce, ++inspection, order ENT (then neck for cervical lymphadenopathy)',
-            mnemonic: '',
-            questions: 'Describe the treatment & complications of ASOM in children.'
+            mnemonic: 'Atopic triad: Hayfever, eczema, asthma',
+            questions: 'Describe the treatment, complications, and otoscopic examination findings of AOM in children.'
 		},
         {
             name: 'Neonatal jaundice',
             description: 'Phuong, age 2 days, has severe jaundice. Explain to her mother the causes of neonatal jaundice, and the expected treatment course.',
-            structure: '',
-            mnemonic: '',
-            questions: ''
+            structure: 'Vitals; if afebrile and well: reassurance (60% of babies have it; is most likely to be physiological which resolves naturally in ~2wks), baseline Ix (bili, FBE + film + retics, G&H + coombs) + further Ix as I. by presentation',
+            mnemonic: 'Non-physiological causes include SHPEG: -Sepsis -Haemolysis -Prematurity -Excessive RBC destruction that is not haemolytic (e.g. from cephalohaematoma) -GIT obstruction (e.g. HPS / ileus',
+            questions: 'Under what circumstances should Phuong\'s parents be advised to re-present?'
 		},
         {
             name: 'Cardiac examination',
@@ -2203,15 +2210,15 @@ app.controller("myCtrl", function ($scope) {
             name: 'Wrist fracture',
             description: 'Frank, age 5, presents to ED with a broken wrist from falling out of a tree. Perform an appropriate examination and describe your Mx plan to the examiner.',
             structure: 'Take Hx, perform pre-op Ax',
-            mnemonic: '',
-            questions: ''
+            mnemonic: 'RCH fracture guidelines are top notch',
+            questions: 'What would incline you to discharge this pt from ED with supportive care & simple analgesia?'
 		},
         {
             name: 'Respiratory examination',
             description: 'Jelena, age 2, has been brought in to ED by her mother, who is concerned that she is unwell. Take a short Hx and perform an appropriate examination.',
-            structure: '+Abdo palp.n, ENT',
-            mnemonic: '',
-            questions: ''
+            structure: 'Standard resp exam: observe, fingers, auscultate, percuss, palpate LNs, + abdo palp.n, ENT',
+            mnemonic: 'The child\'s WoB increases until she FARTS -Flaring of nostrils -Accessory muscle use -Retractions -Significantly ↑/↓ HR',
+            questions: 'Jelena has been diagnosied with pertussis. How many days should she be required to spend at home, away from school?'
 		},
         {
             name: 'The child with a limp',
