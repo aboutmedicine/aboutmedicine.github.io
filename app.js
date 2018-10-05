@@ -2104,7 +2104,7 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'The child with seizures',
             description: 'Mai, age 10, has been admitted to the paediatric ward for observation following a seizure in ED. Take a Hx from Mai\'s father and recommend initial Ix.',
-            structure: 'In most cases, supportive treatment is all that is necessary.',
+            structure: 'In most cases, supportive treatment is all that is necessary. C. Rx anticonvulsants only if abnormal EEG & MRI, otherwise risks of Rx outweigh benefits.',
             mnemonic: 'ABCB >10mins AT -Airway -Breathing -Circulation -BSL -if seizure lasts >10min, Active Treatment',
             questions: 'What are the three most common reasons for seizure in a young child?'
 		},
@@ -2119,7 +2119,7 @@ app.controller("myCtrl", function ($scope) {
             name: 'The child with headache',
             description: 'Fai, age 5, stayed home from school today because of a severe headache. Take a Hx from Fai\'s mother and recommend appropriate Mx.',
             structure: 'HoPC, BFGD, OEx: observe, check fingers, listen to chest, percuss, palpate LNs',
-            mnemonic: 'Dry babies don\'t CRY -CRT >2s -↑Resp rate -Yte nappies (urine absent or dark)',
+            mnemonic: 'Dry babies don\'t CWRY -CRT >2s -Weight -↑Resp rate -Yte nappies (urine absent or dark)',
             questions: 'What are five signs of dehydration in children?'
 		},
         {
