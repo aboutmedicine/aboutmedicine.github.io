@@ -787,7 +787,14 @@ app.controller("myCtrl", function ($scope) {
             description: 'Naomi, 39, has been feeling severely fatigued of late. Take a Hx and recommend appropriate Ix.',
             structure: 'Recent stressors, Ca screen',
             mnemonic: 'If the Hx is vague, use PROMPt',
-            questions: 'What screening tests are most likely to yield useful clinical information in evaluation of fatigue?'
+            questions: 'What screening tests or investigations are most likely to yield useful clinical information in evaluation of fatigue?'
+		},
+        {
+            name: 'In burning pain',
+            description: 'Oleg, 62, was diagnosed with rheumatoid arthritis five years ago. He presents wishing to discuss the progress of his treatment.',
+            structure: 'Ax severity, understanding of triggers, progression of Sx',
+            mnemonic: 'In determining whether further Mx is necessary iso chronic disease, use RAPRIOP',
+            questions: 'How would you manage Oleg\'s current exacerbation of symptoms?'
 		},
 	];
 
