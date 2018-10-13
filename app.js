@@ -581,7 +581,7 @@ app.controller("myCtrl", function ($scope) {
             hx: 'Medical emergency based OEx',
             ex: 'Recognise early. Angiooedema, bronchoconstriction, diffuse erythema +/- urticaria, hypotension, N/V',
             ix: 'For further Ix by allergist',
-            mx: 'IM adrenaline in Epipen (*there are no absolute contraindications to adrenaline admx), IV fluid resusc'
+            mx: 'IM adrenaline in Epipen (*there are no absolute contraindications to adrenaline admx & better to admx than to wait for further Sx to appear), IV fluid resusc'
 		}, {
             name: 'Eye Foreign Body',
             description: 'Something\'s in me eye!',
@@ -1707,7 +1707,7 @@ app.controller("myCtrl", function ($scope) {
 		},
         {
             name: 'Anaphylaxis',
-            description: 'Can occur in absence of skin Sx',
+            description: 'Can occur in absence of skin Sx / can present in absence of respiratory distress → treat if suspected',
             hx: 'Allergies, atopy, recent Hx bites or stings',
             ex: 'Vitals, CRT',
             ix: 'R/f allergist',
