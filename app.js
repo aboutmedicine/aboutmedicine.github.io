@@ -375,10 +375,10 @@ app.controller("myCtrl", function ($scope) {
 		}, {
             name: 'Asthma',
             description: 'Reversible airway obstruction with long-term remodelling',
-            hx: 'Assess severity (Rx, admx, QOL) + triggers + current Mx',
+            hx: 'Assess severity (Rx and freq. of use, freq. of acute episodes, # of admx - ED or ICU, impact on QOL, sleep disturbance) + triggers (exercise, cold, parental smoking) + current Mx (asthma action plan)',
             ex: 'Expiratory wheeze',
             ix: 'Spirometry pre- and post-bronchodilator',
-            mx: 'SABA -> LAMA -> ICS -> oral CS'
+            mx: 'SABA -> SABA + ICS -> SABA + ICS + LAMA -> oral CS'
 		}, {
             name: 'CKD',
             description: 'Lose 1/2 kidney function before change is seen on eGFR',
@@ -1759,7 +1759,7 @@ app.controller("myCtrl", function ($scope) {
             hx: 'Characterise seizure -when, where, why; Hx of other odd behavioural events; FHx + DHx',
             ex: 'Neuro + CN',
             ix: 'EEG',
-            mx: 'Acute: IV benzos; Long-term: anticonvulsants'
+            mx: 'Acute: IV benzos; Long-term: anticonvulsants (only w/ strict indication - seizures grossly affecting QOL)'
 		},
         {
             name: 'Non-specific headache',
@@ -1807,7 +1807,7 @@ app.controller("myCtrl", function ($scope) {
             hx: 'Infant: irritability, poor feeding; Child: abdo pain, back pain, dysuria, new incontinence',
             ex: 'Fever, unwell appearance, costovertebral angle tenderness',
             ix: 'C. RBUS in <2yo',
-            mx: 'Usually OP, C.I. for hospital admx (<2mo, vomiting, urosepsis); Ceph +/- amoxi, if no improvement w/in 48hrs, extend coverage'
+            mx: 'Usually OP, unless I. for hospital admx (<2mo, vomiting, urosepsis); Ceph +/- amoxi, if no improvement w/in 48hrs, extend coverage'
 		},
         {
             name: 'Septic arthritis/osteomyelitis',
