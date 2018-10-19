@@ -1445,10 +1445,10 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'IUGR',
             description: 'A foetus that can\'t meet its genetic growth potential. Also known as fetal growth restriction, which is probably better.',
-            hx: 'Maternal, placental or fetal? RFs: smoking, DM, ',
-            ex: 'N/A',
+            hx: 'Maternal, placental or fetal? RFs: maternal smoking, DM, chronic HTN, drugs e.g. cocaine, malnutrition',
+            ex: 'IUGR babes look like old people. Likely to be hypothermic b/c low fat stores, to develop perinatal asphyxia b/c poor tolerance of labour stress',
             ix: 'US is very inaccurate, but is the best test we have; umbilical artery doppler',
-            mx: '↑monitoring, ↑likelihood of IOL esp. if approaching post-term'
+            mx: '↑monitoring, ↑likelihood of IOL esp. if approaching post-term. At birth, keep baby warm, pink and sweet'
 		},
         {
             name: 'Urge incontinence',

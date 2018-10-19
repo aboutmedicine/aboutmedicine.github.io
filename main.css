@@ -23,23 +23,16 @@ body {
 .dropdown {
   display: none;
   background: white;
-  opacity: 0.9;
   position: absolute;
   z-index: 1;
   top: 118px;
   padding: 10px;
   text-align: left;
   border-radius: 30px;
-  transition: opacity .2s;
 }
 
 .flex-container>div:hover .dropdown {
-  opacity: 1;
   display: block;
-}
-
-.dropdown:active {
-  color: #eee;
 }
 
 a:hover {
@@ -100,11 +93,6 @@ ul {
   line-height: 30px;
 }
 
-.white {
-  color: white;
-  font-size: .01em;
-}
-
 strong {
   color: #333;
   font-weight: 300;
@@ -117,6 +105,7 @@ h1 {
   font-weight: 500;
   line-height: 28px;
   padding-bottom: 3px;
+  padding-left: 3px
 }
 
 p {
