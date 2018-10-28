@@ -1405,10 +1405,10 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Stress incontinence',
             description: 'Weak urethral sphincter leads to little dribbles',
-            hx: 'Cough sneeze laugh',
+            hx: 'Cough sneeze laugh. RFs: pregnancy, chronic cough, obesity',
             ex: 'Abdo palp, vaginal inspection + bimanual for prolapse',
             ix: 'PVR',
-            mx: 'Surgical options are shit'
+            mx: 'Weight loss, smoking cessation. Surgical options aren\'t great but include bladder neck suspensory sling'
 		},
         {
             name: 'Contraception',
@@ -1435,6 +1435,14 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Endo / dietitian / GE / behaviourist r/f if growth does not catch up'
 		},
         {
+            name: 'Mastitis',
+            description: 'Most often Staph aureus; 3% will go on to have breast abscess',
+            hx: 'Painful breasts, lethargy, myalgia RFs: engorgement, stress, trauma to breast or nipple, restrictive clothing',
+            ex: 'Red and swollen area, skin may locally appear shiny and tight w/ red streaks, fever',
+            ix: 'FBE + CRP + BCs if severe + US if abscess suspected',
+            mx: 'Continue feeds + ensure correct positioning, heat before and cold after, r/f lactation consultant; Rx simple analgesia + Abx if >12hrs'
+		},
+        {
             name: 'LGA',
             description: 'Foetus at ≥90th growth centile. Determining this is an imprecise and inaccurate science.',
             hx: 'DM, obesity, gestation',
@@ -1453,10 +1461,10 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Urge incontinence',
             description: 'The urge to urinate presents without sufficient volume to warrant it.',
-            hx: 'Pelvic fullness',
+            hx: 'Rushing to the toilet. RFs: smoking, CNS damage, UTI, alcohol & caffeine & spicy food',
             ex: 'Palp abdomen',
             ix: 'MSU, ?Flow studies',
-            mx: 'Oxybutynin'
+            mx: 'Bladder re-training, avoid triggers, oxybutynin, intravesical botox injection / surgical denervation'
 		},
         {
             name: 'Placental abruption',
@@ -1559,7 +1567,7 @@ app.controller("myCtrl", function ($scope) {
             description: 'Fatima, 16, presents to your GP clinic asking for the morning after pill. Counsel her on her options.',
             structure: 'Options are \'morning after pill\' (containing ulipristal or levonorgestrel) and copper IUD',
             mnemonic: 'HEADSS',
-            questions: ''
+            questions: 'What contraceptive method is the most effective?'
 		},
         {
             name: 'Pelvic pain that won\'t go away',
@@ -1581,6 +1589,13 @@ app.controller("myCtrl", function ($scope) {
             structure: '1. How are you feeling about this news? Standard AN visit, enquire about Ix of pregnancy so far (genetic testing, scans, blood tests)',
             mnemonic: 'PPPP -PV bleeding / discharge -Pain -Pregnancy (MVC -Movements -Vaginal loss -Contractions) -Pre-eclampsia Sx',
             questions: 'What is Jane at increased risk of, carrying twins?'
+		},
+        {
+            name: 'Feeding',
+            description: 'Tyler, 31, gave birth to baby Eli 6 weeks ago. She has had some issues with breastfeeding since. Take a history and counsel her on management options.',
+            structure: 'Check for Sx of mastitis / abscess, educate re: positioning, attachment, hospital grade pump for expressing, increase duration / frequency of feeds',
+            mnemonic: 'BRAIN for continuing breastfeeding.',
+            questions: 'What antibiotics would you consider giving Tyler, and when?'
 		},
         {
             name: 'PPH',
@@ -1671,7 +1686,7 @@ app.controller("myCtrl", function ($scope) {
             hx: 'Characterise severity, fluid intake, daytime or nocturnal',
             ex: 'Inspect genitalia, Vincent\'s curtsy',
             ix: 'MSU',
-            mx: 'Discuss toilet training at every opportunity >12mo (readiness based on milestones r/t age, however)'
+            mx: 'Discuss toilet training at every opportunity >12mo (readiness based on milestones r/t age, however). C. alarm / desmopressin / anticholinergics / fluid restriction'
 		},
         {
             name: 'Newborn check',
@@ -1685,7 +1700,7 @@ app.controller("myCtrl", function ($scope) {
             name: 'Developmental dysplasia of the hip',
             description: 'A spectrum of conditions resulting from hip joint malformation.',
             hx: 'RFs: breech at ≥34wks, FHx of same',
-            ex: 'Hip exam at every visit: abduction + elevation for reducibility, gentle adduction for dislocatability',
+            ex: 'Hip exam at every visit: abduction + elevation for reducibility, gentle adduction for dislocatability. Look for extra skin crease unilaterally, leg length discrepancy',
             ix: 'US during first 4m',
             mx: 'r/f to orthopedic surgeon'
 		},
@@ -1761,6 +1776,7 @@ app.controller("myCtrl", function ($scope) {
             ix: 'EEG',
             mx: 'Acute: IV benzos; Long-term: anticonvulsants (only w/ strict indication - seizures grossly affecting QOL)'
 		},
+
         {
             name: 'Non-specific headache',
             description: 'Most common causes are febrile illness, tension and migraine.',
@@ -1821,9 +1837,9 @@ app.controller("myCtrl", function ($scope) {
             name: 'Otitis media (acute)',
             description: '~75% of children will get it by age 5.',
             hx: 'Acute onset pain',
-            ex: 'Middle ear inflmxn + effusion',
+            ex: 'Otoscopy - bulging and erythematous TM +/- effusion',
             ix: 'None',
-            mx: 'Avoid Abx, simple analgesia +/- topical lignocaine'
+            mx: 'Simple analgesia +/- topical lignocaine, amoxi if >48hrs or in only hearing ear / indigenous child. If a/w AM, IV fluclox + cef'
 		},
         {
             name: 'Bronchiolitis',
@@ -1839,7 +1855,7 @@ app.controller("myCtrl", function ($scope) {
             hx: 'Barking cough, hoarseness',
             ex: 'Inspiratory stridor',
             ix: 'None',
-            mx: 'Mild: self-limited 3-5 day course, steam inhalation, analgesia; Severe: single dose oral dexa + norad nebs, IV fluids, monitoring'
+            mx: 'Mild: self-limited 3-5 day course, steam inhalation, analgesia; Severe: minimal handling, single dose oral dexa + norad nebs, IV fluids, monitoring'
 		},
         {
             name: 'Pertussis',
@@ -1866,6 +1882,22 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Chest physio, regular Abx, high-kJ foods (↓pancreas fxn → ↑requirement), exercise, CF clinic'
 		},
         {
+            name: 'GORD',
+            description: 'More common iso CP, Down\'s, CF, HPS',
+            hx: 'Vomiting +/- refusal to feed, weight loss, haematemesis, cough, ++irritability w/ arching',
+            ex: 'Weight & height',
+            ix: 'N/A',
+            mx: 'Prone position after feeds, milk thickeners, can try omeprazole'
+		},
+        {
+            name: 'Otitis media w/ effusion (glue ear)',
+            description: 'Fluid in the middle ear w/o signs of infection.',
+            hx: 'Transient hearing impairment',
+            ex: 'Otoscopy - bulging TM, may see air fluid levels (aka bubbles)',
+            ix: 'None',
+            mx: 'Should resolve spontaneously. If >3m duration, for audiology + ENT referral'
+		},
+        {
             name: 'Viral rashes (aka exanthems)',
             description: 'VZV / measles / rubella / roseola (herpes) / parvo; meningococcaemia must be ruled out.',
             hx: '?non-blanching, petechiae',
@@ -1883,7 +1915,7 @@ app.controller("myCtrl", function ($scope) {
 		},
         {
             name: 'Intussusception',
-            description: 'Invagination of proximal into distal bowel.',
+            description: 'Invagination of proximal into distal bowel, peak incidence 5-9 months.',
             hx: 'Pain, vomiting, lethargy, red-currant jelly stool',
             ex: 'Pallor, palpable mass',
             ix: 'US - target sign; AXR - absence of gas around cecum',
@@ -1923,7 +1955,7 @@ app.controller("myCtrl", function ($scope) {
 		},
         {
             name: 'Failure to thrive',
-            description: 'The growth chart is not the disease.',
+            description: 'Defined as weight <3rd centile on ≥2 occasions / weight crossing 2 lower centile lines. Remember that the growth chart is not the disease.',
             hx: 'Possible causes -↓intake -malabsorption -↑requirements; Quantify intake and output;',
             ex: 'Normal low weight children don\'t look ill. FTT children have -sparse hair -wasted appearance (esp. gluten & thighs) -abdo protuberance -ricketic features; Observe child-parent interaction',
             ix: 'FBE + film + urine MCS + UEC + CMP + LFTs w/ albumin + protein + ESR + stool sampling + vit D',
@@ -1979,10 +2011,10 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Sudden Infant Death Syndrome',
             description: 'The leading cause of infant mortality in the West, 90% <6mo. The mechanism is thought to involve failure of serotonin signaling.',
-            hx: 'RFs include maternal smoking, prematurity, prone sleeping position',
+            hx: 'RFs include maternal smoking, prematurity, prone sleeping position, maternal age <20',
             ex: 'N/A',
             ix: 'N/A',
-            mx: 'Infant bedding should be w/o blanket, pillow, toy or excess clothing. Co-sleeping not recommended, and monitors have shown no benefit.'
+            mx: 'Infant bedding should be w/o blanket, pillow, toy or excess clothing. Co-sleeping not recommended, room-sharing is, and monitors have shown no benefit.'
 		},
         {
             name: 'Torsion of testis / Hydatid of Morgagni',
@@ -2041,7 +2073,7 @@ app.controller("myCtrl", function ($scope) {
             mx: 'Hydrocele usually resolves naturally, only operate if no resolution after 2 years'
 		},
         {
-            name: 'Henloch-Schonlein Purpura',
+            name: 'Henloch-Schonlein purpura',
             description: 'The most common systemic vasculitis of childhood; we don\'t know what causes it.',
             hx: 'Arthralgia +/- arthritis, abdo pain',
             ex: 'Palpable purpura',
@@ -2059,10 +2091,18 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'Infant colic',
             description: 'A Dx of exclusion',
-            hx: 'Normal crying: 1-2hrs/d',
+            hx: 'Normal crying: 1-3hrs/d, esp. 6-8wks. C. excessive tiredness, hunger, CMPA, GOR',
             ex: 'Complete',
             ix: 'N/A',
-            mx: 'Spont. resolution in 90% by 8wks; parental support; rubbing abdomen, white noise'
+            mx: 'Spont. resolution in 90% by 8wks; parental support; rubbing abdomen, white noise; sleep / cry chart from RCH'
+		},
+        {
+            name: 'Hypertrophic pyloric stenosis',
+            description: 'Usu. affects infants between 2-6 weeks old. More common in male, caucasian and first-born babies.',
+            hx: 'Non-bilious projectile vomiting, FHx',
+            ex: 'Palpable mass & peristalsis',
+            ix: 'UEC (hypokalaemia, hypochloraemia), VBG (metabolic alkalosis), US (thickened pylorus)',
+            mx: 'Fluid resusc, correct electrolyte imbalance, NBM, NGT if vomiting continues, consent for pyloromyotomy'
 		},
 	];
 
@@ -2218,7 +2258,7 @@ app.controller("myCtrl", function ($scope) {
             description: 'Frank, age 5, presents to ED with a broken wrist from falling out of a tree. Perform an appropriate examination and describe your Mx plan to the examiner.',
             structure: 'Take Hx, perform pre-op Ax',
             mnemonic: 'RCH fracture guidelines are top notch',
-            questions: 'What would incline you to discharge this pt from ED with supportive care & simple analgesia?'
+            questions: 'What would incline you to discharge this pt from ED with supportive care & simple analgesia? What are four red flags for non-accidental injury?'
 		},
         {
             name: 'Respiratory examination',
