@@ -376,9 +376,9 @@ app.controller("myCtrl", function ($scope) {
             name: 'Asthma',
             description: 'Reversible airway obstruction with long-term remodelling',
             hx: 'Assess severity (Rx and freq. of use, freq. of acute episodes, # of admx - ED or ICU, impact on QOL, sleep disturbance) + triggers (exercise, cold, parental smoking) + current Mx (asthma action plan)',
-            ex: 'Expiratory wheeze',
+            ex: 'Wheeze, in order of severity: end expiratory - expiratory - inspiratory & expiratory; accessory muscle use (FARTs), O2 saturation, resp rate',
             ix: 'Spirometry pre- and post-bronchodilator',
-            mx: 'SABA -> SABA + ICS -> SABA + ICS + LAMA -> oral CS'
+            mx: 'Chronic maintenance: SABA -> SABA + ICS -> SABA + ICS + LAMA -> oral CS as part of asthma Mx plan. Acute setting: SABA MDI 8 puffs every 20-30 mins +/- O2 if sats <92% / ipratroprium + oral CS if no improvement after first SABA dose. C. IM methylpred if +severe or if oral CS is vomited. C. IM adrenaline if +++severe then IV methylpred + mag sulph'
 		}, {
             name: 'CKD',
             description: 'Lose 1/2 kidney function before change is seen on eGFR',
