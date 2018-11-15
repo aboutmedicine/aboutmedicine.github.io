@@ -1135,7 +1135,7 @@ app.controller("myCtrl", function ($scope) {
             description: 'No cause identified in ~50%.',
             hx: 'Chromosomal abnormalities, smoking',
             ex: 'Spec',
-            ix: 'Anti-Mullerian hormone, APSL screen, mycoplasma NAAT endocervical / vaginal swab',
+            ix: 'Anti-Mullerian hormone, APLS screen, mycoplasma NAAT endocervical / vaginal swab',
             mx: 'As much reassurance as possible - it\'s a hard road.'
 		},
         {
@@ -1237,8 +1237,8 @@ app.controller("myCtrl", function ($scope) {
         {
             name: 'APH',
             description: 'Abruption / Previa / Haemorrhage from the GU tract.',
-            hx: 'Pain, total PV loss, fetal movements',
-            ex: 'Spec, øVE',
+            hx: 'Bleed: amount, duration, cause known, pain associated; Pregnancy status: fetal movements, contractions; PObHx: miscarriages, ectopic pregnancies, APLS / SLE; Other: cocaine / IPV / coagulopathy / Rx',
+            ex: 'ABCs, vitals, spec, øVE in case of PP',
             ix: 'Kleihauer, amnisure',
             mx: 'If significant, delivery may be I.'
 		},
@@ -1451,6 +1451,14 @@ app.controller("myCtrl", function ($scope) {
             mx: '↑Ro fetal and maternal injury at birth, shoulder dystocia, hypoglycaemia & NRDS'
 		},
         {
+            name: 'Ovarian torsion',
+            description: 'Complete or partial rotation of the ovary on its ligamentous supports, which may lead to ischemia.',
+            hx: 'Acute onsent pelvic pain +/- N/V',
+            ex: 'Adnexal mass',
+            ix: 'Pelvic US, diagnostic lap',
+            mx: 'Surgery: detorsion to conserve ovary preferred over salpingo-oophorectomy'
+		},
+        {
             name: 'IUGR',
             description: 'A foetus that can\'t meet its genetic growth potential. Also known as fetal growth restriction, which is probably better.',
             hx: 'Maternal, placental or fetal? RFs: maternal smoking, DM, chronic HTN, drugs e.g. cocaine, malnutrition',
@@ -1596,6 +1604,13 @@ app.controller("myCtrl", function ($scope) {
             structure: 'Check for Sx of mastitis / abscess, educate re: positioning, attachment, hospital grade pump for expressing, increase duration / frequency of feeds',
             mnemonic: 'BRAIN for continuing breastfeeding.',
             questions: 'What antibiotics would you consider giving Tyler, and when?'
+		},
+        {
+            name: 'Recurrent miscarriage',
+            description: 'Julia is a 35yo mother of two who has been trying for the last 6 years to have a third child. Take a history and explain her options for attaining a successful pregnancy.',
+            structure: 'Explore RFs for miscarriage: uterine anomalies (incl. short cervix), gynae surgery Hx, ectopic pregnancy, B12 / folate intake, APLS / SLE, active infection, smoking / cocaine',
+            mnemonic: '1 m/c: no ↑Ro another. 2 m/c: 25% ↑Ro another',
+            questions: 'What investigations would you order for this woman after 3 m/c?'
 		},
         {
             name: 'PPH',
