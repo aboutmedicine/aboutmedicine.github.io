@@ -1,1 +1,1 @@
-# MDNotes.github.io
+# aboutmedicine.github.io
